@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 思学 - Sixue
+title: 思学
 subtitle: '学而不思则罔，思而不学则怠'
 description: '好好学习，天天向上'
 keywords: 'Hexo, NexT, php, laravel, yii2, css, js, sass, vue.js, antd, docker, mysql, ubuntu, java, spring'
@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://v4coder.cn
+url: https://blog.v4coder.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -107,7 +107,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: butterfly
 
 # Local Search
 search:
