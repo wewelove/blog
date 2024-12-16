@@ -3,18 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 思学
-subtitle: '学而不思则罔，思而不学则怠'
-description: '好好学习，天天向上'
-keywords: 'Hexo, NexT, php, laravel, yii2, css, js, sass, vue.js, antd, docker, mysql, ubuntu, java, spring'
-author: Hao
-language: zh-CN
-timezone: 'Asia/Shanghai'
+title: Hexo
+subtitle: ''
+description: ''
+keywords:
+author: John Doe
+language: en
+timezone: ''
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.v4coder.cn
-root: /
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -44,13 +43,17 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+syntax_highlighter: highlight.js
 highlight:
-  enable: true
   line_number: true
   auto_detect: false
-  tab_replace: '  '
+  tab_replace: ''
   wrap: true
   hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -62,22 +65,8 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: backend
+default_category: uncategorized
 category_map:
-  前端: fronted
-  后端: backend
-  数据库: database
-  架构: architecture
-  运维: maintenance
-  安全: security
-  系统: os
-  工具: tools
-  规范: standard
-  项目管理: project
-  大数据: bigdata
-  云计算: cloud
-  区块链: block-chain
-  其它: other
 tag_map:
 
 # Metadata elements
@@ -90,8 +79,8 @@ meta_generator: true
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
-## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -107,21 +96,10 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly
-
-# Local Search
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
+theme: next
+# theme: butterfly
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  - type: git
-    repo: git@github.com:wewelove.git
-    branch: gh-pages
-  - type: git
-    repo: git@gitee.com:wewelove.git
-    branch: pages
+  type: ''
