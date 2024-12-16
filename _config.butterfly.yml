@@ -10,11 +10,11 @@
 
 nav:
   # 导航栏 Logo 图片
-  logo:
+  logo: 
   # 是否显示标题
   display_title: true
   # 是否固定导航栏
-  fixed: false
+  fixed: true
 
 menu:
   首页: / || fas fa-home
@@ -28,7 +28,7 @@ menu:
 
 code_blocks:
   # 代码块主题: darker / pale night / light / ocean / false
-  theme: light
+  theme: darker
   # 是否使用 Mac 风格
   macStyle: false
   # 代码块高度限制（单位: px）
@@ -66,7 +66,7 @@ avatar:
   effect: false
 
 # 禁用所有横幅图片
-disable_top_img: false
+disable_top_img: true
 
 # 如果页面未设置横幅，则显示默认的横幅图片
 default_top_img:
@@ -635,15 +635,15 @@ livere:
 # 官方文档：https://github.com/gitalk/gitalk
 gitalk:
   # GitHub 应用的客户端 ID
-  client_id:
+  client_id: 8adc68019105e5f0594b
   # GitHub 应用的客户端密钥
-  client_secret:
+  client_secret: ac9b645f7652a1e6cb309ac2ec82d58300d24496
   # 存储评论的仓库名称
-  repo:
+  repo: blog
   # 仓库拥有者的用户名
-  owner:
+  owner: wewelove
   # 管理员用户名列表
-  admin:
+  admin: wewelove
   # 其他可选配置
   option:
 
@@ -1146,7 +1146,7 @@ instantpage: false
 # https://github.com/vinta/pangu.js
 pangu:
   # 是否启用 Pangu
-  enable: false
+  enable: true
   # 指定使用 Pangu 的范围(site 或 post)
   field: site
 
