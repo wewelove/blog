@@ -8,9 +8,9 @@ tags:
 - vue.js
 ---
 
-## 一、基础规范
+## 基础规范
 
-### 1.1、项目命名
+### 项目命名
 
 全部采用小写方式， 以中划线分隔。
 
@@ -19,7 +19,7 @@ tags:
 反例：`mall_management-system / mallManagementSystem`
 ```
 
-### 1.2、目录、文件命名
+### 目录、文件命名
 
 目录、文件名 均以 小写方式， 以中划线分隔。
 
@@ -28,21 +28,21 @@ tags:
 反例：`/headSearch/`、 `smartLogo.png`、 `RoleForm.vue`
 ```
 
-### 1.3、单引号、双引号、分号
+### 单引号、双引号、分号
 
 - html 中、vue 的 template 中 标签属性 使用 **双引号**
 - 所有 js 中的 字符串 使用 **单引号**
 - 所有 js 中的代码行换行要用 **分号**
 
-## 二、Vue3 组合式 API 规范
+## Vue3 组合式 API 规范
 
-### 2.1、 使用 setup 语法糖
+### 使用 setup 语法糖
 
 - 组件必须使用 `setup` 语法糖
 - `setup` 大法方便简洁
 - 全局都要使用 `setup` 语法糖
 
-### 2.2、组合式 Composition API 规范
+### 组合式 Composition API 规范
 
 组件内必须使用模块化思想，把代码进行拆分；
 参照 vue3 官方文档对于 Composition Api 的理解： [更灵活的代码组织 (opens new window)](https://cn.vuejs.org/guide/extras/composition-api-faq.html#better-logic-reuse)，组合式 Api，即 Composition API 解决的是让 相互关联的代码在一起，以更方便的组织代码，故我们的代码格式如下：
@@ -157,7 +157,7 @@ import xxxxx;
 </script>
 ```
 
-### 2.3 模板引用变量 Ref
+### 模板引用变量 Ref
 
 对于 vue3 中的模板引用 ref，即 ref 是作为一个特殊的 attribute
 
@@ -177,7 +177,7 @@ import xxxxx;
 const inputRef = ref();
 ```
 
-### 2.4 变量和方法的注释
+### 变量和方法的注释
 
 在使用 Composition Api 进行代码编写时，我们有效的组织了代码，但是由于 Composition Api 变量和方法会写到一起，这时候注释就变得很有必要 要求：
 
@@ -203,9 +203,9 @@ const inputRef = ref();
   const queryForm = reactive({ ...queryFormState });
 ```
 
-## 三、Vue3 组件规范
+## Vue3 组件规范
 
-### 3.1、 组件文件名
+### 组件文件名
 
 组件文件名应该为 pascal-case 格式
 
@@ -224,7 +224,7 @@ components
 |- MyComponent.vue
 ```
 
-### 3.2、 父子组件文件名
+### 父子组件文件名
 
 和父组件紧密耦合的子组件应该以父组件名作为前缀命名 正例：
 
@@ -246,7 +246,7 @@ components
 |- UProfOpts.vue （使用了缩写）
 ```
 
-### 3.3、 组件属性
+### 组件属性
 
 组件属性较多，应该主动换行。
 
@@ -265,7 +265,7 @@ components
 <MyComponent foo="a" bar="b" baz="c" foo="a" bar="b" baz="c" foo="a" bar="b" baz="c" foo="a" bar="b" baz="c"/>
 ```
 
-### 3.4、 模板中表达式
+### 模板中表达式
 
 组件模板应该只包含简单的表达式，复杂的表达式则应该重构为计算属性或方法。复杂表达式会让你的模板变得不那么声明式。我们应该尽量描述应该出现的是什么，而非如何计算那个值。而且计算属性和方法使得代码可以重用。
 
@@ -300,7 +300,7 @@ computed: {
 </template>
 ```
 
-### 3.5、 标签顺序
+### 标签顺序
 
 单文件组件应该总是让标签顺序保持为 `<template> 、<script>、 <style>`
 
@@ -320,9 +320,9 @@ computed: {
 <script>...</script>
 ```
 
-## 四、Vue Router 规范
+## Vue Router 规范
 
-### 4.1、 页面传参
+### 页面传参
 
 页面跳转，例如 A 页面跳转到 B 页面，需要将 A 页面的数据传递到 B 页面，推荐使用 路由参数进行传参，即 `{query:param}`
 
@@ -333,7 +333,7 @@ let id = ' 123';
 this.$router.push({ name: 'userCenter', query: { id: id } });
 ```
 
-### 4.2、 path 和 name 命名规范
+### path 和 name 命名规范
 
 - path`kebab-case` 命名规范（尽量与 vue 文件的目录结构保持一致，因为目录、文件名都是 `kebab-case`，这样很方便找到对应的文件）
 - path 必须以 / 开头，即使是 children 里的 path 也要以 / 开头。如下示例
@@ -381,9 +381,9 @@ export const reload = [
 ];
 ```
 
-## 五、 Vue 项目规范
+## Vue 项目规范
 
-### 5.1、 目录规范
+### 目录规范
 
 ```text
 src                               源码目录
@@ -411,7 +411,7 @@ src                               源码目录
 |   |-- employee                         employee模块
 ```
 
-### 5.2、 api 目录
+### api 目录
 
 - api 文件要以 api 为结尾，比如 `employee-api.js`、`login-api.js`，方便查找
 - api 文件必须导出对象必须以 `Api` 为结尾，如：`employeeApi`、`noticeApi`
@@ -467,7 +467,7 @@ export const departmentApi = {
 };
 ```
 
-### 5.3、 assets 目录
+### assets 目录
 
 assets 为静态资源，里面存放 images, styles, icons 等静态资源，静态资源命名格式为 kebab-case
 
@@ -480,7 +480,7 @@ assets 为静态资源，里面存放 images, styles, icons 等静态资源，�
 |-- styles
 ```
 
-### 5.4、 components 目录
+### components 目录
 
 此目录应按照组件进行目录划分，目录命名为 kebab-case，一个组件必须一个单独的目录 ；
 
@@ -500,7 +500,7 @@ assets 为静态资源，里面存放 images, styles, icons 等静态资源，�
 |-- kebab-case
 ```
 
-### 5.5、constants 目录
+### constants 目录
 
 此目录存放项目所有常量和枚举。
 
@@ -562,7 +562,7 @@ export default {
 };
 ```
 
-### 5.6、 router 与 store 目录
+### router 与 store 目录
 
 这两个目录一定要将业务进行拆分，不能放到一个 js 文件里。
 
@@ -570,7 +570,7 @@ export default {
 
 `store` 按照业务进行拆分不同的 js 文件
 
-### 5.7、 views 目录
+### views 目录
 
 目录要求，按照模块划分，其中具体文件名要求如下：
 

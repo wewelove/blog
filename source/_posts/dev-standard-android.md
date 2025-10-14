@@ -7,7 +7,7 @@ tags:
 - Android
 ---
 
-## 一、代码命名规范
+## 代码命名规范
 
 - 基本命名规范
   - 代码中的命名均不能以下划线或美元符号开始,也不能以下划线或美元符号结束
@@ -44,9 +44,9 @@ tags:
   - 静态类方法
   - 内部类以及内部接口
 
-## 二、代码规格
+## 代码规格
 
-### 2.1、流程控制
+### 流程控制
 
 - 嵌套 For/If/Try 最大深度 3；
 - 在 if/else/for/while/do 语句中必须用 "{" 和 "}" 括起来，避免引起没必要的错误；
@@ -54,7 +54,7 @@ tags:
 - 循环语句：尽量不要改变循环变量的值；
 - switch 语句：对于多分支语句，建议使用 switch 语句，每个条件都要加 break，在每一个 switch 块内，都必须包含一个 default 语句并放在最后；
 
-### 2.2、空行以及换行
+### 空行以及换行
 
 单行空行在以下情况使用：
 
@@ -68,16 +68,16 @@ tags:
 
 - 使用 Tab 进行控制，推荐使用 Android Studio 默认的规范
 
-## 三、字符编码
+## 字符编码
 
 一律使用utf8编码
 
 - String：String.getBytes()编码统一使用utf-8，代码文件编码统一使用UTF-8
 - URL编码：请使用URLEncoder. encode(s, “utf-8”)方法
 
-## 四、XML 规则
+## XML 规则
 
-### 4.1、资源命名规则
+### 资源命名规则
 
 - 基本命名规范
   - 命名中单词均采用小写
@@ -106,7 +106,7 @@ tags:
   - 其它和具体业务逻辑相关的，前带上页面逻辑相关的名称
   - 对于已经存在的尺寸采用间接引用
 
-### 4.2、ID 命名规则
+### ID 命名规则
 
 - 统一使用前缀表明类型，比如`btn_xxx`，仅在布局使用的控件（不在代码中使用），id使用`layout_xxx`前缀
 - 命名单词均采用小写，通过下划线分隔
@@ -126,11 +126,11 @@ tags:
 | RelativeLayout | rl       |
 | FrameLayout    | fl       |
 
-## 五、Gradle规范
+## Gradle 规范
 
-### 5.1、build.gradle(Project:ProjectName) 规范
+### build.gradle(Project:ProjectName) 规范
 
-#### 5.1.1 buildscript 代码块
+#### buildscript 代码块
 
 - 在 `dependencies` 声明android gradle plugin的版本为最新版本（只需要保证二级版本为最新版），例如：
 
@@ -138,9 +138,9 @@ tags:
 classpath 'com.android.tools.build:gradle:2.x.x'
 ```
 
-### 5.2、build.gradle(Module:app) 规范
+### build.gradle(Module:app) 规范
 
-#### 5.2.1 编译相关规范
+#### 编译相关规范
 
 - sdk版本号以及构建工具版本使用最新的release版本
 
@@ -158,13 +158,13 @@ classpath 'com.android.tools.build:gradle:2.x.x'
  }
 ```
 
-#### 5.2.2 defaultConfig 代码块规范
+#### defaultConfig 代码块规范
 
 - targetSdkVersion，同compileSdkVersion版本
 - minSdkVersion 指定成11，android 4.0，原则上不支持4.0以下系统
 - ndk无硬性规定，非特殊的情况，只需在lib目录中保留arm架构的so库
 
-#### 5.2.3 signingConfigs 签名规范
+#### signingConfigs 签名规范
 
 debug版本使用默认设置，release版本的签名文件不得出现硬编码密码在build.gradle文件中，请将storePassword、keyAlias以及keyPassword密码放在properties文件中便于管理，示例：
 
@@ -190,13 +190,13 @@ signingConfigs {
  
 ```
 
-#### 5.2.4 buildTypes 代码块规范
+#### buildTypes 代码块规范
 
 - shrinkResources 是否取消无效资源，去除无效资源有利用减少包大小，但会减慢编译速度,建议在release版本中开启
 - minifyEnabled在混淆时去除代码中无用的内容，建议在release中开启，包含插件的项目中不允许开启此选项
 - zipAlignEnabled 资源包对齐，可提升执行速度，减少内存消耗，release模式下必须打开
 
-#### 5.2.5 dependencies 代码块规范
+#### dependencies 代码块规范
 
 - 为规避库冲突，请使用远程依赖的模式，指定groupId、artifactid以及版本号
 - 需要使用本地依赖的情况，请通过compile files逐个指定文件名，不允许通过compile fileTree指定文件夹
@@ -208,7 +208,7 @@ signingConfigs {
   - 构建工具版本混乱
   - 未来涉及插件化非DSL脚本时，复杂度几何上升
 
-### 5.3、版本管理规范
+### 版本管理规范
 
 - 使用最新的二级动态版本
 - 使用ext拓展，统一定义版本号
@@ -222,7 +222,7 @@ ext {
 }
 ```
 
-### 5.4、权限规范
+### 权限规范
 
 尽量避免Android 6.0敏感规范，例如：
 
@@ -230,7 +230,7 @@ ext {
 - 位置信息（建议使用服务端IP定位）
 - 读写SD卡（优先使用拓展目录）
 
-## 六、JavaDoc 规范
+## JavaDoc 规范
 
 **遵循原则**
 

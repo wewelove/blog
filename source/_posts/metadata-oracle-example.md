@@ -1,4 +1,12 @@
-# Oracle 查询用户、数据库、模式、表、表结构、视图等数据库对象的元数据信息
+---
+title: Oracle 数据库元数据查询管理 - 示例
+date: 2025-05-11 12:14:57
+categories:
+- 数据
+tags:
+- Oracle
+- 元数据
+---
 
 在 Oracle 数据库中，可以使用数据字典视图来查询用户、数据库、模式、表、表结构、视图等数据库对象的元数据信息。以下是一些常用的查询示例：
 
@@ -178,7 +186,7 @@
    SELECT * FROM ALL_SYNONYMS WHERE OWNER = 'YOUR_SCHEMA_NAME';
    ```
 
-## 使用 `DBMS_METADATA` 包获取 DDL 语句
+## 获取 DDL 语句
 
 1. **获取表的 DDL 语句**：
 

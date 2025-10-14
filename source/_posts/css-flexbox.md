@@ -18,7 +18,7 @@ tags:
 - 更改元素的对齐方式。
 - 动态地将元素装入容器。
 
-## 1、基本概念
+## 基本概念
 
 采用 Flex 布局的元素，称为 Flex 容器（flex container），简称"容器"。它的所有子元素自动成为容器成员，称为 Flex 项目（flex item），简称"项目"。
 
@@ -30,11 +30,11 @@ tags:
 - flex 容器，其包含 flex 项。
 - 排列方向（direction），这决定了 flex 项的布局方向。
 
-## 2、容器属性
+## 容器属性
 
 ![](/images/css-flexbox-02.png)
 
-### 2.1  flex-direction:
+### flex-direction 属性
 
 - row（默认值）：主轴为水平方向，起点在左端。
 - row-reverse：主轴为水平方向，起点在右端。
@@ -43,13 +43,13 @@ tags:
 
 ![](/images/css-flexbox-03.png)
 
-### 2.2   flex-wrap:
+### flex-wrap 属性
 
 - nowrap（默认）：不换行。
 - wrap：换行，第一行在上方。
 - wrap-reverse：换行，第一行在下方。
 
-### 2.3  justify-content:
+### justify-content 属性
 
 - flex-start（默认值）：左对齐。
 - flex-end：右对齐。
@@ -59,7 +59,7 @@ tags:
  
 ![](/images/css-flexbox-04.gif)
 
-### 2.4  align-items:
+### align-items 属性
 
 - flex-start：交叉轴的起点对齐。
 - flex-end：交叉轴的终点对齐。
@@ -69,7 +69,7 @@ tags:
 
 ![](/images/css-flexbox-05.gif)
 
-### 2.5  align-content:
+### align-content 属性
 
 定义了多根轴线的对齐方式，如果项目只有一根轴线，那么该属性将不起作用
 
@@ -86,15 +86,15 @@ tags:
 
 ![](/images/css-flexbox-07.gif)
 
-## 3、项目属性
+## 项目属性
 
 ![](/images/css-flexbox-08.png)
 
-### 3.1 order属性
+### order 属性
 
 ![](/images/css-flexbox-09.png)
 
-### 3.2 flex-grow属性
+### flex-grow 属性
 
 `flex-grow` 属性定义项目的放大比例，默认为 0，即如果存在剩余空间，也不放大。
 
@@ -102,7 +102,7 @@ tags:
 
 ![](/images/css-flexbox-10.png)
 
-### 3.3 flex-shrink属性
+### flex-shrink 属性
 
 `flex-shrink` 属性定义了项目的缩小比例，默认为1，即如果空间不足，该项目将缩小。
 
@@ -118,7 +118,7 @@ tags:
 
 负值对该属性无效。
 
-### 3.4 align-self属性
+### align-self 属性
 
 `align-self` 属性允许单个项目有与其他项目不一样的对齐方式，可覆盖 `align-items` 属性。默认值为 `auto`，表示继承父元素的 `align-items` 属性，如果没有父元素，则等同于 `stretch`。
 

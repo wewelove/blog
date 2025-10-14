@@ -1,4 +1,13 @@
-# OceanBase 数据类型及详细说明，最佳实践
+---
+title: OceanBase 数据类型及详细说明
+date: 2025-08-12 07:47:23
+categories:
+- 数据
+tags: 
+- OceanBase
+- 数据库
+- 数据类型
+---
 
 OceanBase 是由阿里巴巴集团自主研发的分布式关系型数据库，它旨在提供高可用性、高性能和可扩展性的解决方案。OceanBase 支持标准的 SQL 语法，并且兼容 MySQL 和 Oracle 数据库的大部分功能。以下是 OceanBase 中常见的数据类型及其详细说明，以及一些最佳实践。
 

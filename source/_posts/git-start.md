@@ -77,7 +77,7 @@ Identity added: /home/user/.ssh/id_rsa (/home/user/.ssh/id_rsa)
 
 ## 使用
 
-### 将公钥内容导入远程 `git` 服务站点
+### 将公钥导入远程 `git` 服务站点
 
 在 [github.com](https://github.com) 或 [gitee.com](https://gitee.com) 上申请个帐号。  
 将 `id_rsa.pub` 公钥内容添加到已经申请的帐号，目录如下：

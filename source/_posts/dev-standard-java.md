@@ -7,9 +7,9 @@ tags:
 - java
 ---
 
-## 一、Java 项目规范
+## Java 项目规范
 
-### 1.1、Java 项目命名规范
+### Java 项目命名规范
 
 全部采用小写方式， 以中划线分隔。
 
@@ -19,7 +19,7 @@ tags:
 反例：`mall_management-system / mallManagementSystem / orderServiceClient`
 ```
 
-### 1.2、方法参数规范
+### 方法参数规范
 
 无论是 `controller，service，manager，dao` 亦或是**其他 class 的**代码，每个方法最多 `5` 个参数，如果超出 `5` 个参数的话，要封装成 `javabean` 对象。
 
@@ -46,7 +46,7 @@ public String signEnvelop(JdRequestParam param, String password, String priCert,
 }
 ```
 
-### 1.3、代码目录结构
+### 代码目录结构
 
 统一的目录结构是所有项目的基础。
 
@@ -67,7 +67,7 @@ src                               源码目录
 |-- Application.java                  启动类
 ```
 
-### 1.4、common 目录规范
+### common 目录规范
 
 common 目录用于存放各个项目通用的项目，但是又可以依照项目进行特定的修改。
 
@@ -83,7 +83,7 @@ src 源码目录
 |-- |--- validator     适合各个项目的通用 validator，如 CheckEnum，CheckBigDecimal 等
 ```
 
-### 1.5、module 目录规范
+### module 目录规范
 
 module 目录里写项目的各个业务，每个业务一个独立的顶级文件夹，在文件里进行 mvc 的相关划分。 其中，domain 包里存放 entity, dto, vo，bo 等 javabean 对象
 
@@ -105,18 +105,18 @@ src
 |-- |-- ....                          其他
 ```
 
-## 二、MVC 规范
+## MVC 规范
 
-### 2.1、整体分层
+### 整体分层
 
 - controller 层
 - service 层
 - manager 层
 - dao 层
 
-### 2.2、 `controller` 层规范
+### `controller` 层规范
 
-#### 1） 只允许在 method 上添加 `RequestMapping` 注解
+1）只允许在 method 上添加 `RequestMapping` 注解
 
 只允许在 method 上添加 `RequestMapping` 注解，不允许加在 `class` 上（为了方便的查找 url，放到 class 上 url 不能一次性查找出来）
 
@@ -144,7 +144,7 @@ public class DepartmentController {
     }
 ```
 
-#### 2）不推荐使用 restful 命名 url
+2）不推荐使用 restful 命名 url
 
 不推荐使用 restful 命名 url， 只能使用 `get/post` 方法。url 命名遵循：**`/业务模块/子模块/动作`** ;
 其中 `业务模块和子模块` 使用 名字， `动作` 使用动词； 原因：
@@ -162,7 +162,7 @@ GET  /department/delete/{id}   删除部门
 GET  /department/employee/delete/{id}   删除部门员工
 ```
 
-#### 3）swagger 接口注释必须加上后端作者
+3）swagger 接口注释必须加上后端作者
 
 每个方法必须添加 `swagger` 文档注解 `@ApiOperation` ，并填写接口描述信息，描述最后必须加上接口的作者信息，格式如下： `@author 卓大`
 
@@ -176,7 +176,7 @@ GET  /department/employee/delete/{id}   删除部门员工
     }
 ```
 
-#### 4）controller 每个方法要保持简洁
+4）controller 每个方法要保持简洁
 
 controller 在mvc中负责协同和委派业务，充当路由的角色，所以要保持代码少量和清晰，要做到如下要求：
 
@@ -194,7 +194,7 @@ controller 在mvc中负责协同和委派业务，充当路由的角色，所以
     }
 ```
 
-#### 5）只能在 `controller` 层获取当前请求用户
+5）只能在 `controller` 层获取当前请求用户
 
 只能在 `controller` 层获取当前请求用户，并传递给 `service` 层。
 
@@ -209,9 +209,9 @@ controller 在mvc中负责协同和委派业务，充当路由的角色，所以
     }
 ```
 
-### 2.3、 `service` 层规范
+### `service` 层规范
 
-#### 1） 合理拆分 service 业务
+1）合理拆分 service 业务
 
 我们不建议service文件行数太大 ，如果业务较大，请拆分为多个 service；
 
@@ -222,7 +222,7 @@ controller 在mvc中负责协同和委派业务，充当路由的角色，所以
 - `OrderDeliverService` 订单发货业务
 - `OrderValidatorService` 订单验证业务
 
-#### 2) 谨慎使用 `@Transactional` 事务注解
+2）谨慎使用 `@Transactional` 事务注解
 
 谨慎使用 `@Transactional` 事务注解的使用，不要简单对 `service` 的方法添加个 `@Transactional` 注解就觉得万事大吉了。
 应当合并对数据库的操作，尽量减少添加了`@Transactional`方法内的业务逻辑。
@@ -303,9 +303,9 @@ controller 在mvc中负责协同和委派业务，充当路由的角色，所以
 
 将数据在 service 层准备好，然后传递给 manager 层，由 manager 层添加@Transactional 进行数据库操作。
 
-**以上是使用`manager`去处理解决的，其实也可以是使用spring的 `TransactionTemplate` 事务模板解决**
+**以上是使用 `manager` 去处理解决的，其实也可以是使用spring的 `TransactionTemplate` 事务模板解决**
 
-#### 3）需要注意的是：注解 `@Transactional` 事务在类的内部方法调用是不会生效的
+3）需要注意的是：注解 `@Transactional` 事务在类的内部方法调用是不会生效的
 
 反例：如果发生异常，saveData 方法上的事务注解并不会起作用
 
@@ -346,19 +346,19 @@ public void createOrder(OrderCreateDTO createDTO){
 }
 ```
 
-### 2.4、 manager 层规范
+### manager 层规范
 
 - 对第三方平台封装的层，预处理返回结果及转化异常信息；
 - 对 Service 层通用能力的下沉，如缓存方案、中间件通用处理；
 - 与 DAO 层交互，对多个 DAO 的组合复用。
 
-### 2.5、 dao 层规范
+### dao 层规范
 
-#### 1）持久层框架选择
+1）持久层框架选择
 
 优先使用 mybatis-plus 框架。
 
-#### 2）使用 mybatis-plus 的要求
+2）使用 mybatis-plus 的要求
 
 - 所有 Dao 继承自 BaseMapper
 - 禁止使用 Mybatis-plus 的 Wrapper 条件构建器
@@ -408,7 +408,7 @@ NoticeMapper.xml
     </select>
 ```
 
-#### 4）连接 join 写法
+3）连接 join 写法
 
 建议在 xml 中的 join 关联写法使用表名的全称，而不是用别名，对于关联表太多的话，在 xml 格式中，其实很难记住 别名是什么意思！
 
@@ -482,7 +482,7 @@ NoticeMapper.xml
     </select>
 ```
 
-### 2.6、 javabean 命名规范
+### javabean 命名规范
 
 1） `javabean` 的整体要求：
 
@@ -516,18 +516,18 @@ NoticeMapper.xml
 - `Form` 可以继承、组合其他 `DTO，VO，BO` 等对象
 - `Form` 只能用于前端、RPC 的请求参数
 
-3）返回对象；`XxxxVO`，要求：
+5）返回对象；`XxxxVO`，要求：
 
 - 不可继承自 `Entity`
 - `VO` 可以继承、组合其他 `DTO，VO，BO` 等对象
 - `VO` 只能用于返回前端、rpc 的业务数据封装对象
 
-4）业务对象 `BO`，要求：
+6）业务对象 `BO`，要求：
 
 - 不可以继承自 `Entity`
 - `BO` 对象只能用于 `service，manager，dao` 层，不得用于 `controller` 层
 
-### 2.7、boolean 类型的属性命名规范
+### boolean 类型的属性命名规范
 
 > 类中布尔类型的变量，都不要加 is，否则部分框架解析会引起序列化错误。反例：定义为基本数据类型 Boolean isDeleted；的属性，它的方法也是 isDeleted()，RPC 在反向解析的时候，“以为”对应的属性名称是 deleted，导致属性获取不到，进而抛出异常。
 

@@ -14,7 +14,7 @@ tags:
 - [VirtualBox](https://www.virtualbox.org/)
 - [Elementary OS](https://elementaryos.cn/)
 
-## 使用 `apt-add-repository` 增加第三方软件包源
+## 增加第三方软件包源
 
 安装某些软件时需要增加第三方软件包源，如 `elementary-tweaks` 系统调整工具。使用 `add-apt-repository` 要先安装以下软件包：
 
@@ -45,7 +45,7 @@ $ sudo apt-get install im-config
 
 ![配置输入法](http://static.oschina.net/uploads/space/2014/0420/143810_3tva_561214.png)
 
-## 安装 `elementary-tweaks` 系统调整工具
+## 安装系统调整工具
 
 ```sh
 $ sudo apt-add-repository -y  ppa:philip.scott/elementary-tweaks

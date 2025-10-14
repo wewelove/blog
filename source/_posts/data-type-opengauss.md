@@ -1,4 +1,13 @@
-# openGauss 数据类型及详细说明，最佳实践
+---
+title: openGauss 数据类型及详细说明
+date: 2025-08-12 07:47:23
+categories:
+- 数据
+tags: 
+- openGauss
+- 数据库
+- 数据类型
+---
 
 openGauss 是一个开源的关系型数据库管理系统，它基于 PostgreSQL 并进行了大量的性能优化和功能增强。由于 openGauss 的基础是 PostgreSQL，所以很多数据类型和使用方法与 PostgreSQL 类似。不过，openGauss 也引入了一些特有的优化和新特性。
 

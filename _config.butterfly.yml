@@ -10,7 +10,7 @@
 
 nav:
   # 导航栏 Logo 图片
-  logo: 
+  logo: /logo.png
   # 是否显示标题
   display_title: true
   # 是否固定导航栏
@@ -18,9 +18,14 @@ nav:
 
 menu:
   首页: / || fas fa-home
-  列表||fas fa-list:
-    音乐: /music/ || fas fa-music
-    电影: /movies/ || fas fa-video
+  归档: /archives/ || fas fa-archive
+  分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
+  # 链接: /link/ || fas fa-link
+  # 关于: /about/ || fas fa-heart
+  # 列表||fas fa-list:
+  #   音乐: /music/ || fas fa-music
+  #   电影: /movies/ || fas fa-video
 
 # --------------------------------------
 # 代码块设置
@@ -30,7 +35,7 @@ code_blocks:
   # 代码块主题: darker / pale night / light / ocean / false
   theme: darker
   # 是否使用 Mac 风格
-  macStyle: false
+  macStyle: true
   # 代码块高度限制（单位: px）
   height_limit: false
   # 是否自动换行
@@ -40,9 +45,9 @@ code_blocks:
   # 是否显示复制按钮
   copy: true
   # 是否显示语言标签
-  language: true
+  language: false
   # true: 收缩代码块 | false: 展开代码块 | none: 展开代码块并隐藏按钮
-  shrink: false
+  shrink: none
   # 是否显示全屏显示代码块按钮
   fullpage: false
 
@@ -56,12 +61,12 @@ social:
 # --------------------------------------
 
 # 网站的 favicon 图标
-favicon: /img/favicon.png
+favicon: /favicon.ico
 
 # 头像设置
 avatar:
   # 头像图片链接
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: /avatar.png
   # 是否启用头像效果
   effect: false
 
@@ -222,6 +227,8 @@ toc:
   style_simple: false
   # 是否显示滚动百分比
   scroll_percent: true
+  # 目录层级
+  max_depth: 2
 
 post_copyright:
   # 是否启用版权声明
@@ -335,7 +342,7 @@ aside:
       # 按钮文本
       text: Follow Me
       # 按钮链接
-      link: https://github.com/xxxxxx
+      link: https://github.com/wewelove
   card_announcement:
     # 是否显示公告卡片
     enable: true
@@ -435,7 +442,7 @@ translate:
   # 按钮在繁体中文时的文本
   msgToSimplifiedChinese: '简'
 
-# 閲读模式
+# 阅读模式
 readmode: true
 
 # 暗黑模式设置
@@ -542,8 +549,12 @@ math:
 search:
   # 选择：algolia_search / local_search / docsearch
   # 如果不需要搜索功能，保持为空
-  use:
-  placeholder:
+  use: 'local_search'
+  placeholder: '搜索'
+  path: search.json
+  field: post
+  content: true
+  format: striptags
 
   # Algolia 搜索
   algolia_search:
@@ -558,7 +569,7 @@ search:
     top_n_per_article: 1
     # 将 HTML 字符串反转义为可读内容
     unescape: false
-    CDN:
+    CDN: 
 
   # Docsearch
   # https://docsearch.algolia.com/
@@ -1064,12 +1075,12 @@ abcjs:
 # https://github.com/mermaid-js/mermaid
 mermaid:
   # 是否启用 Mermaid
-  enable: false
+  enable: true
   # 使用代码块编写 Mermaid 图表
-  code_write: false
+  code_write: true
   # 内置主题: default / forest / dark / neutral
   theme:
-    light: default
+    light: neutral
     dark: dark
 
 # chartjs
