@@ -1,7 +1,7 @@
 ---
 title: 分类
 date: 2020-02-12 23:04:00
-type: "categories"
+type: 'categories'
 comments: false
 categories:
 - 前端
