@@ -2,7 +2,7 @@
 title: Cmder Windows 系统命令行工具
 date: 2020-02-11 11:59:14
 categories: 
-- 工具
+- 软件
 tags:
 - cmder
 ---

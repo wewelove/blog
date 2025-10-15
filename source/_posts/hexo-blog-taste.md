@@ -2,7 +2,7 @@
 title: 使用 Hexo 搭建个人博客 - 体验 
 date: 2016-04-07 21:20:35
 categories: 
-- 工具
+- 开源
 tags: 
 - hexo
 - markdown
