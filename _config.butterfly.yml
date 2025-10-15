@@ -21,8 +21,8 @@ menu:
   归档: /archives/ || fas fa-archive
   分类: /categories/ || fas fa-folder-open
   标签: /tags/ || fas fa-tags
-  # 链接: /link/ || fas fa-link
-  # 关于: /about/ || fas fa-heart
+  链接: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
   # 列表||fas fa-list:
   #   音乐: /music/ || fas fa-music
   #   电影: /movies/ || fas fa-video
@@ -65,7 +65,7 @@ social:
 # --------------------------------------
 
 # 网站的 favicon 图标
-favicon: /favicon.ico
+favicon: /favicon.png
 
 # 头像设置
 avatar:
@@ -103,12 +103,12 @@ category_img:
 category_per_img:
 
 # 页脚的背景图片
-footer_img: false
+footer_img: /images/background/05.png
 
 # 网站背景
 # 可以设置为颜色或图片
 # 图片格式: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: /background.jpg
 
 # 封面设置
 cover:
@@ -121,10 +121,26 @@ cover:
   position: both
   # 当未设置封面时，显示默认封面
   default_cover: 
-    - /images/cover/wave.png
-    - /images/cover/snow.png
-    - /images/cover/star.png
-    - /images/cover/yuzhou.png
+    - /images/cover/001.png
+    - /images/cover/002.png
+    - /images/cover/003.png
+    - /images/cover/004.png
+    - /images/cover/005.png
+    - /images/cover/006.png
+    - /images/cover/007.png
+    - /images/cover/008.png
+    - /images/cover/009.png
+    - /images/cover/010.png
+    - /images/cover/011.png
+    - /images/cover/012.png
+    - /images/cover/013.png
+    - /images/cover/014.png
+    - /images/cover/015.png
+    - /images/cover/016.png
+    - /images/cover/017.png
+    - /images/cover/018.png
+    - /images/cover/019.png
+    - /images/cover/020.png
 
 # 替换损坏的图片
 error_img:
