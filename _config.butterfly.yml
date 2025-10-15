@@ -62,8 +62,8 @@ code_blocks:
 social:
   fab fa-github: https://github.com/wewelove || Github || "#hdhfbb"
   fa-brands fa-square-gitlab: https://gitee.com/wewelove || Gitee || "#hdhfbb"
-  fa-brands fa-weixin: https://gitee.com/wewelove || wechat || "#hdhfbb"
-  fab fa-bilibili: https://space.bilibili.com/403878745 || bilibili || "#hdhfbb"
+  fa-brands fa-weixin: /wechat-v4coder.jpg || 公众号 || "#hdhfbb"
+  fab fa-bilibili: https://space.bilibili.com/403878745 || 哔哩哔哩 || "#hdhfbb"
 
 # --------------------------------------
 # 图片设置
