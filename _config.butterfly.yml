@@ -9,18 +9,23 @@
 # --------------------------------------
 
 nav:
-  # 导航栏 Logo 图片
+  # 网站的 logo, 支持图片, 直接填入图片链接
   logo: /logo.png
-  # 是否显示标题
+  # 量否显示网站标题, 填写 true 或者 false
   display_title: true
-  # 是否固定导航栏
+  # 是否在滚动时显示文章标题, 填写 true 或者 false
+  display_post_title: true
+  # 是否固定状态栏, 填写 true 或者 false
   fixed: true
 
 menu:
   首页: / || fas fa-home
-  归档: /archives/ || fas fa-archive
-  分类: /categories/ || fas fa-folder-open
+  软件: /categories/software || fas fa-toolbox
+  开源: /categories/open-source || fas fa-laptop-code
+  书籍: /categories/book || fas fa-book
+  分类: /categories/ || fas fa-layer-group
   标签: /tags/ || fas fa-tags
+  归档: /archives/ || fas fa-archive
   链接: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
   # 列表||fas fa-list:
@@ -453,9 +458,9 @@ rightside_bottom:
 # 简繁转换设置
 translate:
   # 是否启用简繁转换
-  enable: false
+  enable: true
   # 按钮文本
-  default: 繁
+  default: 简
   # 网站语言（1 - 繁体中文 / 2 - 简体中文）
   defaultEncoding: 2
   # 转换延迟
@@ -524,7 +529,7 @@ copy:
 # 需要安装 hexo-wordcount 插件
 wordcount:
   # 是否启用字数统计
-  enable: false
+  enable: true
   # 在文章元信息中显示字数统计
   post_wordcount: true
   # 在文章元信息中显示閲读时间
@@ -919,8 +924,8 @@ site_verification:
 # 分类和标签页面的用户界面设置
 # 选择：index - 与主页 UI 相同 / default - 与归档 UI 相同
 # 留空或设置为 index
-category_ui:
-tag_ui:
+category_ui: index
+tag_ui: index
 
 # 拉伸行使每行宽度相等
 text_align_justify: false
