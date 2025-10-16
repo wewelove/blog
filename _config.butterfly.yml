@@ -108,7 +108,7 @@ category_img:
 category_per_img:
 
 # 页脚的背景图片
-footer_img: /images/background/05.png
+footer_img: /background-footer.png
 
 # 网站背景
 # 可以设置为颜色或图片
