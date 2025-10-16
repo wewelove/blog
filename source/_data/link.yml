@@ -2,12 +2,12 @@
   link_list:
     - name: Hexo
       link: https://hexo.io/zh-cn/
-      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      avatar: https://s2.loli.net/2025/10/16/npgZi5taeDjAEvL.png
       descr: 快速、简洁且高效的博客框架
 
 - class_name: 常用网站
   link_list:
     - name: Gitee
       link: https://gitee.com/
-      avatar: https://help.gitee.com/favicon.ico
+      avatar: https://s2.loli.net/2025/10/16/8KzJ7fqVusIpAcO.png
       descr: 全球第二大开源代码托管平台
