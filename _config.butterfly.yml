@@ -150,9 +150,9 @@ cover:
 # 替换损坏的图片
 error_img:
   # 友链页面的错误图片
-  flink: /img/friend_404.gif
+  flink: /flink.png
   # 文章页面的错误图片
-  post_page: /img/404.jpg
+  post_page: /cover.png
 
 # 简单的 404 页面
 error_404:
@@ -161,7 +161,7 @@ error_404:
   # 404 页面的副标题
   subtitle: 'Page Not Found'
   # 404 页面的卡片背景图片
-  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  background: /404.png
 
 # 文章元数据设置
 post_meta:
