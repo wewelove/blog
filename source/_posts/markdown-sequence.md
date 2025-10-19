@@ -34,6 +34,7 @@ sequence:
 ```
 
 ## 源码
+
 源码修改后才能正常使用，进入插件目录作如下修改：
 
 ```js
@@ -76,7 +77,7 @@ if (sequences.length) {
 
 新建文章，增加如下内容：
 
-```
+```txt
 Alice->Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!

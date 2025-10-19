@@ -36,7 +36,7 @@ flowchart:
 
 新建文章，增加如下内容：
 
-```
+```txt
 st=>start: 开始:>http://www.google.com[blank]
 e=>end: 结束:>http://www.google.com[blank]
 op1=>operation: 操作

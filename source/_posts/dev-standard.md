@@ -1,5 +1,5 @@
 ---
-title: 软件开发规范
+title: Web 开发规范
 date: 2023-08-20 10:27:22
 categories:
 - 规范
