@@ -592,11 +592,11 @@ search:
   # 本地搜索
   local_search:
     # 页面加载时预加载搜索数据
-    preload: false
+    preload: true
     # 每篇文章显示的顶部 n 个搜索结果，设置为 -1 显示所有结果
     top_n_per_article: 1
     # 将 HTML 字符串反转义为可读内容
-    unescape: false
+    unescape: true
     CDN: 
 
   # Docsearch
@@ -635,7 +635,7 @@ comments:
   # 如果不需要评论功能，保持为空
   # 选择：Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # 两个评论系统的格式：Disqus,Waline
-  use:
+  use: Giscus,Gitalk
   # 按钮旁边显示评论系统名称
   text: true
   # 懒加载：评论系统将在评论元素进入浏览器视口时加载
@@ -758,18 +758,20 @@ twikoo:
 # 官方文档：https://giscus.app/
 giscus:
   # 仓库地址
-  repo:
+  repo: wewelove/blog
   # 仓库 ID
-  repo_id:
+  repo_id: R_kgDONd36oA
   # 分类 ID
-  category_id:
+  category_id: DIC_kwDONd36oM4Cw44I
+  # 语言
+  lang: zh-CN
   # 主题配置，light 为浅色主题，dark 为深色主题
   theme:
     light: light
     dark: dark
   # 其他可选配置
   option:
-
+    
 # Remark42 评论插件配置
 # 官方文档：https://remark42.com/docs/configuration/frontend/
 remark42:
@@ -938,11 +940,11 @@ mask:
 # 加载动画
 preloader:
   # 是否启用加载动画
-  enable: false
+  enable: true
   # 资源
   # 1. 全屏加载
   # 2. 进度条
-  source: 1
+  source: 2
   # pace 主题 (参见 https://codebyzach.github.io/pace/)
   pace_css_url:
 
@@ -959,7 +961,7 @@ beautify:
   # 指定美化的范围 (site 或 post)
   field: post
   # 指定标题前缀图标，如 '\f0c1'
-  title-prefix-icon:
+  title-prefix-icon: 
   # 指定标题前缀图标的颜色，如 '#F47466'
   title-prefix-icon-color:
 
@@ -1083,7 +1085,7 @@ lightbox:
 # 系列
 series:
   # 是否启用系列
-  enable: false
+  enable: true
   # 按标题或日期排序
   orderBy: 'title'
   # 排序方式。1, asc 为升序; -1, desc 为降序
@@ -1114,7 +1116,7 @@ mermaid:
 # chartjs
 # 参见 https://www.chartjs.org/docs/latest/
 chartjs:
-  enable: false
+  enable: true
   # 除非你了解它们的工作原理，否则不要修改。
   # 默认设置仅在未指定 MD 语法时使用。
   # 图表的字体颜色
@@ -1141,7 +1143,7 @@ note:
   # 是否显示图标
   icons: true
   # 边框半径
-  border_radius: 3
+  border_radius: 4
   # 背景颜色偏移百分比 (modern: -12 | 12; flat: -18 | 6)。
   # 也应用于标签变量。此选项可与禁用的 Note 标签一起使用。
   light_bg_offset: 0
@@ -1193,7 +1195,7 @@ pangu:
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
   # 是否启用 Lazyload
-  enable: false
+  enable: true
   # 指定使用 Lazyload 的范围 (site 或 post)
   field: site
   placeholder:
