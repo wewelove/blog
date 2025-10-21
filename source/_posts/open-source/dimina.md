@@ -12,14 +12,6 @@ tags:
 
 目前，Dimina 已支持 Android、iOS、Harmony 和 Web 四大平台。开发者可以将 Dimina 作为移动端跨平台开发框架，将已有小程序逻辑以独立模块方式集成到现有 App，或直接采用小程序语法进行开发，并一键打包生成独立原生 App。
 
-<div style="text-align: center;">
-
-<img src="https://img.shields.io/badge/License-Apache%202.0-blue" alt="星标趋势" style="display: inline-block">
-<img src="https://img.shields.io/badge/Platform-%20Android%20%7C%20iOS%20%7C%20Harmony%20%7C%20Web-4CAF50" style="display: inline-block">
-<img src="https://img.shields.io/badge/PRs-Welcome-FF6F61" style="display: inline-block">
-
-</div>
-
 > Dimina 发音为 /diːminə/，是 didi miniprogram 的缩写，旨在打造灵活、轻量的小程序跨端开发框架。
 
 ### 技术特性
@@ -90,12 +82,6 @@ graph TD
 
 - 集成 App 进行真机调试
 - 打包发布到各应用商店
-
-## 星标趋势
-
-如果你觉得 Dimina 对你有帮助，欢迎点击右上角 ⭐Star 支持我们，让更多人了解和使用这个项目。
-
-<img src="https://api.star-history.com/svg?repos=didi/dimina&type=Date" alt="星标趋势" width="80%" height="auto">
 
 ## 开源协议
 

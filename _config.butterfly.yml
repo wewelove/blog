@@ -674,9 +674,9 @@ livere:
 # 官方文档：https://github.com/gitalk/gitalk
 gitalk:
   # GitHub 应用的客户端 ID
-  client_id: 8adc68019105e5f0594b
+  client_id: Ov23li1aDk4ieszsC19z
   # GitHub 应用的客户端密钥
-  client_secret: ac9b645f7652a1e6cb309ac2ec82d58300d24496
+  client_secret: a07411bd401580ea82f0b3badc887b767e5b1157
   # 存储评论的仓库名称
   repo: blog
   # 仓库拥有者的用户名
@@ -763,14 +763,14 @@ giscus:
   repo_id: R_kgDONd36oA
   # 分类 ID
   category_id: DIC_kwDONd36oM4Cw44I
-  # 语言
-  lang: zh-CN
   # 主题配置，light 为浅色主题，dark 为深色主题
   theme:
     light: light
     dark: dark
   # 其他可选配置
   option:
+    # 语言
+    'data-lang': zh-CN
     
 # Remark42 评论插件配置
 # 官方文档：https://remark42.com/docs/configuration/frontend/
@@ -957,7 +957,7 @@ display_mode: light
 # 美化文章内容的配置
 beautify:
   # 是否启用美化
-  enable: false
+  enable: true
   # 指定美化的范围 (site 或 post)
   field: post
   # 指定标题前缀图标，如 '\f0c1'
