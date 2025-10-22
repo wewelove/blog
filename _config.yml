@@ -167,11 +167,3 @@ image_minifier:
   pngquant: false
   progressive: false
   silent: false
-
-# imagemin:
-#   enable: true
-#   interlaced: false
-#   multipass: false
-#   optimizationLevel: 2
-#   pngquant: false
-#   progressive: false
