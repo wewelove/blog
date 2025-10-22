@@ -2,9 +2,9 @@
 title: Markdown 基本语法
 date: 2023-08-20 10:27:22
 categories:
-- 开发
+  - 开发
 tags:
-- markdown
+  - markdown
 ---
 
 ## 语法
@@ -89,11 +89,11 @@ tags:
 - 无序列表 3
 ```
 
-* 无序列表 1
-  + 嵌套子列表 11
-  + 嵌套子列表 12
+- 无序列表 1
+  - 嵌套子列表 11
+  - 嵌套子列表 12
 
-+ 无序列表 2
+- 无序列表 2
 
 - 无序列表 3
 
@@ -108,8 +108,8 @@ tags:
 ```
 
 1. 有序列表 1
-   + 子列表 11
-   + 子列表 12
+   - 子列表 11
+   - 子列表 12
 1. 有序列表 2
 1. 有序列表 3
 
@@ -201,8 +201,8 @@ function fn () {
 [Readme](README.md "相对路径")
 ```
 
-[百度](https://www.baidu.com "百度") 
-[谷歌](https://www.google.com.hk "谷歌") 
+[百度](https://www.baidu.com "百度")
+[谷歌](https://www.google.com.hk "谷歌")
 [说明](README.md "相对路径")
 
 参考式链接的写法相当于行内式拆分成两部分，通过 *标识符* 来连接两部分:
@@ -278,7 +278,7 @@ function fn () {
 强调 *演示* _文本_
 ```
 
-强调 *演示* _文本_
+强调 *演示* *文本*
 
 使用 `**文本**` 或 `__文本__` 实现 `<strong>文本</strong>`，通常表现为加粗:
 
@@ -286,7 +286,7 @@ function fn () {
 强调 **演示** __文本__
 ```
 
-强调 **演示** __文本__
+强调 **演示** **文本**
 
 ### 字符转义
 
@@ -357,8 +357,8 @@ function fn () {
 
 | 强调     | 代码     | 链接                              |
 | -------- | -------- | --------------------------------- |
-| _百度_   | `Baidu`  | [百度](https://www.baidu.com)     |
-| __谷歌__ | `Google` | [谷歌](https://www.google.com.hk) |
+| *百度*   | `Baidu`  | [百度](https://www.baidu.com)     |
+| **谷歌** | `Google` | [谷歌](https://www.google.com.hk) |
 
 ### 兼容 HTML 语法
 
@@ -378,7 +378,6 @@ function fn () {
   <tr><td>1</td><td>date('Y-m-d')</td><td>2016-07-15</td></tr>
   <tr><td>2</td><td>date('Y-m-t')</td><td>2016-07-31</td></tr>
 </table>
-
 
 ## 参考
 

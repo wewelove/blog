@@ -2,11 +2,12 @@
 title: 前端开发规范
 date: 2023-08-20 10:27:22
 categories:
-- 规范
+  - 开发
 tags:
-- html
-- css
-- javascript
+  - 规范
+  - html
+  - css
+  - javascript
 ---
 
 ## HTML 规范
@@ -290,25 +291,25 @@ div{
 
 - 采用小写驼峰命名 lowerCamelCase，代码中的命名均不能以下划线，也不能以下划线或美元符号结束：
 
-​		反例： `_name / name_ / name$`
+​  反例： `_name / name_ / name$`
 
 - 方法名、参数名、成员变量、局部变量都统一使用 lowerCamelCase 风格，必须遵从驼峰形式：
 
-​		正例： `localValue / getHttpMessage() / inputUserId`
+​  正例： `localValue / getHttpMessage() / inputUserId`
 
 - 其中 method 方法命名必须是 **动词** 或者 **动词+名词** 形式：
 
-​		正例：`saveShopCarData /openShopCarInfoDialog`
+​  正例：`saveShopCarData /openShopCarInfoDialog`
 
-​		反例：`save / open / show / go`
+​  反例：`save / open / show / go`
 
-​		**推荐，增、删、改、查、详情统一使用如下 5 个单词**
+​  **推荐，增、删、改、查、详情统一使用如下 5 个单词**
 
 ```
-add / delete / update / get / detail	
+add / delete / update / get / detail 
 ```
 
-​		**函数方法常用的动词:**
+​  **函数方法常用的动词:**
 
 ```js
 get 获取/set 设置,
@@ -369,15 +370,15 @@ collect 收集/aggregate 聚集
 
 - 常量命名全部大写，单词间用下划线隔开，力求语义表达完整清楚，不要嫌名字长：
 
-​		正例： `MAX_STOCK_COUNT`
+​  正例： `MAX_STOCK_COUNT`
 
-​		反例： `MAX_COUNT`
+​  反例： `MAX_COUNT`
 
 ### 代码格式
 
 - 使用 2 个空格进行缩进：
 
-​		正例：
+​  正例：
 
 ```js
 if (x < y) {
@@ -411,13 +412,13 @@ let testDiv = "<div id='test'></div>";
 
 - 使用字面值创建对象：
 
-​		正例： `let user = {};`
+​  正例： `let user = {};`
 
-​		反例： `let user = new Object();`
+​  反例： `let user = new Object();`
 
 - 使用字面量来代替对象构造器：
 
-​		正例：
+​  正例：
 
 ```js
 var user = {
@@ -427,7 +428,7 @@ var user = {
 };
 ```
 
-​		反例：
+​  反例：
 
 ```js
 var user = new Object();

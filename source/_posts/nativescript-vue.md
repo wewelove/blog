@@ -2,12 +2,12 @@
 title: Vue3 的原生 App 开发框架
 date: 2025-10-15 08:50:00
 categories:
-- 开源
+  - 开源
 tags:
-- uni-app
-- vue
-- vue3
-- NativeScript
+  - uni-app
+  - vue
+  - vue3
+  - NativeScript
 ---
 
 长久以来，"**用 Vue 3 写真正的原生 App**" 一直是块短板。

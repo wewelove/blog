@@ -2,10 +2,10 @@
 title: 为 Hexo 增加流程图解析功能
 date: 2017-09-06 15:44:02
 categories:
-- 工具
+  - 原创
 tags:
-- hexo
-- flowchart
+  - hexo
+  - flowchart
 ---
 
 ## 安装

@@ -2,10 +2,10 @@
 title: PostgreSQL 数据库元数据查询管理
 date: 2025-05-11 12:14:57
 categories:
-- 数据
+  - 数据
 tags:
-- PostgreSQL
-- 元数据
+  - PostgreSQL
+  - 元数据
 ---
 
 PostgreSQL 提供了丰富的元数据信息，可以通过系统表和系统视图来查询这些信息。以下是一些常用的元数据查询方法和工具，以及如何管理和使用这些元数据。

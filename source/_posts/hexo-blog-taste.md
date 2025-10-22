@@ -2,35 +2,35 @@
 title: 使用 Hexo 搭建个人博客 - 体验 
 date: 2016-04-07 21:20:35
 categories: 
-- 开源
+  - 开源
 tags: 
-- hexo
-- markdown
+  - hexo
+  - markdown
 ---
 
 [Hexo](https://hexo.io/zh-cn/) 是一个快速、简洁且高效的博客框架。Hexo 使用 [Markdown](http://daringfireball.net/projects/markdown/)（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
 
 ## 安装
 
-1. 安装 `Node.js` 环境， [官网](https://nodejs.org/en/) 
+1. 安装 `Node.js` 环境， [官网](https://nodejs.org/en/)
 
     [参考：Node.js 之旅 - 好的开端](/2015/03/15/nodejs-start/)
 
-2. 安装 `Git` 版本管理工具，[官网](https://git-scm.com) 
-    
+2. 安装 `Git` 版本管理工具，[官网](https://git-scm.com)
+
     [参考：](nodejs-start.md)
 
 3. 安装 `hexo-cli` 命令行工具，初始化一个项目
 
     ```sh
-    $ npm install -g hexo-cli
-    $ hexo init blog
-    $ cd blog
-    $ npm install
+    npm install -g hexo-cli
+    hexo init blog
+    cd blog
+    npm install
     ```
 
     目录结构大致如下：
-    
+
     ```sh
     ├── _config.yml             # 项目配置文件
     ├── node_modules            
@@ -61,8 +61,9 @@ tags:
 1. 新建一篇文章
 
     ```sh
-    $ hexo new hexo-blog
+    hexo new hexo-blog
     ```
+
     此时 `source/_post/` 目录下多了一个 `hexo-blog.md` 文件，内容如下：
 
     ```sh
@@ -95,7 +96,7 @@ tags:
 3. 生成文章
 
     ```sh
-    $ hexo generate
+    hexo generate
     ```
 
     刷新浏览器就可以看到刚刚完成的文章了。

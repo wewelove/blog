@@ -1,15 +1,14 @@
 ---
-title: GeoGebra 数学软件
+title: GeoGebra 数学绘图软件
 date: 2025-10-17 15:14:12
 categories:
-- 软件
+  - 软件
 tags:
-- 几何
-- 代数
-- 数据
-- 绘图
-- 统计
-- 微积分
+  - 绘图
+  - 几何
+  - 代数
+  - 统计
+  - 微积分
 cover: /images/geogebra.png
 ---
 
@@ -44,4 +43,4 @@ GeoGebra 的名字巧妙结合了 **Geometry（几何）** 和 **Algebra（�
 
 ## 软件授权
 
-免费软件，[授权协议](https://www.geogebra.org/license)。
+{% label 免费软件 green %}，使用请需遵守[GeoGebra License](https://www.geogebra.org/license) 协议条款。

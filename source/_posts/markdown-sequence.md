@@ -2,11 +2,11 @@
 title: 为 Hexo 增加时序图解析功能
 date: 2017-09-06 16:43:33
 categories:
-- 工具
+  - 原创
 tags:
-- hexo
-- uml
-- sequence
+  - hexo
+  - uml
+  - sequence
 ---
 
 ## 安装

@@ -2,11 +2,11 @@
 title: MySQL 如何查看数据库锁
 date: 2025-08-12 07:47:23
 categories:
-- 数据
+  - 数据
 tags: 
-- MySQL
-- 数据库
-- 数据库锁
+  - MySQL
+  - 数据库
+  - 数据库锁
 ---
 
 在 MySQL 中，可以使用以下命令来查看数据库中的锁信息：
@@ -54,7 +54,6 @@ SELECT * FROM INFORMATION_SCHEMA.TABLE_LOCKS;
 
 通过以上方法，可以查看数据库中的锁信息，帮助我们了解当前数据库中的锁情况，及时处理锁冲突问题
 
-
 查看所有数据库容量大小:
 
 ```sql
@@ -67,7 +66,6 @@ FROM information_schema.TABLES
 GROUP BY table_schema
 ORDER BY sum( data_length ) DESC, sum( index_length ) DESC;
 ```
-
 
 显示 SQL 耗时:
 

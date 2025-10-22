@@ -2,10 +2,10 @@
 title: PostgreSQL 数据库元数据查询管理 - 示例
 date: 2025-05-11 12:14:57
 categories:
-- 数据
+  - 数据
 tags:
-- PostgreSQL
-- 元数据
+  - PostgreSQL
+  - 元数据
 ---
 
 在 PostgreSQL 中，可以使用系统表、系统视图和 `information_schema` 来查询用户、数据库、模式、表、表结构、视图等数据库对象的元数据信息。以下是一些常用的查询示例：

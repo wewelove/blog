@@ -2,9 +2,9 @@
 title: Markdown 语法示例
 date: 2016-01-20 10:27:22
 categories:
-- 工具
+  - 原创
 tags:
-- markdown
+  - markdown
 ---
 
 ## 语法
@@ -87,10 +87,12 @@ tags:
 - 无序列表 3
 ```
 
-* 无序列表 1
-    + 嵌套子列表 11
-    + 嵌套子列表 12
+- 无序列表 1
+  - 嵌套子列表 11
+  - 嵌套子列表 12
+
 + 无序列表 2
+
 - 无序列表 3
 
 有序列表项 `<ol>` 以 `任意数字` 加 `.` 再加 `空格` 开始:
@@ -104,8 +106,8 @@ tags:
 ```
 
 1. 有序列表 1
-    + 子列表 11
-    + 子列表 12
+    - 子列表 11
+    - 子列表 12
 1. 有序列表 2
 1. 有序列表 3
 
@@ -196,8 +198,8 @@ function fn () {
 [Readme](README.md "相对路径")
 ```
 
-[百度](https://www.baidu.com "百度") 
-[谷歌](https://www.google.com.hk "谷歌") 
+[百度](https://www.baidu.com "百度")
+[谷歌](https://www.google.com.hk "谷歌")
 [说明](README.md "相对路径")
 
 参考式链接的写法相当于行内式拆分成两部分，通过 *标识符* 来连接两部分:
@@ -273,7 +275,7 @@ function fn () {
 强调 *演示* _文本_
 ```
 
-强调 *演示* _文本_
+强调 *演示* *文本*
 
 使用 `**文本**` 或 `__文本__` 实现 `<strong>文本</strong>`，通常表现为加粗:
 
@@ -281,7 +283,7 @@ function fn () {
 强调 **演示** __文本__
 ```
 
-强调 **演示** __文本__
+强调 **演示** **文本**
 
 ### 字符转义
 
@@ -352,8 +354,8 @@ function fn () {
 
 | 强调 | 代码 | 链接 |
 | --- | --- | --- |
-| _百度_ | `Baidu` | [百度](https://www.baidu.com) |
-| __谷歌__ | `Google` | [谷歌](https://www.google.com.hk) |
+| *百度* | `Baidu` | [百度](https://www.baidu.com) |
+| **谷歌** | `Google` | [谷歌](https://www.google.com.hk) |
 
 ### 兼容HTML语法
 
@@ -381,6 +383,7 @@ function fn () {
 - [Markdown 入门参考](https://github.com/wewelove/Learning-Markdown)
 
 ## 项目
+
 - [marked](https://github.com/chjj/marked)
 - [markdown-js](https://github.com/evilstreak/markdown-js)
 - [bootstrap-markdown](https://github.com/toopay/bootstrap-markdown)

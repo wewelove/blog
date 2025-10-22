@@ -2,11 +2,11 @@
 title: Yii2 多语言配置 - i18n 国际化
 date: 2017-12-05 11:36:14
 categories:
-- 开发
+  - 开发
 tags:
-- php
-- yii2
-- i18n
+  - php
+  - yii2
+  - i18n
 ---
 
 ## 原理
@@ -81,6 +81,7 @@ protected function getMessageFilePath($category, $language)
     // loadMessages() 方法根据路径加载多语言数据返回 I18N
 }
 ```
+
 ## 使用
 
 1. 简单配置

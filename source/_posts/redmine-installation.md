@@ -2,9 +2,10 @@
 title: Redmine 项目管理 - 手动安装
 date: 2019-04-15 10:24:05
 categories:
-- 项目
+  - 项目
 tags:
-- redmine
+  - redmine
+  - 项目管理
 ---
 
 ## 环境
@@ -186,7 +187,6 @@ sudo systemctl restart apache2.service
 访问页面：http://redmine.demo.com/
 
 ![](/images/npm-package-publish-05.webp)
-
 
 登录账户密码：admin/admin
 

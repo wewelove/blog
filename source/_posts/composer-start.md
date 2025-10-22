@@ -2,10 +2,10 @@
 title: Composer 入手
 date: 2017-09-26 11:44:02
 categories:
-- 开发
+  - 开发
 tags:
-- composer
-- php
+  - composer
+  - php
 ---
 
 ## 简介

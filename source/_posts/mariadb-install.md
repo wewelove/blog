@@ -2,9 +2,9 @@
 title: MariaDB 数据库安装设置
 date: 2020-02-11 12:14:57
 categories:
-- 数据
+  - 数据
 tags:
-- mariadb
+  - mariadb
 ---
 
 ## 安装
@@ -12,14 +12,14 @@ tags:
 ### Ubuntu18 系统
 
 1. 设置 MariaDB 仓库
-    
+
     默认情况下 MariaDB 的包没有在 Ubuntu 仓库中，请参考 MariaDB 官方进行设置 [**移步**](https://downloads.mariadb.org/mariadb/repositories/#mirror=neusoft)。  
     参考官方设置时请选择有效的仓库镜像地址，下面选择的是清华大学镜像，测试可用。
 
     ```bash
-    $ sudo apt-get install software-properties-common
-    $ sudo apt-key adv --fetch-keys 'https://mariadb.org/mariadb_release_signing_key.asc'
-    $ sudo add-apt-repository 'deb [arch=amd64,arm64,ppc64el] http://mirror.its.dal.ca/mariadb/repo/10.4/ubuntu bionic main'
+    sudo apt-get install software-properties-common
+    sudo apt-key adv --fetch-keys 'https://mariadb.org/mariadb_release_signing_key.asc'
+    sudo add-apt-repository 'deb [arch=amd64,arm64,ppc64el] http://mirror.its.dal.ca/mariadb/repo/10.4/ubuntu bionic main'
     ```
 
 2. 安装
@@ -27,8 +27,8 @@ tags:
     安装过程中要输入 MariaDB 的 `root` 密码。
 
     ```bash
-    $ sudo apt update
-    $ sudo apt install mariadb-server
+    sudo apt update
+    sudo apt install mariadb-server
     ```
 
 3. 基本操作
@@ -49,7 +49,7 @@ tags:
 ### 设置 MariaDB 开启远程访问
 
 1. 检查有没有设置防火墙或者 iptables 规则
-    
+
 2. 检查 3306 端口是否打开
 
     检查端口状态，下面输出说明端口只在 `127.0.0.1` 上监听，所以无法通过其它 IP 访问。
@@ -58,7 +58,7 @@ tags:
     $ netstat -an | grep 3306
     tcp    0   0  127.0.0.1:3306    0.0.0.0:*     LISTEN
     ```
-    
+
     解决办法：修改 `/etc/mysql/my.cnf` 文件，打开文件找到下面一行内容。  
     可以将 `127.0.0.1` 换成合适的 IP，建议直接将此行注释掉。
 
@@ -67,7 +67,7 @@ tags:
     # localhost which is more compatible and is not less secure.
     bind-address  = 127.0.0.1
     ```
-    
+
     重启 MariaDB 服务，再次检测：
 
     ```bash
@@ -98,7 +98,7 @@ tags:
     MariaDB [(none)]> grant all on *.* to root@'%' identified by '123456';
     Query OK, 0 rows affected (0.00 sec)
     ```
-    
+
     再次测试，成功。
 
     ```bash
@@ -118,4 +118,3 @@ tags:
 ## 参考
 
 [MySQL 数据库无法远程连接的解决办法](http://www.cnblogs.com/beanmoon/p/3173924.html)
-

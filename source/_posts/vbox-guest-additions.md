@@ -2,9 +2,9 @@
 title: VirtualBox 实现目录共享
 date: 2017-11-02 08:33:58
 categories:
-- 运维
+  - 运维
 tags:
-- virtualbox
+  - virtualbox
 ---
 
 ## 环境
@@ -28,7 +28,7 @@ tags:
     apt-get install build-essential module-assistant
     ```
 
-2. 安装 
+2. 安装
 
     将 VBoxGuestAdditions.iso 文件解压上传到虚拟机后安装，VBoxGuestAdditions.iso 文件可以在 VirtualBox 安装目录中找到。
 
@@ -44,11 +44,11 @@ tags:
 
 1. 配置共享目录
 
-    ![vbox-guest-additions-01](/images/vbox-guest-additions-01.png) 
+    ![vbox-guest-additions-01](/images/vbox-guest-additions-01.png)
 
 2. 挂载共享目录
 
-    虚拟机中新建 `/www/wwwroot` 目录作为挂载点。 
+    虚拟机中新建 `/www/wwwroot` 目录作为挂载点。
 
     ```
     mkdir -p /www/wwwroot
@@ -89,6 +89,7 @@ tags:
     ```
     VBoxManage setextradata "VM-NAME" VBoxInternal2/SharedFoldersEnableSymlinksCreate/SHARE-FOLDER 1
     ```
+
     > 请将 VirtualBox 安装目录加入环境变更 Path 中  
     > `VM-NAME` 虚拟机名称，`SHARE-FOLDER` 为共享文件夹名称
 
@@ -98,5 +99,3 @@ tags:
     VBoxManage startvm "VM-NAME" --type headless
     VBoxManage controlvm "VM-NAME" poweroff
     ```
-
-

@@ -2,10 +2,10 @@
 title: Vue 项目开发规范
 date: 2023-08-20 10:27:22
 categories:
-- 规范
+  - 开发
 tags:
-- vue
-- vue.js
+  - vue
+  - vue.js
 ---
 
 ## 基础规范
@@ -592,4 +592,3 @@ export default {
 |   |-- behavior-log                             行为日志log模块
 |   |-- code-generator                           代码生成器模块
 ```
-

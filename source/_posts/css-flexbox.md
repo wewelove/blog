@@ -2,11 +2,12 @@
 title: CSS 弹性布局
 date: 2021-08-17 07:47:23
 categories:
-- 开发
+  - 开发
 tags: 
-- css
-- flex
-- 弹性布局
+  - css
+  - flex
+  - flexbox
+  - 弹性布局
 ---
 
 > Flexbox 是 flexible box 的简称（注：意思是“灵活的盒子容器”），是 CSS3 引入的新的布局模式。它决定了元素如何在页面上排列，使它们能在不同的屏幕尺寸和设备下可预测地展现出来。
@@ -56,7 +57,7 @@ tags:
 - center： 居中。
 - space-between：两端对齐，项目之间的间隔都相等。
 - space-around：每个项目两侧的间隔相等，项目之间的间隔比项目与边框的间隔大一倍。
- 
+
 ![](/images/css-flexbox-04.gif)
 
 ### align-items 属性
@@ -129,7 +130,6 @@ tags:
 ```
 
 ![](/images/css-flexbox-12.png)
-
 
 **弹性布局默认不改变项目的宽度，但是它默认改变项目的高度。如果项目没有显式指定高度，就将占据容器的所有高度。**
 

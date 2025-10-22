@@ -2,15 +2,15 @@
 title: Dimina 轻量级跨端小程序框架
 date: 2025-10-21 09:09:09
 categories:
-- 开源
+  - 开源
 tags:
-- 小程序
-- APP
-- 跨平台
-- Android
-- iOS
-- Harmony
-- Web
+  - 小程序
+  - APP
+  - 跨平台
+  - Android
+  - iOS
+  - Harmony
+  - Web
 ---
 
 星河小程序（以下简称 Dimina）是滴滴自研的一套轻量级跨端小程序框架，可以理解为开源版的小程序方案，致力于为开发者提供高性能、跨平台、低门槛的开发体验。

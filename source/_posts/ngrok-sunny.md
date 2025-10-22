@@ -2,16 +2,16 @@
 title: 国产 ngrok 穿透内网, 开发测试神器 - sunny
 date: 2017-08-25 14:44:42
 categories:
-- 工具
+  - 开发
 tags:
-- ngrok
-- sunny
+  - ngrok
+  - sunny
 ---
 
 ## ngrok 是什么
 
 [百度百科](https://baike.baidu.com/item/ngrok/13986278?fr=aladdin)  
-[官网](https://ngrok.com/)   
+[官网](https://ngrok.com/)
 
 > `ngrok` 是一个反向代理，通过在公共的端点和本地运行的 Web 服务器之间建立一个安全的通道。ngrok 可捕获和分析所有通道上的流量，便于后期分析和重放。  
 
@@ -114,5 +114,4 @@ tags:
     crontab sunny.cron
     ```
 
-    > 系统将每小时重启一次 `sunny` 
-
+    > 系统将每小时重启一次 `sunny`

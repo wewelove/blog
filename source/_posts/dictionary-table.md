@@ -2,9 +2,9 @@
 title: 字典表设计
 date: 2017-07-22 12:13:01
 categories:
-- 数据
+  - 开发
 tags:
-- dictionary
+  - dictionary
 ---
 
 ## 为什么字典表
@@ -23,7 +23,7 @@ tags:
 
 字典类型表: `SYS_DICT_TYPE`
 
-| 字段名 |	类型 | 作用 | 备注 |
+| 字段名 | 类型 | 作用 | 备注 |
 |---|---|---|---|
 | code | varchar | 编码 | 主键 |
 | name | varchar | 类型 | - |
@@ -33,10 +33,10 @@ tags:
 | 字段名 | 类型 | 作用 | 备注 |
 |---|---|---|---|
 | code | varchar | 编码 | 主键 |
-| type_code | varchar | 类型 code | 外键 | 
-| name | varchar | 字典名 | 展示用 | 
-| value | varchar | 字典值 | 使用值 | 
-| fixed | int | 是否是固定的 | default 0 不固定，固定的话用 1 | 
+| type_code | varchar | 类型 code | 外键 |
+| name | varchar | 字典名 | 展示用 |
+| value | varchar | 字典值 | 使用值 |
+| fixed | int | 是否是固定的 | default 0 不固定，固定的话用 1 |
 
 以上是字典表的关键列和结构的设计，根据不同系统不同业务自定其他列。
 

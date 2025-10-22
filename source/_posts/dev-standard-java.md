@@ -2,9 +2,10 @@
 title: Java 项目开发规范
 date: 2023-08-20 10:27:22
 categories:
-- 规范
+  - 开发
 tags:
-- java
+  - 规范
+  - java
 ---
 
 ## Java 项目规范

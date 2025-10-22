@@ -2,10 +2,10 @@
 title: PHP 加密授权 - Zend Guard 篇
 date: 2017-09-04 10:37:03
 categories:
-- 开发
+  - 开发
 tags:
-- php
-- zend guard
+  - php
+  - zend guard
 ---
 
 ## 环境
@@ -21,7 +21,6 @@ tags:
 - [Zend Guard Loader 下载](http://www.zend.com/en/products/loader/downloads)
 - [UPUPW PHP5.6 下载](http://www.upupw.net/nphp56/n119.html)  
 - [UPUPW PHP5.6 帮助](http://www.upupw.net/nginxhelp/)
-
 
 下载 Zend Guard、Nginx 版 UPUPW PHP5.6 系列环境包、Zend Guard Loader 软件；安装 Zend Guard，将 UPUPW PHP5.6 解压到合适的目录，
 将 Zend Guard Loader 解压到 UPUPW PHP5.6 下的  `PHP/ext` 目录并替换原扩展。
@@ -40,7 +39,6 @@ zend_loader.license_path = "C:\DevTools\UPUPWNP5.6\htdocs\guard\licenses"
 ```
 
 参数 `zend_extension` 为扩展存放目录，参数 `zend_loader.license_path` 为授权文件存放目录，请根据实际情况配置。
-
 
 打开 UPUPW PHP5.6 控制面板【开启全部服务】:
 
@@ -77,7 +75,6 @@ phpinfo();
 基本配置完成：
 
 ![zend-guard-06](/images/zend-guard-06.png)
-
 
 配置加密授权信息：
 

@@ -2,10 +2,10 @@
 title: 使用 GitHub 托管自己的项目
 date: 2017-04-11 17:39:33
 categories:
-- 开发
+  - 开发
 tags:
-- git
-- github
+  - git
+  - github
 ---
 
 ## 安装
@@ -13,16 +13,16 @@ tags:
 ### Ubuntu 系统
 
 ```bash
-$ sudo apt-add-repository ppa:git-core/ppa
-$ sudo apt-get update
-$ sudo apt-get install git
+sudo apt-add-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
 ```
 
 如果出现 `apt-add-repository: command not found` 错误，要先执行以下:
 
 ```bash
-$ sudo apt-get install python-software-properties
-$ sudo apt-get install software-properties-common
+sudo apt-get install python-software-properties
+sudo apt-get install software-properties-common
 ```
 
 ### Windows 系统
@@ -35,8 +35,8 @@ Windows 系统中，以下操作均在 `Git Bash` 命令窗口中执行。
 ### 设置全局用户
 
 ```bash
-$ git config --global user.name "Your Name"
-$ git config --global user.email "youremail@gmail.com"
+git config --global user.name "Your Name"
+git config --global user.email "youremail@gmail.com"
 ```
 
 ### 设置密钥
@@ -57,12 +57,12 @@ Your public key has been saved in /home/user/.ssh/id_rsa.pub.
 如果备份了 `id_rsa` 和 `id_rsa.pub` 文件，可以直接将其复制到 `~/.ssh` 目录:
 
 ```bash
-$ cp ./id_rsa* ~/.ssh
+cp ./id_rsa* ~/.ssh
 ```
 
 复制后要检查密钥文件的读写权限，安全的设置如下：
 
-```bash 
+```bash
 $ ls -al ~/.ssh/id_rsa*
 -rw------- 1 user grp 1675 Aug 11 02:23 /home/user/.ssh/id_rsa
 -rw-r--r-- 1 user grp  401 Aug 11 02:23 /home/user/.ssh/id_rsa.pub

@@ -2,10 +2,10 @@
 title: Node.js 之旅 - 好的开端
 date: 2015-03-15 21:17:16
 categories:
-- 开发
+  - 开发
 tags:
-- nodejs
-- npm
+  - nodejs
+  - npm
 ---
 
 ## 安装 Node.js
@@ -56,8 +56,8 @@ $ port install nodejs
 ### 使用淘宝镜像
 
 ```bash
-$ sudo npm config set registry https://registry.npm.taobao.org --global
-$ sudo npm config set disturl https://npm.taobao.org/dist --global
+sudo npm config set registry https://registry.npm.taobao.org --global
+sudo npm config set disturl https://npm.taobao.org/dist --global
 ```
 
 ### 配置参数
@@ -144,9 +144,9 @@ $ sudo npm install -g nvm
 ### 初始化项目
 
 ```bash
-$ mkdir nodejs-start
-$ cd nodejs-start
-$ npm init
+mkdir nodejs-start
+cd nodejs-start
+npm init
 ```
 
 根据提示完成以下操作：
@@ -244,4 +244,3 @@ Hello Node.js!
 
 > 坚持完成上面的每一步，直到屏幕上输出 `Hello Node.js!` 。  
 > 认真阅读每一步的输出信息，会有意外的收获。
-

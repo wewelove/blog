@@ -2,9 +2,10 @@
 title: Android 项目开发规范
 date: 2023-08-20 10:27:22
 categories:
-- 规范
+  - 开发
 tags:
-- Android
+  - 规范
+  - Android
 ---
 
 ## 代码命名规范
@@ -168,8 +169,6 @@ classpath 'com.android.tools.build:gradle:2.x.x'
 
 debug版本使用默认设置，release版本的签名文件不得出现硬编码密码在build.gradle文件中，请将storePassword、keyAlias以及keyPassword密码放在properties文件中便于管理，示例：
 
-
-
 ```csharp
 signingConfigs {
     debug {
@@ -213,8 +212,6 @@ signingConfigs {
 - 使用最新的二级动态版本
 - 使用ext拓展，统一定义版本号
 - 为提高可读性，建议将名称改为小写缩写，例如
-
-
 
 ```undefined
 ext {

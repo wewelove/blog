@@ -2,9 +2,9 @@
 title: 开源项目发布模板
 date: 2015-01-01 00:00:00
 categories:
-- 开源
+  - 开源
 tags:
-- 小程序
+  - 小程序
 published: true
 ---
 

@@ -2,9 +2,10 @@
 title: Web 开发规范
 date: 2023-08-20 10:27:22
 categories:
-- 规范
+  - 开发
 tags:
-- 规范
+  - 规范
+  - web
 ---
 
 ## 什么是好的代码？
@@ -108,7 +109,7 @@ public static LocalDate parseYMD(String dateStr){}
 // FIXME <author-name>: XX 缺陷
 ```
 
-## 无用代码：删！
+## 无用代码：删
 
 因为现在所有的项目都使用了代码管理工具，比如 git、svn 、ts 等等，所以对于无用的代码，让我们尽情的删除掉吧！
 重要的说三遍：
