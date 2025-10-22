@@ -1,18 +1,17 @@
 ---
 title: 书籍推荐模板
-date: 2018-01-01 00:00:00
+date: 2015-01-01 00:00:00
 categories:
 - 书籍
 tags:
 ---
 
-![封面 | 50x50](/cover.png)
+![封面](/assets/image/cover.png)
 
 **书名**：活着
 **作者**：余华
 **格式**：PDF
 **时间**：2024-07-29
-**评分**：
 **ISBN**：9787530215593
 
 ## 内容简介
@@ -27,8 +26,13 @@ tags:
 
 ## 下载地址
 
-[下载链接](https://example.com/book.pdf)
+{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 百度网盘, , blue outline %}
+{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 夸克网盘, , green outline %}
+{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 电信网盘, , purple outline %}
+{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 城际网盘, , orange outline %}
 
-## 购买正版
+## 支持正版
 
-[购买链接](https://example.com/buy)
+{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 京东, , red outline %}
+{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 淘宝, , orange outline %}
+{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 当当, , purple outline %}

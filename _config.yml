@@ -72,6 +72,8 @@ category_map:
   "软件": 'software'
   "开源": 'open-source'
   "书籍": 'book'
+  "原创": 'original'
+  "转载": 'repost'
 tag_map:
 
 # Metadata elements
@@ -110,13 +112,13 @@ deploy:
   type: ''
 
 
-# hexo-renderer-markdown-it
+# https://github.com/hexojs/hexo-renderer-markdown-it
 markdown:
   preset: 'default'
   render:
     html: true
     xhtmlOut: false
-    langPrefix: 'language-'
+    langPrefix: 'lang-'
     breaks: true
     linkify: true
     typographer: true
@@ -125,6 +127,9 @@ markdown:
   disable_rules:
   plugins:
     - markdown-it-abbr
+    - markdown-it-attrs
+    - markdown-it-cjk-breaks
+    - markdown-it-container
     - markdown-it-deflist
     - markdown-it-emoji
     - markdown-it-footnote
@@ -132,10 +137,11 @@ markdown:
     - markdown-it-mark
     - markdown-it-sub
     - markdown-it-sup
+    # Custom
     - markdown-it-checkbox
-    - markdown-it-imsize
-    - markdown-it-expandable
     - markdown-it-div
+    - markdown-it-expandable
+    - markdown-it-imsize
     - markdown-it-task-lists
   anchors:
     level: 2
@@ -147,7 +153,17 @@ markdown:
     case: 0
     separator: '-'
   images:
-    lazyload: false
-    prepend_root: false
-    post_asset: false
+    lazyload: true
+    prepend_root: true
+    post_asset: true
   inline: false
+
+# https://github.com/chenzhutian/hexo-all-minifier
+image_minifier:
+  enable: true
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
+  silent: false

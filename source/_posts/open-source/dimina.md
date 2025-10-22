@@ -4,9 +4,14 @@ date: 2025-10-21 09:09:09
 categories:
 - 开源
 tags:
+- 小程序
+- APP
+- 跨平台
+- Android
+- iOS
+- Harmony
+- Web
 ---
-
-## 项目简介
 
 星河小程序（以下简称 Dimina）是滴滴自研的一套轻量级跨端小程序框架，可以理解为开源版的小程序方案，致力于为开发者提供高性能、跨平台、低门槛的开发体验。
 
@@ -14,14 +19,21 @@ tags:
 
 > Dimina 发音为 /diːminə/，是 didi miniprogram 的缩写，旨在打造灵活、轻量的小程序跨端开发框架。
 
-### 技术特性
+![封面](/cover.png)
+
+- [GitHub](https://github.com/anzhiyu-c/hexo-theme-anzhiyu)
+- [GItee](https://github.com/anzhiyu-c/hexo-theme-anzhiyu)
+- [文档](https://blog.uuanqin.top/p/d4bc55f2/)
+- [作者](https://github.com/anzhiyu-c)
+
+## 技术特性
 
 - **资源离线化**: 资源本地存储减少网络请求
 - **逻辑视图分离**: 独立 JS 引擎避免主线程阻塞
 - **原生能力封装**: 统一 API 调用原生功能
 - **页面预加载**: WebView 预热提升性能
 
-### 跨平台支持
+## 平台支持
 
 - **Android**: QuickJS + Android WebView
 - **iOS**: JavaScriptCore + WKWebView
@@ -36,24 +48,7 @@ tags:
 | --- |  --- |  --- |
 | ![Android](/images/dimina-android.jpg) | ![iOS](/images/dimina-ios.jpg) | ![Harmony](/images/dimina-harmony.jpg) |
 
-## 上手使用
-
-```mermaid
-graph TD
-  A[创建小程序项目] --> B[开发小程序页面]
-  B --> C[使用小程序语法编写逻辑]
-  C --> D[使用DMCC编译打包]
-  D --> E[生成星河小程序包]
-  E --> F{目标平台}
-  F -->|Android| G[集成Android SDK]
-  F -->|iOS| H[集成iOS SDK]
-  F -->|Harmony| I[集成Harmony SDK]
-  G --> J[运行到Android设备]
-  H --> K[运行到iOS设备]
-  I --> L[运行到Harmony设备]
-```
-
-### 详细步骤
+## 快速开始
 
 1、创建小程序项目
 
