@@ -305,7 +305,7 @@ div{
 
 ​  **推荐，增、删、改、查、详情统一使用如下 5 个单词**
 
-```
+```text
 add / delete / update / get / detail 
 ```
 

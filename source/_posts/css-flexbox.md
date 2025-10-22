@@ -23,7 +23,7 @@ tags:
 
 采用 Flex 布局的元素，称为 Flex 容器（flex container），简称"容器"。它的所有子元素自动成为容器成员，称为 Flex 项目（flex item），简称"项目"。
 
-![](/images/css-flexbox-01.png)
+![基本概念](/images/css-flexbox-01.png)
 
 在 Flexbox 模型中，有三个核心概念：
 
@@ -33,7 +33,7 @@ tags:
 
 ## 容器属性
 
-![](/images/css-flexbox-02.png)
+![容器属性](/images/css-flexbox-02.png)
 
 ### flex-direction 属性
 
@@ -42,7 +42,7 @@ tags:
 - column：主轴为垂直方向，起点在上沿。
 - column-reverse：主轴为垂直方向，起点在下沿。
 
-![](/images/css-flexbox-03.png)
+![flex-direction](/images/css-flexbox-03.png)
 
 ### flex-wrap 属性
 
@@ -58,7 +58,7 @@ tags:
 - space-between：两端对齐，项目之间的间隔都相等。
 - space-around：每个项目两侧的间隔相等，项目之间的间隔比项目与边框的间隔大一倍。
 
-![](/images/css-flexbox-04.gif)
+![justify-content](/images/css-flexbox-04.gif)
 
 ### align-items 属性
 
@@ -68,7 +68,7 @@ tags:
 - baseline: 项目的第一行文字的基线对齐。
 - stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度。
 
-![](/images/css-flexbox-05.gif)
+![align-items](/images/css-flexbox-05.gif)
 
 ### align-content 属性
 
@@ -81,19 +81,19 @@ tags:
 - space-around：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。
 - stretch（默认值）：轴线占满整个交叉轴。
 
-![](/images/css-flexbox-06.png)
+![align-content](/images/css-flexbox-06.png)
 
 **结合 justify-content和align-items，看看在 flex-direction 两个不同属性值的作用下，轴心有什么不同：**
 
-![](/images/css-flexbox-07.gif)
+![justify-content](/images/css-flexbox-07.gif)
 
 ## 项目属性
 
-![](/images/css-flexbox-08.png)
+![项目属性](/images/css-flexbox-08.png)
 
 ### order 属性
 
-![](/images/css-flexbox-09.png)
+![order](/images/css-flexbox-09.png)
 
 ### flex-grow 属性
 
@@ -101,7 +101,7 @@ tags:
 
 如果所有项目的 `flex-grow` 属性都为 1，则它们将等分剩余空间（如果有的话）。如果一个项目的 `flex-grow` 属性为 2，其他项目都为 1，则前者占据的剩余空间将比其他项多一倍。
 
-![](/images/css-flexbox-10.png)
+![flex-grow](/images/css-flexbox-10.png)
 
 ### flex-shrink 属性
 
@@ -113,7 +113,7 @@ tags:
 }
 ```
 
-![](/images/css-flexbox-11.jpg)
+![flex-shrink](/images/css-flexbox-11.jpg)
 
 如果所有项目的 `flex-shrink` 属性都为 1，当空间不足时，都将等比例缩小。如果一个项目的 `flex-shrink` 属性为 0，其他项目都为 1，则空间不足时，前者不缩小。
 
@@ -129,7 +129,7 @@ tags:
 }
 ```
 
-![](/images/css-flexbox-12.png)
+![align-self](/images/css-flexbox-12.png)
 
 **弹性布局默认不改变项目的宽度，但是它默认改变项目的高度。如果项目没有显式指定高度，就将占据容器的所有高度。**
 

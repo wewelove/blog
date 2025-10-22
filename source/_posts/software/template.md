@@ -32,4 +32,4 @@ published: true
 
 {% btn https://github.com/anzhiyu-c/hexo-theme-anzhiyu, 官方网站, iconfont icon-guanwang, blue outline %}
 {% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 购买授权, iconfont icon-shouquan, red outline %}
-{% label 免费软件 green %}，使用请需遵守[相关]() 协议条款。
+{% label 免费软件 green %}，使用请需遵守[相关](//) 协议条款。
