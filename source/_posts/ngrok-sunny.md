@@ -43,7 +43,7 @@ tags:
 
     命令行启动客户端：
 
-    ```
+    ```sh
     # windows
     sunny clientid d3fdc171be3a94a0,e3fc6b1431a51e89
     # linux
@@ -78,7 +78,7 @@ tags:
 
 1. 新建 `sunny.sh` 文件
 
-    ```
+    ```sh
     #!/bin/bash
     count=`ps -ef | grep "sunny" | wc -l`
 
@@ -95,7 +95,7 @@ tags:
 
     在 `/ect/rc.local` 文件最后增加如下命令：
 
-    ```
+    ```sh
     setsid /root/sunny/sunny.sh
     exit 0
     ```
@@ -104,13 +104,13 @@ tags:
 
     新建 `sunny.cron` 文件，输入如下内容：
 
-    ```
+    ```sh
     0 */1 * * * setsid /root/sunny/sunny.sh
     ```
 
     然后执行如下命令：
 
-    ```
+    ```sh
     crontab sunny.cron
     ```
 

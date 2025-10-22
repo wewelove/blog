@@ -22,7 +22,7 @@ Yii 是一个高性能，基于组件的 PHP 框架，用于快速开发现代 W
 
 先安装 [Composer Asset Plugin](https://github.com/francoispluchino/composer-asset-plugin) 插件：
 
-```
+```sh
 composer global require fxp/composer-asset-plugin
 ```
 
@@ -96,7 +96,7 @@ Migrated up successfully.
 
 使用 Apache 服务器：
 
-```
+```conf
 # 将 path/to/basic/web 修改为项目的实际目录
 DocumentRoot "path/to/basic/web"
 
@@ -113,7 +113,7 @@ DocumentRoot "path/to/basic/web"
 
 或使用 Nginx 服务器：
 
-```
+```conf
 # 将 path/to/basic/web 修改为项目的实际目录
 server {
     charset utf-8;

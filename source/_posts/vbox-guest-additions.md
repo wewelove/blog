@@ -23,7 +23,7 @@ tags:
 
     安装 `kernel headers` 和 `build tools`，执行如下命令。
 
-    ```
+    ```sh
     # 请使用 root 用户操作
     apt-get install build-essential module-assistant
     ```
@@ -32,7 +32,7 @@ tags:
 
     将 VBoxGuestAdditions.iso 文件解压上传到虚拟机后安装，VBoxGuestAdditions.iso 文件可以在 VirtualBox 安装目录中找到。
 
-    ```
+    ```sh
     # 请使用 root 用户操作
     cd VBoxGuestAdditions
     chmod a+x VBoxLinuxAdditions.run
@@ -50,13 +50,13 @@ tags:
 
     虚拟机中新建 `/www/wwwroot` 目录作为挂载点。
 
-    ```
+    ```sh
     mkdir -p /www/wwwroot
     ```
 
     将虚拟机 `/rec/rc.local` 文件下载，添加如下内容，然后上传覆盖原文件。
 
-    ```
+    ```sh
     mount -t vboxsf wwwroot /www/wwwroot
     exit 0
     ```
@@ -71,13 +71,13 @@ tags:
 
 1. 软链接错误
 
-    ```
+    ```sh
     cd /www/wwwroot
     ln -s /home/website website
     ln: failed to create symbolic link `website': Read-only file system
     ```
 
-    ```
+    ```sh
     # php 项目提示如下错误
     symlink(): Read-only file system
     ```
@@ -86,7 +86,7 @@ tags:
 
     在主机中以管理员权限执行如下命令:
 
-    ```
+    ```sh
     VBoxManage setextradata "VM-NAME" VBoxInternal2/SharedFoldersEnableSymlinksCreate/SHARE-FOLDER 1
     ```
 
@@ -95,7 +95,7 @@ tags:
 
     同样以管理员权限执行如下命令，以无界面方式启动/停止虚拟机：
 
-    ```
+    ```sh
     VBoxManage startvm "VM-NAME" --type headless
     VBoxManage controlvm "VM-NAME" poweroff
     ```

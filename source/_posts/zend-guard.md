@@ -29,7 +29,7 @@ tags:
 
 打开 `UPUPW PHP5.6/PHP5/php.ini` 文件，修改如下配置：
 
-```
+```conf
 [ZendLoader]
 zend_extension ="C:\DevTools\UPUPWNP5.6\PHP5\ext\php_ZendLoader.dll"
 zend_loader.enable = 1
@@ -52,7 +52,7 @@ zend_loader.license_path = "C:\DevTools\UPUPWNP5.6\htdocs\guard\licenses"
 
 先准备源文件 `demo/index.php`，代码如下：
 
-```
+```php
 <?php
 phpinfo();
 ?>
