@@ -34,13 +34,13 @@ tags:
 
 ## 下载地址
 
-{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 百度网盘, , blue outline %}
-{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 夸克网盘, , green outline %}
-{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 电信网盘, , purple outline %}
-{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 城际网盘, , orange outline %}
+{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 百度网盘, iconfont icon-baiduwangpan, blue outline %}
+{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 夸克网盘, iconfont icon-quake, green outline %}
+{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 电信网盘, iconfont icon-dianxin, purple outline %}
+{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 城际网盘, iconfont icon-wangpan, orange outline %}
 
-## 支持正版
+## 购买正版
 
-{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 京东, , red outline %}
-{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 淘宝, , orange outline %}
-{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 当当, , purple outline %}
+{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 京东, iconfont icon-jingdong, red outline %}
+{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 淘宝, iconfont icon-taobao, orange outline %}
+{% btn 'https://github.com/anzhiyu-c/hexo-theme-anzhiyu', 当当, iconfont icon-dangdang, purple outline %}

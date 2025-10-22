@@ -17,7 +17,12 @@ GeoGebra 是一款集几何、代数、微积分等功能于一体的**免费动
 
 ![GeoGebra](/images/geogebra.png)
 
-## 软件简述与核心特性
+::: center
+{% btn https://www.geogebra.org/, 官方网站, fas fa-home, blue outline %}
+{% btn https://help.geogebra.org/hc/zh-cn/categories/7841335583005, 帮助中心, fas fas fa-book, green outline %}
+:::
+
+## 功能特性
 
 GeoGebra 的名字巧妙结合了 **Geometry（几何）** 和 **Algebra（代数）**，这也揭示了其核心功能：将几何图形与代数方程动态关联。当你移动图形上的点时，其对应的方程也会实时更新，反之亦然。
 
@@ -25,19 +30,18 @@ GeoGebra 的名字巧妙结合了 **Geometry（几何）** 和 **Algebra（�
 
 得益于 Java 的跨平台特性，你可以在 Windows、macOS、Linux、iOS 和 Android 等几乎所有主流操作系统上使用它。
 
-## 官方网站与下载指南
-
-GeoGebra 的 [官方网站](https://www.geogebra.org/)。这里是获取软件和探索资源的首选之地。
-
-| 获取方式 | 说明 |
-| --- |  --- |
-| **官方下载地址** | 直接访问 [官网下载](https://www.geogebra.org/download) 即可根据你的设备（Windows, macOS, Android, iOS）选择对应的版本进行安装。 |
-| **在线使用** | 如果你不想安装软件，官网也提供了**网页版**，可以直接在浏览器中使用大部分核心功能，非常方便。 |
-
-## 快速上手与使用建议
+## 快速上手
 
 - **适合人群广泛**：无论是 **中小学生、大学生**，还是 **教师**，都能从中受益。学生可以用它来验证公式、理解概念，教师则可以用它来创建动态的教学课件。
 
 - **探索资源库**：官网上有一个由全球用户创建的超过 **一百万种免费互动资源库**，涵盖数学和科学的各个领域。在备课或学习时，直接搜索关键词（如"平行四边形性质"），就能找到大量现成的课件，可以复制使用或进行修改。
 
 - **新手入门**：对于初次使用者，可以从简单的画图、测量角度开始，逐步学习使用滑动条和输入指令。官网的"帮助"栏目提供了详细的视频和文字教程。
+
+## 下载地址
+
+{% btn 'https://www.geogebra.org/download', 官网下载, iconfont icon-baiduwangpan, blue outline %}
+
+## 软件授权
+
+免费软件，[授权协议](https://www.geogebra.org/license)。

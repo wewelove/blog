@@ -12,9 +12,16 @@ Pipette 是一款免费、轻量且无需安装的屏幕取色工具，它能让
 
 ![Pipette](/images/pipette.png)
 
-## 🧮 软件简述与核心特性
+::: center
+{% btn http://www.sttmedia.com/pipette, 官方网站, fas fa-home, blue outline %}
+{% btn http://www.sttmedia.com/pipette, 使用手册, fas fas fa-book, green outline %}
+:::
+
+## 功能特性
 
 Pipette 是一款功能实用且界面简洁的屏幕取色软件。它的核心是作为一个"数字吸管"，直接从您的屏幕像素中提取颜色信息。
+
+Pipette 以其小巧的体积、简单的操作和全面的颜色支持，成为了设计师工具箱中一个实用的小工具。它解决了从屏幕精确取色的核心需求，而无需复杂的功能和昂贵的费用，特别适合需要频繁获取和记录颜色的各类设计工作者。
 
 - 跨平台兼容：软件提供适用于 Windows、macOS 和 Linux 系统的版本。
 
@@ -28,13 +35,7 @@ Pipette 是一款功能实用且界面简洁的屏幕取色软件。它的核心
 
 - 多语言界面：支持包括中文在内的 6 种语言。
 
-## 官方网站与下载指南
-
-Pipette 由 Stefan Trost 开发，其官方网站为：<http://www.sttmedia.com/pipette>
-
-软件授权：免费软件（提供捐赠选项）
-
-## 快速上手与使用建议
+## 快速上手
 
 ### 首次使用
 
@@ -69,4 +70,10 @@ Pipette 由 Stefan Trost 开发，其官方网站为：<http://www.sttmedia.com/
 - 数字绘画：建立自定义调色板，保存常用颜色。
 - UI/UX设计：确保不同设计稿和实现版本的颜色统一性。
 
-Pipette 以其小巧的体积、简单的操作和全面的颜色支持，成为了设计师工具箱中一个实用的小工具。它解决了从屏幕精确取色的核心需求，而无需复杂的功能和昂贵的费用，特别适合需要频繁获取和记录颜色的各类设计工作者。
+## 下载地址
+
+{% btn 'https://www.sttmedia.com/pipette-download', 官方下载, iconfont icon-home, blue outline %}
+
+## 软件授权
+
+免费软件（提供捐赠选项）。

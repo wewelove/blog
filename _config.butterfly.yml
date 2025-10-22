@@ -61,8 +61,8 @@ code_blocks:
 #   icon: 链接 || 描述 || 颜色
 social:
   fab fa-github: https://github.com/wewelove || Github || "#hdhfbb"
-  fa-brands fa-square-git: https://gitee.com/wewelove || Gitee || "#hdhfbb"
-  fa-brands fa-weixin: /wechat-v4coder.jpg || 公众号 || "#hdhfbb"
+  fab iconfont icon-gitee: https://gitee.com/wewelove || Gitee || "#hdhfbb"
+  fab fa-weixin: /wechat-v4coder.jpg || 公众号 || "#hdhfbb"
   fab fa-bilibili: https://space.bilibili.com/403878745 || 哔哩哔哩 || "#hdhfbb"
 
 # --------------------------------------
@@ -1240,6 +1240,7 @@ css_prefix: true
 # 插入代码到 head（在 '</head>' 标签之前）和底部（在 '</body>' 标签之前）
 inject:
   head:
+    - <link rel="stylesheet" href="/assets/fonts/iconfont.css">
     - <link rel="stylesheet" href="/assets/css/style.css">
   bottom:
     # - <script src="xxxx"></script>

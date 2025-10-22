@@ -14,7 +14,7 @@ published: true
 
 ::: center
 {% btn https://github.com/anzhiyu-c/hexo-theme-anzhiyu, GitHub, fab fa-github, default outline %}
-{% btn https://github.com/anzhiyu-c/hexo-theme-anzhiyu, Gitee, fa-brands fa-square-git, red outline %}
+{% btn https://github.com/anzhiyu-c/hexo-theme-anzhiyu, Gitee, iconfont icon-gitee, red outline %}
 {% btn https://github.com/anzhiyu-c/hexo-theme-anzhiyu, 官网, fas fas fa-home, blue outline %}
 {% btn https://github.com/anzhiyu-c/hexo-theme-anzhiyu, 文档, fas fas fa-book, green outline %}
 :::
