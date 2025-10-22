@@ -8,3 +8,16 @@
 .right {
   text-align: right;
 }
+
+/* 书籍推荐页面, 封面图片 */
+.book p {
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+.book img {
+  display: inline-block;
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.25);
+  margin: 0;
+  border: 2px solid #fff;
+  padding: 0;
+}
