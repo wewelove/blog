@@ -43,4 +43,4 @@ GeoGebra 的名字巧妙结合了 **Geometry（几何）** 和 **Algebra（�
 
 ## 软件授权
 
-{% label 免费软件 green %}，使用请需遵守[GeoGebra License](https://www.geogebra.org/license) 协议条款。
+{% label 免费软件 green %}，需遵守 [GeoGebra License](https://www.geogebra.org/license) 协议条款。
