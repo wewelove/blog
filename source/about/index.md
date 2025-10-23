@@ -23,12 +23,11 @@ comments: false
 
 ## 项目
 
-{% btn https://www.sttmedia.com/filerenamer-download, 项目名称, , blue outline %}
-{% btn https://www.sttmedia.com/filerenamer-download, 项目名称, , blue outline %}
-{% btn https://www.sttmedia.com/filerenamer-download, 项目名称, , blue outline %}
-{% btn https://www.sttmedia.com/filerenamer-download, 项目名称, , blue outline %}
-{% btn https://www.sttmedia.com/filerenamer-download, 项目名称, , blue outline %}
-{% btn https://www.sttmedia.com/filerenamer-download, 项目名称, , blue outline %}
+{% btn https://github.com/wewelove/blog, 思学个人博客, fab fa-github, outline %}
+{% btn https://gitee.com/wewelove/docker, 容器技术实践, iconfont icon-gitee, red outline %}
+{% btn https://gitee.com/dromara/dbswitch, 参与贡献 dbswitch, iconfont icon-gitee, orange outline %}
+{% btn https://github.com/wewelove/vitepress, VitePress 应用总结, fab fa-github, green outline %}
+{% btn https://github.com/wewelove/DataX, datax & datax-web, fab fa-github, blue outline %}
 
 ## 动态
 
