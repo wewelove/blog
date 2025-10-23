@@ -19,12 +19,12 @@ tags:
 
 > Dimina 发音为 /diːminə/，是 didi miniprogram 的缩写，旨在打造灵活、轻量的小程序跨端开发框架。
 
-![封面](/cover.png)
-
-- [GitHub](https://github.com/anzhiyu-c/hexo-theme-anzhiyu)
-- [GItee](https://github.com/anzhiyu-c/hexo-theme-anzhiyu)
-- [文档](https://blog.uuanqin.top/p/d4bc55f2/)
-- [作者](https://github.com/anzhiyu-c)
+::: center
+{% btn https://github.com/didi/dimina, GitHub, fab fa-github, default outline %}
+{% btn https://gitee.com/didiopensource/dimina, Gitee, iconfont icon-gitee, red outline %}
+{% btn https://gitee.com/didiopensource/dimina, 官网, fas fa-home, blue outline %}
+{% btn https://gitee.com/didiopensource/dimina#%E4%B8%8A%E6%89%8B%E4%BD%BF%E7%94%A8, 文档, fas fa-book, green outline %}
+:::
 
 ## 技术特性
 
@@ -42,11 +42,13 @@ tags:
 
 ## 效果展示
 
-在线演示：<https://didi.github.io/dimina/>
+::: left
+{% btn https://didi.github.io/dimina/, 点击查看演示效果, fas fas fa-book, green outline %}
+:::
 
 | Android | iOS | Harmony |
 | --- |  --- |  --- |
-| ![Android](/images/dimina-android.jpg) | ![iOS](/images/dimina-ios.jpg) | ![Harmony](/images/dimina-harmony.jpg) |
+| ![Android](/images/dimina-android.jpg =200x) | ![iOS](/images/dimina-ios.jpg =200x) | ![Harmony](/images/dimina-harmony.jpg =200x) |
 
 ## 快速开始
 

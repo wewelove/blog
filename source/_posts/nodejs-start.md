@@ -17,7 +17,7 @@ tags:
 
 ### Ubuntu
 
-```bash
+```sh
 # 根据需要选择不同版本: 6.x、7.x ....
 $ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 $ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
@@ -29,7 +29,7 @@ $ sudo apt-get install -y nodejs
 
 ### CentOS
 
-```bash
+```sh
 # 根据需要选择不同版本: 6.x、7.x ....
 $ curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
 $ curl --silent --location https://rpm.nodesource.com/setup_7.x | bash -
@@ -41,7 +41,7 @@ $ yum -y install nodejs
 
 ### OSX
 
-```bash
+```sh
 $ curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
 # 使用 Homebrew 安装
 $ brew install node
@@ -55,14 +55,14 @@ $ port install nodejs
 
 ### 使用淘宝镜像
 
-```bash
+```sh
 sudo npm config set registry https://registry.npm.taobao.org --global
 sudo npm config set disturl https://npm.taobao.org/dist --global
 ```
 
 ### 配置参数
 
-```bash
+```sh
 # 显示配置[所有]
 npm config list [-l]
 # 设置 <key> 参数值 <value> [全局]
@@ -75,7 +75,7 @@ npm config delete <key>
 
 ### 获取帮助信息
 
-```bash
+```sh
 # 获取 <term> 命令的帮助信息
 npm help <term> [<terms..>]
 ```
@@ -84,7 +84,7 @@ npm help <term> [<terms..>]
 
 Windows 系统的操作要慎重。
 
-```bash
+```sh
 # 获取并进入 Node.js 安装目录
 > npm config get prefix -g
 # 最新版本
@@ -95,7 +95,7 @@ Windows 系统的操作要慎重。
 
 OSX 和 Linux 系统的操作比较简单。
 
-```bash
+```sh
 # 最新版本
 $ sudo npm install -g npm@latest
 # 或LTS版本
@@ -104,7 +104,7 @@ $ sudo npm install -g npm@lts
 
 ### 项目应用
 
-```bash
+```sh
 # 初始化项目，创建 package.json 文件
 npm init
 # 全局安装 <pkg> 包
@@ -132,7 +132,7 @@ npm ls [-g]
 
 ### 常用包
 
-```bash
+```sh
 # Facebook 出品，可替代 npm 的包管理工具
 $ sudo npm install -g yarn
 # Node.js 版本管理，nvm 不支持 Windows 操作系统
@@ -143,7 +143,7 @@ $ sudo npm install -g nvm
 
 ### 初始化项目
 
-```bash
+```sh
 mkdir nodejs-start
 cd nodejs-start
 npm init
@@ -151,7 +151,7 @@ npm init
 
 根据提示完成以下操作：
 
-```bash
+```sh
 This utility will walk you through creating a package.json file.
 It only covers the most common items, and tries to guess sensible defaults.
 
@@ -193,7 +193,7 @@ Is this ok? (yes) yes  # 输入 yes
 
 [`lodash`](https://lodash.com/) 是一个功能丰富的 `javascript` 工具库。
 
-```bash
+```sh
 $ npm install lodash --save
 $ cat package.json 
 {
@@ -226,14 +226,14 @@ console.log(sayHello({'name': 'Node.js'}));
 
 ### 看看我们做了什么
 
-```bash
+```sh
 $ node index.js
 Hello Node.js!
 ```
 
 或通过 `package.json` 中 `scripts` 字段的配置执行文件：
 
-```bash
+```sh
 $ npm test
 
 > nodejs-start@1.0.0 test /home/wh/Workspace/nodejs-start

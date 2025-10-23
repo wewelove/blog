@@ -7,7 +7,7 @@ tags:
 ---
 
 ::: book
-![封面](/assets/image/book.jpg =200x)
+{% inlineImg /assets/image/book.jpg 280px %}
 :::
 
 **书名**：活着

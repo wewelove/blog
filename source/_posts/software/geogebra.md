@@ -18,7 +18,7 @@ GeoGebra 是一款集几何、代数、微积分等功能于一体的**免费动
 
 ::: center
 {% btn https://www.geogebra.org/, 官方网站, fas fa-home, blue outline %}
-{% btn https://help.geogebra.org/hc/zh-cn/categories/7841335583005, 帮助中心, fas fas fa-book, green outline %}
+{% btn https://help.geogebra.org/hc/zh-cn/categories/7841335583005, 帮助中心, fas fa-book, green outline %}
 :::
 
 ## 功能特性
@@ -39,8 +39,10 @@ GeoGebra 的名字巧妙结合了 **Geometry（几何）** 和 **Algebra（�
 
 ## 下载地址
 
-{% btn 'https://www.geogebra.org/download', 官网下载, iconfont icon-baiduwangpan, blue outline %}
+::: download
+{% btn https://www.geogebra.org/download, 官网下载, iconfont icon-home, blue outline %}
+:::
 
 ## 软件授权
 
-{% label 免费软件 green %}，需遵守 [GeoGebra License](https://www.geogebra.org/license) 协议条款。
+**{% label 免费软件 green %}** - 使用需遵守 [协议条款](https://www.geogebra.org/license)。

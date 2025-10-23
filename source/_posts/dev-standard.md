@@ -37,7 +37,7 @@ tags:
 
 ```text
 比如 `通知` 功能，各个端定义为：   
-- 后端:`notice`, （NoticeController, 表：t_notice）
+- 后端: `notice`, （NoticeController, 表：t_notice）
 - 前端写成 `news`， （news-list.vue， /news/news-list）
 - 移动端写成 `message`，(MessageFragement)
 - 最后再对接的时候，懵逼了，懵了；

@@ -40,14 +40,14 @@ tags:
 
 1. 修改 Packagist 镜像源
 
-    ```bash
+    ```sh
     # 配置只在当前项目生效
     composer config repo.packagist composer https://mirrors.aliyun.com/composer/
     # 取消当前项目配置
     composer config --unset repos.packagist
     ```
 
-    ```bash
+    ```sh
     # 配置全局生效
     composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
     # 取消全局配置

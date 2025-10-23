@@ -16,11 +16,11 @@ tags:
 
     [参考：Node.js 之旅 - 好的开端](/2015/03/15/nodejs-start/)
 
-2. 安装 `Git` 版本管理工具，[官网](https://git-scm.com)
+1. 安装 `Git` 版本管理工具，[官网](https://git-scm.com)
 
-    [参考：](nodejs-start.md)
+    [参考：](git-start.md)
 
-3. 安装 `hexo-cli` 命令行工具，初始化一个项目
+1. 安装 `hexo-cli` 命令行工具，初始化一个项目
 
     ```sh
     npm install -g hexo-cli
@@ -46,7 +46,7 @@ tags:
     │       ├── languages       # 主题语言设置
     ```
 
-3. 启动本地服务，查看效果
+1. 启动本地服务，查看效果
 
     ```sh
     $ hexo server

@@ -46,36 +46,36 @@ tags:
 ```markdown
 > 引用内容。
 
-> 多行引用，第一行;
-> 多行引用，第二行;
-> 多行引用，第三行。
-
-> 嵌套引用，第一层。
-> > 嵌套引用，第二层。
-> > > 嵌套引用，第三层。
-
-> 包含其它 `Markdown` 语法
->
-> - 列表项目
-> - 列表项目
-```
-
-> 引用内容。
+多行引用：
 
 > 多行引用，第一行;  
 > 多行引用，第二行;  
 > 多行引用，第三行。
+
+嵌套引用：
 
 > 嵌套引用，第一层。
 >
 > > 嵌套引用，第二层。
 > >
 > > > 嵌套引用，第三层。
+```
 
-> 包含其它 `Markdown` 语法
+> 引用内容。
+
+多行引用：
+
+> 多行引用，第一行;  
+> 多行引用，第二行;  
+> 多行引用，第三行。
+
+嵌套引用：
+
+> 嵌套引用，第一层。
 >
-> - 列表项目
-> - 列表项目
+> > 嵌套引用，第二层。
+> >
+> > > 嵌套引用，第三层。
 
 ### 列表
 
@@ -101,8 +101,8 @@ tags:
 
 ```markdown
 1. 有序列表 1
-    + 子列表 11
-    + 子列表 12
+   + 子列表 11
+   + 子列表 12
 1. 有序列表 2
 1. 有序列表 3
 ```
@@ -110,8 +110,8 @@ tags:
 1. 有序列表 1
    - 子列表 11
    - 子列表 12
-1. 有序列表 2
-1. 有序列表 3
+2. 有序列表 2
+3. 有序列表 3
 
 列表项可以包含其它内容，内容必须以 4 个空格或 1 个制表符缩进:
 
@@ -120,44 +120,22 @@ tags:
 
     段落内容，  
     段落内容。
-
-1. 项目中包含码块
-
-        echo 'Hello World!';
 ```
 
 1. 项目中包含多个段落
 
-   段落内容，  
-   段落内容。
-
-1. 项目中包含码块，缩进 8 个空格或 2 个制表符
-
-       echo 'Hello World!';
+    段落内容，  
+    段落内容。
 
 ### 代码
 
-代码块 `<code>` 前后必须有一个或多个空行，且每行代码必须以 4 个空格或 1 个制表符缩进:
-
-```markdwon
-    function fn () {
-      var str = 'Hello World';
-    }
+````markdwon
+```js
+function fn () {
+  var str = 'Hello World';
+}
 ```
-
-    function fn () {
-    var str = 'Hello World';
-    }
-
-扩展语法，代码无须缩进，并可指明语言类型实现代码高亮:
-
-    ` ` ` js
-    function fn () {
-      var str = 'Hello World';
-    }
-    ` ` `
-
-> 上面 \` 符号之间应该没有空格，因 `hexo` 解析问题无法正常显示，此处加了空格
+````
 
 ```js
 function fn () {
@@ -175,21 +153,13 @@ function fn () {
 
 ### 分隔线
 
-使用三个或更多的 `*` `-` 或 `_` 来添加分隔线 `<hr>`:
+使用三个或更多的 `*` 来添加分隔线 `<hr>`:
 
 ```markdown
 ***
-
----
-
----
 ```
 
 ***
-
----
-
----
 
 ### 链接
 
@@ -365,7 +335,6 @@ function fn () {
 可以直接引用 `HTML` 元素，元素的开始标签前和结束标签后各保留一个空行:
 
 ```markdown
-指定特殊样式
 <table class="table" style="color:red;">
   <tr><th>#</th><th>代码</th><th>输出</th></tr>
   <tr><td>1</td><td>date('Y-m-d')</td><td>2016-07-15</td></tr>
@@ -373,22 +342,8 @@ function fn () {
 </table>
 ```
 
-<table class="table" style="color:red;">
-  <tr><th>#</th><th>代码</th><th>输出</th></tr>
-  <tr><td>1</td><td>date('Y-m-d')</td><td>2016-07-15</td></tr>
-  <tr><td>2</td><td>date('Y-m-t')</td><td>2016-07-31</td></tr>
-</table>
-
 ## 参考
 
 - [Markdown 语法说明 - 中文](http://wowubuntu.com/markdown/)
 - [Markdown 语法说明 - 英文](http://wowubuntu.com/markdown/)
 - [Markdown 入门参考](https://github.com/wewelove/Learning-Markdown)
-
-## 项目
-
-- [marked](https://github.com/chjj/marked)
-- [markdown-js](https://github.com/evilstreak/markdown-js)
-- [bootstrap-markdown](https://github.com/toopay/bootstrap-markdown)
-- [SimpleMDE](https://github.com/NextStepWebs/simplemde-markdown-editor)
-- [mermaid](https://github.com/knsv/mermaid)

@@ -9,8 +9,8 @@ tags:
 ## 系统管理与维护
 
 1. **systeminfo**：显示系统详细信息（安装日期/补丁/内存等）
-2. **sfc /scannow**：扫描并修复系统文件损坏 **\[管理员]**
-3. **chkdsk /f**：检查磁盘错误并修复（需重启） **\[管理员]**
+2. **sfc /scannow**：扫描并修复系统文件损坏 **[管理员]**
+3. **chkdsk /f**：检查磁盘错误并修复（需重启）**[管理员]**
 4. **cleanmgr**：启动磁盘清理工具
 5. **defrag C: /O**：优化机械硬盘碎片（SSD无需使用）
 6. **msinfo32**：打开系统信息面板
@@ -38,8 +38,6 @@ tags:
 28. **date**：显示或设置系统日期
 29. **shutdown /r /t 0**：立即重启系统
 30. **shutdown /s /t 0**：立即关机
-
-- - -
 
 ## 网络诊断与配置
 
@@ -69,21 +67,19 @@ tags:
 54. **ipconfig /flushdns**：清除DNS缓存
 55. **ipconfig /registerdns**：刷新DNS注册
 
-- - -
-
 ## 文件与磁盘操作
 
 56. **dir /s /ah**：递归显示目录及隐藏文件
 57. **cd /d D:\logs**：跨盘符切换目录
 58. **robocopy C:\src D:\backup /MIR /MT:8**：多线程镜像备份
-59\. \*del /F /Q .tmp：强制删除临时文件
+59. **del /F /Q .tmp**：强制删除临时文件
 60. **rd /S /Q "D:\old"**：无提示删除非空目录
 61. **fsutil file createnew test.txt 1048576**：生成1MB测试文件
 62. **type filename.txt**：显示文本文件内容
 63. **copy file1.txt+file2.txt merged.txt**：合并文件
 64. **xcopy C:\data D:\backup /E /H /C**：复制目录树
 65. **move file.txt D:\newfolder**：移动文件
-66. **ren old.txt new\.txt**：重命名文件
+66. **ren old.txt new.txt**：重命名文件
 67. **attrib +h secret.txt**：设置隐藏属性
 68. **fc file1.txt file2.txt**：文件内容比较
 69. **find "error" log.txt**：文件中搜索字符串
@@ -93,8 +89,6 @@ tags:
 73. **compact /c /s**：启用NTFS压缩
 74. **diskpart**：启动磁盘分区工具
 75. **format E: /FS:NTFS /Q**：快速格式化磁盘
-
-- - -
 
 ## 进程与用户管理
 
@@ -119,7 +113,7 @@ tags:
 ## 运维实战命令
 
 91. **for /L %i in (1,1,100) do ping -n 1 192.168.1.%i**：批量Ping扫描
-92\. \*\*forfiles /p "C:\logs" /s /m \*.log /d -7 /c "cmd /c del @path"\*\*：自动清理日志
+92. **forfiles /p "C:\logs" /s /m *.log /d -7 /c "cmd /c del @path"**：自动清理日志
 93. **auditpol /set /category:"Account Logon" /success:enable**：启用登录审核
 94. **wmic product get name,version > software.csv**：导出软件清单
 95. **wmic memorychip get capacity,speed**：获取内存信息
@@ -131,7 +125,7 @@ tags:
 
 ## 高危操作预警
 
-```cmd
+```bat
 :: 永久删除命令（不可恢复）  
 format C: /FS:NTFS  
 diskpart → clean  
@@ -146,4 +140,4 @@ rd /S /Q C:\Windows  
 1. **测试环境验证**：危险命令先在测试机执行
 2. **权限最小化**：日常操作避免使用管理员权限
 3. **双重确认**：执行删除/格式化前确认路径
-4. **日志记录**：关键操作用`> log.txt`保存记录
+4. **日志记录**：关键操作用 `> log.txt` 保存记录

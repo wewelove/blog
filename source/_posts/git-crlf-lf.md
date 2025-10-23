@@ -13,7 +13,7 @@ tags:
 
 首先要理解的一点是，对于不同的操作系统，对于换行符的表示是不一样的。也就是说当我们在编辑一个文件，在键盘上按下回车键的时候，对于不同的操作系统保存到文件中的换行符是不一样的。见下表：
 
-```
+```sh
 CR: 表示回车\r
 LF: 表示换行\n
 CRLF: 表示回车换行\r\n
@@ -68,7 +68,7 @@ git config --global core.autocrlf false
 
 开启方法如下第一条命令：
 
-```
+```sh
 // 拒绝提交包含混合换行符的文件 （一般设置为 true）
 git config --global core.safecrlf true   
 

@@ -12,7 +12,7 @@ tags:
 
 ### Ubuntu 系统
 
-```bash
+```sh
 sudo apt-add-repository ppa:git-core/ppa
 sudo apt-get update
 sudo apt-get install git
@@ -20,7 +20,7 @@ sudo apt-get install git
 
 如果出现 `apt-add-repository: command not found` 错误，要先执行以下:
 
-```bash
+```sh
 sudo apt-get install python-software-properties
 sudo apt-get install software-properties-common
 ```
@@ -34,7 +34,7 @@ Windows 系统中，以下操作均在 `Git Bash` 命令窗口中执行。
 
 ### 设置全局用户
 
-```bash
+```sh
 git config --global user.name "Your Name"
 git config --global user.email "youremail@gmail.com"
 ```
@@ -43,7 +43,7 @@ git config --global user.email "youremail@gmail.com"
 
 生成 `ssh` 密钥:
 
-```bash
+```sh
 $ ssh-keygen -t rsa -C "youremail@gmail.com"
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/user/.ssh/id_rsa): #保存位置,回车
@@ -56,13 +56,13 @@ Your public key has been saved in /home/user/.ssh/id_rsa.pub.
 
 如果备份了 `id_rsa` 和 `id_rsa.pub` 文件，可以直接将其复制到 `~/.ssh` 目录:
 
-```bash
+```sh
 cp ./id_rsa* ~/.ssh
 ```
 
 复制后要检查密钥文件的读写权限，安全的设置如下：
 
-```bash
+```sh
 $ ls -al ~/.ssh/id_rsa*
 -rw------- 1 user grp 1675 Aug 11 02:23 /home/user/.ssh/id_rsa
 -rw-r--r-- 1 user grp  401 Aug 11 02:23 /home/user/.ssh/id_rsa.pub
@@ -70,7 +70,7 @@ $ ls -al ~/.ssh/id_rsa*
 
 把密钥添加到 `ssh-agent` 的高速缓存中:
 
-```bash
+```sh
 $ ssh-add
 Identity added: /home/user/.ssh/id_rsa (/home/user/.ssh/id_rsa)
 ```
@@ -82,7 +82,7 @@ Identity added: /home/user/.ssh/id_rsa (/home/user/.ssh/id_rsa)
 在 [github.com](https://github.com) 或 [gitee.com](https://gitee.com) 上申请个帐号。  
 将 `id_rsa.pub` 公钥内容添加到已经申请的帐号，目录如下：
 
-```bash  
+```sh  
 # github.com
 Settings -> SSH and GPG keys -> New GPG key  
 # gitee.com
@@ -91,7 +91,7 @@ Settings -> SSH and GPG keys -> New GPG key
 
 ### 新建项目，并克隆到本地
 
-```bash
+```sh
 $ git clone git@github.com:username/project.git
 ## 或
 $ git clone git@gitee.com:username/project.git
@@ -99,7 +99,7 @@ $ git clone git@gitee.com:username/project.git
 
 ### 常用命令
 
-```bash
+```sh
 $ cd project
 # 拉取远程或其它仓库内容合并到本地仓库
 # Fetch from and integrate with another repository or a local branch

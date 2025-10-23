@@ -1,0 +1,30 @@
+# 顶级配置文件，停止向上搜索
+root = true
+
+[*]
+# 字符编码
+charset = utf-8
+
+# 行尾格式
+end_of_line = lf
+
+# 缩进风格
+indent_style = space
+indent_size = 2
+
+# 文件末尾保留空行
+insert_final_newline = true
+
+# 去除行尾空格
+trim_trailing_whitespace = true
+
+# 每行的最大字符数
+max_line_length = 140
+
+[*.sh]
+# 不自动删除行尾空格（避免破坏 heredoc 和多行命令）
+trim_trailing_whitespace = false
+
+[*.md]
+# 不去除行尾空格
+trim_trailing_whitespace = false

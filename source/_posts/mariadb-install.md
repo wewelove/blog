@@ -16,7 +16,7 @@ tags:
     默认情况下 MariaDB 的包没有在 Ubuntu 仓库中，请参考 MariaDB 官方进行设置 [**移步**](https://downloads.mariadb.org/mariadb/repositories/#mirror=neusoft)。  
     参考官方设置时请选择有效的仓库镜像地址，下面选择的是清华大学镜像，测试可用。
 
-    ```bash
+    ```sh
     sudo apt-get install software-properties-common
     sudo apt-key adv --fetch-keys 'https://mariadb.org/mariadb_release_signing_key.asc'
     sudo add-apt-repository 'deb [arch=amd64,arm64,ppc64el] http://mirror.its.dal.ca/mariadb/repo/10.4/ubuntu bionic main'
@@ -26,14 +26,14 @@ tags:
 
     安装过程中要输入 MariaDB 的 `root` 密码。
 
-    ```bash
+    ```sh
     sudo apt update
     sudo apt install mariadb-server
     ```
 
 3. 基本操作
 
-    ```bash
+    ```sh
     # 链接
     $ mysql -u root -p
     # 停止
@@ -54,7 +54,7 @@ tags:
 
     检查端口状态，下面输出说明端口只在 `127.0.0.1` 上监听，所以无法通过其它 IP 访问。
 
-    ```bash
+    ```sh
     $ netstat -an | grep 3306
     tcp    0   0  127.0.0.1:3306    0.0.0.0:*     LISTEN
     ```
@@ -70,7 +70,7 @@ tags:
 
     重启 MariaDB 服务，再次检测：
 
-    ```bash
+    ```sh
     $ sudo /etc/init.d/mysql restart
     $ netstat -an | grep 3306
     tcp    0   0  0.0.0.0:3306    0.0.0.0:*     LISTEN
@@ -80,7 +80,7 @@ tags:
 
     测试时如果输出如下内容，说明不允许链接服务器。
 
-    ```bash
+    ```sh
     $ mysql -h 192.168.0.101 -u root -p
     Enter password:
     ERROR 1130 (00000): Host 'Ubuntu-Fvlo.Server' is not allowed to connect to this MySQL server
@@ -88,7 +88,7 @@ tags:
 
     解决办法：给 root 用户分配远程访问的权限，密码设置为 `123456`。
 
-    ```bash
+    ```sh
     $ mysql -u root -p
     Enter password:
     Welcome to the MariaDB monitor.  Commands end with ; or \g.
@@ -101,7 +101,7 @@ tags:
 
     再次测试，成功。
 
-    ```bash
+    ```sh
     $ mysql -h 192.168.0.101 -u root -p
     Enter password:
     Welcome to the MariaDB monitor.  Commands end with ; or \g.

@@ -11,22 +11,22 @@ tags:
 ## 代码命名规范
 
 - 基本命名规范
-  - 代码中的命名均不能以下划线或美元符号开始,也不能以下划线或美元符号结束
-  - 代码中的命名严禁使用拼音与英文混合的方式,更不允许直接使用中文的方式
-  - 杜绝完全不规范的缩写,避免望文不知义
+  - 代码中的命名均不能以下划线或美元符号开始，也不能以下划线或美元符号结束
+  - 代码中的命名严禁使用拼音与英文混合的方式，更不允许直接使用中文的方式
+  - 杜绝完全不规范的缩写，避免望文不知义
 - 包名
   - 包名为小写
   - 点分隔符之间有且仅有一个自然语义的英语单词，包名中单词统一使用单数形式
 - 类名
   - 类名必须是一个名词，每个单词首字母大写。除了约定俗成的缩写，尽量使用完整单词
-  - 实现类如果和接口区分，请在接口名后加Impl
-  - 抽象类命名使用Abstract或Base开头
-  - 异常类命名使用Exception结尾
-  - 测试类命名以它要测试的类的名称开始,以Test结尾
+  - 实现类如果和接口区分，请在接口名后加 Impl
+  - 抽象类命名使用 Abstract 或 Base 开头
+  - 异常类命名使用 Exception 结尾
+  - 测试类命名以它要测试的类的名称开始，以 Test 结尾
   - 如果使用到了设计模式，建议在类名中体现出具体模式，有利于阅读者快速理解架构设计思想
-  - 枚举类名建议带上Enum后缀
+  - 枚举类名建议带上 Enum 后缀
 - 方法名
-  - 动词或动词+名词
+  - 动词或动词 + 名词
   - 采用驼峰命名方式，第一个单词首字母小写，其它单词首字母大写
 - 变量名
   - 采用驼峰命名方式，首字母小写，其后单词的首字母大写
@@ -34,7 +34,7 @@ tags:
   - 静态变量加s前缀
   - 控件名不需要和 `id` 名一致，采取统一的缩写前缀
 - 常量名
-  - 使用`static final`前缀，全部大写，单词间用下划线隔开，并且指出完整含义
+  - 使用 `static final` 前缀，全部大写，单词间用下划线隔开，并且指出完整含义
   - 不推荐使用枚举，推荐在接口中定义常量字段
 - 类成员位置顺序：（类中顺序按如下自顶向下）
   - 静态常量
@@ -49,7 +49,7 @@ tags:
 
 ### 流程控制
 
-- 嵌套 For/If/Try 最大深度 3；
+- 嵌套 for/if/try 最大深度 3；
 - 在 if/else/for/while/do 语句中必须用 "{" 和 "}" 括起来，避免引起没必要的错误；
 - 对于多个的 if/else 尽量把高概率匹配的放在前面，提高性能；
 - 循环语句：尽量不要改变循环变量的值；
@@ -71,10 +71,10 @@ tags:
 
 ## 字符编码
 
-一律使用utf8编码
+一律使用 utf8 编码
 
-- String：String.getBytes()编码统一使用utf-8，代码文件编码统一使用UTF-8
-- URL编码：请使用URLEncoder. encode(s, “utf-8”)方法
+- String：String.getBytes() 编码统一使用 utf-8，代码文件编码统一使用 utf-8
+- URL 编码：请使用 URLEncoder.encode(s, "utf-8")方法
 
 ## XML 规则
 
@@ -83,12 +83,12 @@ tags:
 - 基本命名规范
   - 命名中单词均采用小写
   - 单词之间采用下划线分割
-- layout xml资源命名
-  - activity或fragment对应的layout资源，一级标识为`activity`或`fragment`，例如：`activity_media_picker.xml`
+- layout xml 资源命名
+  - activity 或 fragment 对应的 layout 资源，一级标识为 `activity`或`fragment`，例如：`activity_media_picker.xml`
   - 对于模块资源，一级标示资源类型，二级标示业务类型，比如：`view_login_xxx.xml`
-  - 全局共享的资源：二级前缀可省略或使用app，例如：`view_app_xxx.xml`
-  - listview或recycleview的item，一级标识为`item`例如：`item_xxx.xml`
-- drawable目录的资源：（包含图片以及xml）
+  - 全局共享的资源：二级前缀可省略或使用 app，例如：`view_app_xxx.xml`
+  - listview或recycleview 的 item，一级标识为 `item` 例如：`item_xxx.xml`
+- drawable 目录的资源：（包含图片以及 xml）
   - 现在临时放置在这个文件夹下的图片，后面需要删掉，命名为 `tmp_XXXXX`
   - xml 定义的 drawable 资源放置在这里
   - 其他正式要用的图片，主要放置在 `drawable-xhdpi` 文件当中，其他需要适配的图片文件自行放置在其他对应的目录下面
@@ -98,10 +98,10 @@ tags:
   - shape 对应的 xml 命名为 `shape_XXXX`
   - 文件名最好能描述内容信息，命名模板`property(属性)_function(功能)_color/size（颜色/大小)_state.png`，例如`ic_switch_white_on.png`
 - colors
-  - 通用的颜色直接使用名称，如`red`，`green`等
+  - 通用的颜色直接使用名称，如 `red`，`green` 等
   - 部分通用颜色，可以直接添加数字，如灰色（`gray_aa`, `gray_f1`）
   - 根据页面模块分组，注释说明，空行隔开
-  - 具体页面相关的颜色，前面带上页面逻辑相关的名称。例如`login_btn_gray_666666`，对于已有色彩采用间接引用，不存在直接引用16进制颜色代码
+  - 具体页面相关的颜色，前面带上页面逻辑相关的名称。例如 `login_btn_gray_666666`，对于已有色彩采用间接引用，不存在直接引用 16 进制颜色代码
 - dimens
   - 通用的半径、文字大小，可以分别定义成 `radius_4dp`，`text_15sp`等等
   - 其它和具体业务逻辑相关的，前带上页面逻辑相关的名称
@@ -109,9 +109,9 @@ tags:
 
 ### ID 命名规则
 
-- 统一使用前缀表明类型，比如`btn_xxx`，仅在布局使用的控件（不在代码中使用），id使用`layout_xxx`前缀
+- 统一使用前缀表明类型，比如 `btn_xxx`，仅在布局使用的控件（不在代码中使用），id 使用 `layout_xxx` 前缀
 - 命名单词均采用小写，通过下划线分隔
-- 命名二级标识页面模块，例如`btn_login_login`
+- 命名二级标识页面模块，例如 `btn_login_login`
 - 缩写前缀列表（欢迎补充）,自定义控件使用字母缩写
 
 | 控件类型       | 缩写前缀 |
@@ -133,9 +133,9 @@ tags:
 
 #### buildscript 代码块
 
-- 在 `dependencies` 声明android gradle plugin的版本为最新版本（只需要保证二级版本为最新版），例如：
+- 在 `dependencies` 声明 android gradle plugin 的版本为最新版本（只需要保证二级版本为最新版），例如：
 
-```bash
+```gradle
 classpath 'com.android.tools.build:gradle:2.x.x'
 ```
 
@@ -143,89 +143,89 @@ classpath 'com.android.tools.build:gradle:2.x.x'
 
 #### 编译相关规范
 
-- sdk版本号以及构建工具版本使用最新的release版本
+- sdk 版本号以及构建工具版本使用最新的 release 版本
 
-```css
- compileSdkVersion 2x
- buildToolsVersion "2x.0.0"
+```gradle
+compileSdkVersion 2x
+buildToolsVersion "2x.0.0"
 ```
 
 - 设置代码的编译版本为 1.7，使编译出的包更通用
 
-```undefined
- compileOptions { 
-    sourceCompatibility JavaVersion.VERSION_1_7 
-    targetCompatibility JavaVersion.VERSION_1_7
- }
+```gradle
+compileOptions { 
+  sourceCompatibility JavaVersion.VERSION_1_7 
+  targetCompatibility JavaVersion.VERSION_1_7
+}
 ```
 
 #### defaultConfig 代码块规范
 
-- targetSdkVersion，同compileSdkVersion版本
-- minSdkVersion 指定成11，android 4.0，原则上不支持4.0以下系统
-- ndk无硬性规定，非特殊的情况，只需在lib目录中保留arm架构的so库
+- targetSdkVersion，同 compileSdkVersion 版本
+- minSdkVersion 指定成 11，android 4.0，原则上不支持 4.0 以下系统
+- ndk 无硬性规定，非特殊的情况，只需在 lib 目录中保留 arm 架构的 so 库
 
 #### signingConfigs 签名规范
 
-debug版本使用默认设置，release版本的签名文件不得出现硬编码密码在build.gradle文件中，请将storePassword、keyAlias以及keyPassword密码放在properties文件中便于管理，示例：
+debug 版本使用默认设置，release 版本的签名文件不得出现硬编码密码在 build.gradle 文件中，请将 storePassword、keyAlias 以及 keyPassword 密码放在 properties 文件中便于管理，示例：
 
-```csharp
+```gradle
 signingConfigs {
-    debug {
-       storeFile file('debug.keystore')
-    }
-    release {
-       // keystore
-       storeFile file('release.keystore')
+  debug {
+    storeFile file('debug.keystore')
+  }
+  release {
+    // keystore
+    storeFile file('release.keystore')
 
-       // keys
-       Properties properties = loadProperties('release.properties')
+    // keys
+    Properties properties = loadProperties('release.properties')
 
-       storePassword properties.get('storepassword')
-       keyAlias properties.get('keyalias')
-       keyPassword properties.get('keypassword')
-   }
+    storePassword properties.get('storepassword')
+    keyAlias properties.get('keyalias')
+    keyPassword properties.get('keypassword')
+  }
 }
  
 ```
 
 #### buildTypes 代码块规范
 
-- shrinkResources 是否取消无效资源，去除无效资源有利用减少包大小，但会减慢编译速度,建议在release版本中开启
-- minifyEnabled在混淆时去除代码中无用的内容，建议在release中开启，包含插件的项目中不允许开启此选项
-- zipAlignEnabled 资源包对齐，可提升执行速度，减少内存消耗，release模式下必须打开
+- shrinkResources 是否取消无效资源，去除无效资源有利用减少包大小，但会减慢编译速度,建议在 release 版本中开启
+- minifyEnabled 在混淆时去除代码中无用的内容，建议在 release 中开启，包含插件的项目中不允许开启此选项
+- zipAlignEnabled 资源包对齐，可提升执行速度，减少内存消耗，release 模式下必须打开
 
 #### dependencies 代码块规范
 
-- 为规避库冲突，请使用远程依赖的模式，指定groupId、artifactid以及版本号
-- 需要使用本地依赖的情况，请通过compile files逐个指定文件名，不允许通过compile fileTree指定文件夹
-- 本地依赖包需指定groudId，artifactId以及版本号，例如com.facebook.fresco-fresco-0.8.1.jar
-- 如无必要，勿增实体：如果你的app没有support，multi包需求，请勿添加依赖
-- exclude android库，例如：exclude support包
-- 尽可能使用lib，避免module依赖，独立工程可以通过aar或mvn方式导入；原因：
-  - rebuild成本过大
+- 为规避库冲突，请使用远程依赖的模式，指定 groupId、artifactid 以及版本号
+- 需要使用本地依赖的情况，请通过 compile files 逐个指定文件名，不允许通过 compile fileTree 指定文件夹
+- 本地依赖包需指定 groudId，artifactId 以及版本号，例如 com.facebook.fresco-fresco-0.8.1.jar
+- 如无必要，勿增实体：如果你的 app 没有 support，multi 包需求，请勿添加依赖
+- exclude android 库，例如：exclude support 包
+- 尽可能使用 lib，避免 module 依赖，独立工程可以通过 aar 或 mvn 方式导入；原因：
+  - rebuild 成本过大
   - 构建工具版本混乱
-  - 未来涉及插件化非DSL脚本时，复杂度几何上升
+  - 未来涉及插件化非 DSL 脚本时，复杂度几何上升
 
 ### 版本管理规范
 
 - 使用最新的二级动态版本
-- 使用ext拓展，统一定义版本号
+- 使用 ext 拓展，统一定义版本号
 - 为提高可读性，建议将名称改为小写缩写，例如
 
-```undefined
+```gradle
 ext {
-    target_sdk_version = 24
+  target_sdk_version = 24
 }
 ```
 
 ### 权限规范
 
-尽量避免Android 6.0敏感规范，例如：
+尽量避免 Android 6.0 敏感规范，例如：
 
 - 手机状态
-- 位置信息（建议使用服务端IP定位）
-- 读写SD卡（优先使用拓展目录）
+- 位置信息（建议使用服务端 IP 定位）
+- 读写 SD 卡（优先使用拓展目录）
 
 ## JavaDoc 规范
 
