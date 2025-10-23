@@ -20,10 +20,10 @@ nav:
 
 menu:
   首页: / || fas fa-home
-  软件: /categories/software || fas fa-toolbox
-  开源: /categories/open-source || fas fa-laptop-code
-  书籍: /categories/book || fas fa-book
-  分类: /categories/ || fas fa-layer-group
+  软件: /cates/software || fas fa-toolbox
+  开源: /cates/open-source || fas fa-laptop-code
+  书籍: /cates/book || fas fa-book
+  分类: /cates/ || fas fa-layer-group
   标签: /tags/ || fas fa-tags
   归档: /archives/ || fas fa-archive
   链接: /link/ || fas fa-link
@@ -125,7 +125,7 @@ cover:
   # 选择: left/right/both
   position: both
   # 当未设置封面时，显示默认封面
-  default_cover: 
+  default_cover:
     - /assets/image/cover/001.png
     - /assets/image/cover/002.png
     - /assets/image/cover/003.png
@@ -401,6 +401,10 @@ aside:
     limit: 8
     # 选择：none / true / false
     expand: none
+    # 标签排序方式：random/name/length
+    orderby: length
+    # 排序顺序：1 表示升序，-1 表示降序
+    order: 1
     sort_order:
   card_tags:
     # 是否显示标签卡片
@@ -597,7 +601,7 @@ search:
     top_n_per_article: 1
     # 将 HTML 字符串反转义为可读内容
     unescape: true
-    CDN: 
+    CDN:
 
   # Docsearch
   # https://docsearch.algolia.com/
@@ -771,7 +775,7 @@ giscus:
   option:
     # 语言
     'data-lang': zh-CN
-    
+
 # Remark42 评论插件配置
 # 官方文档：https://remark42.com/docs/configuration/frontend/
 remark42:
@@ -961,7 +965,7 @@ beautify:
   # 指定美化的范围 (site 或 post)
   field: post
   # 指定标题前缀图标，如 '\f0c1'
-  title-prefix-icon: 
+  title-prefix-icon:
   # 指定标题前缀图标的颜色，如 '#F47466'
   title-prefix-icon-color:
 

@@ -1,14 +1,14 @@
 ---
 title: 软件发布模板
 date: 2015-01-01 00:00:00
+series: 
 categories:
-  - 软件
+  - 软件工具
 tags:
   - 设计
-published: true
 ---
 
-软件简介。
+简介, 功能特性, 快速上手。
 
 ![封面](/assets/image/cover.png)
 
@@ -37,4 +37,6 @@ published: true
 
 **{% label 免费软件 orange %}** - 使用需遵守 [协议条款](https://www.geogebra.org/license)。
 
-**{% label 免费软件 green %}** - 如果你喜欢 [支持项目](https://www.sttmedia.com/donate)。
+**{% label 免费软件 green %}** - 为爱发电 [支持项目](https://www.sttmedia.com/donate)。
+
+**{% label 基础版本免费 green %}**  **{% label 专业版本收费 orange %}**
