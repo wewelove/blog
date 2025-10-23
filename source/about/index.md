@@ -7,7 +7,7 @@ comments: false
 
 ::: center
 
-## 关于
+## 简介
 
 ### 关注软件开发、产品设计、项目管理、数据分析、运维测试的个人博客
 
@@ -32,7 +32,7 @@ comments: false
 ## 动态
 
 {% calendar %}
-{"monthLang": "cn", "dayLang": "cn", "title": "活动日历"}
+{"monthLang": "cn", "dayLang": "cn", "title": ""}
 {% endcalendar %}
 
 ## 捐赠
@@ -42,3 +42,10 @@ comments: false
 | {% inlineImg /assets/image/alipay.jpg 280px %} | {% inlineImg /assets/image/wechatpay.png 280px %} |
 
 :::
+
+<style>
+.page-title {
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+}
+</style>
