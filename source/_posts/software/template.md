@@ -3,7 +3,7 @@ title: 软件发布模板
 date: 2015-01-01 00:00:00
 series: 
 categories:
-  - 软件工具
+  - [软件工具]
 tags:
   - 设计
 ---

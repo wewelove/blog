@@ -2,7 +2,7 @@
 title: CSS 弹性布局
 date: 2021-08-17 07:47:23
 categories:
-  - 软件开发
+  - [软件开发]
 tags: 
   - css
   - flex

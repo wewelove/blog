@@ -3,7 +3,7 @@ title: Markdown 语法示例
 date: 2016-01-20 10:27:22
 series: Markdown
 categories:
-  - 软件开发
+  - [软件开发]
 tags:
   - markdown
 ---

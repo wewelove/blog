@@ -2,7 +2,7 @@
 title: Node.js 之旅 - 好的开端
 date: 2015-03-15 21:17:16
 categories:
-  - 软件开发
+  - [软件开发]
 tags:
   - nodejs
   - npm

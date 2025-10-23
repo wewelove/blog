@@ -2,7 +2,7 @@
 title: Redmine 项目管理 - 手动安装
 date: 2019-04-15 10:24:05
 categories:
-  - 项目管理
+  - [项目管理]
 tags:
   - redmine
   - 项目管理

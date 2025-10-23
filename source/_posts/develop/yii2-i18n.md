@@ -2,7 +2,7 @@
 title: Yii2 多语言配置 - i18n 国际化
 date: 2017-12-05 11:36:14
 categories:
-  - 软件开发
+  - [软件开发]
 tags:
   - php
   - yii2

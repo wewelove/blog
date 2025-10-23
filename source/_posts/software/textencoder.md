@@ -3,7 +3,7 @@ title: TextEncoder 文件编码转换神器
 date: 2025-10-23 15:56:28
 series: TextEncoder
 categories:
-  - 软件工具
+  - [软件工具]
 tags:
   - 编码
   - 结束符
@@ -13,7 +13,7 @@ TextEncoder 专门用于更改文件的编码：程序读取和写入格式 ASCI
 
 TextEncoder 还可以更改所用换行符的类型。支持换行符 CRLF（Windows、DOS、OS/2、CP/M、TOS）、LF（Unix、Linux、macOS、Mac OS X、AmigaOS）、CR（经典 Mac OS、Apple II、Commodore）和 NL（AIX OS、IBM 大型机系统、OS/390）以及换行符 FF、NEL、LS、PS、VT 和 TAB 的各种 Unicode 字符。此外，任何自定义字符或字符串也可以用作读写的换行符。这些自定义字符可以选择直接定义为文本或以其代码点的形式定义。读取文件时，还可以在多个不同换行符的列表中换行。
 
-![封面](/assets/image/cover.png)
+![封面](/images/textencoder-basic.png)
 
 ::: center
 {% btn https://www.sttmedia.com/textencoder, 官方网站, fas fa-home, blue outline %}

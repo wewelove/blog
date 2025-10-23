@@ -3,7 +3,7 @@ title: Java 项目开发规范
 date: 2023-08-20 10:27:22
 series: development-standards
 categories:
-  - 软件开发
+  - [软件开发]
 tags:
   - 规范
   - java

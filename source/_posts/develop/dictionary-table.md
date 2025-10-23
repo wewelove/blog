@@ -2,7 +2,7 @@
 title: 字典表设计
 date: 2017-07-22 12:13:01
 categories:
-  - 软件开发
+  - [软件开发]
 tags:
   - dictionary
 ---

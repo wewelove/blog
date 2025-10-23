@@ -2,7 +2,7 @@
 title: 使用 GitHub 托管自己的项目
 date: 2017-04-11 17:39:33
 categories:
-  - 软件开发
+  - [软件开发]
 tags:
   - git
   - github

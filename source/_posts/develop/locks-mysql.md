@@ -2,7 +2,7 @@
 title: MySQL 如何查看数据库锁
 date: 2025-08-12 07:47:23
 categories:
-  - 软件开发
+  - [软件开发]
 tags: 
   - MySQL
   - 数据库

@@ -2,7 +2,7 @@
 title: 安装 node-sass 正确姿势
 date: 2021-08-10 09:09:27
 categories:
-  - 软件开发
+  - [软件开发]
 tags:
   - node
   - sass

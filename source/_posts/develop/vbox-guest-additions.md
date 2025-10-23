@@ -3,7 +3,7 @@ title: VirtualBox 实现目录共享
 date: 2017-11-02 08:33:58
 series: VirtualBox
 categories:
-  - 软件开发
+  - [软件开发]
 tags:
   - virtualbox
 ---

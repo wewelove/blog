@@ -2,7 +2,8 @@
 title: PostgreSQL 数据库元数据查询管理 - 示例
 date: 2025-05-11 12:14:57
 categories:
-  - 软件开发
+  - [数据分析] 
+  - [软件开发]
 tags:
   - PostgreSQL
   - 元数据

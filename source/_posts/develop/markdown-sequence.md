@@ -3,7 +3,7 @@ title: 为 Hexo 增加时序图解析功能
 date: 2017-09-06 16:43:33
 series: Hexo
 categories:
-  - 软件开发
+  - [软件开发]
 tags:
   - hexo
   - uml

@@ -2,7 +2,7 @@
 title: CMD 运行命令大全
 date: 2025-10-20 20:40:57
 categories:
-  - 运维管理
+  - [运维管理]
 tags:
   - CMD
   - 运维

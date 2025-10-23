@@ -2,7 +2,7 @@
 title: PHP 加密授权 - Zend Guard 篇
 date: 2017-09-04 10:37:03
 categories:
-  - 软件开发
+  - [软件开发]
 tags:
   - php
   - zend guard

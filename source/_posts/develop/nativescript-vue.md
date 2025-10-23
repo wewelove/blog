@@ -2,7 +2,7 @@
 title: Vue3 的原生 App 开发框架
 date: 2025-10-15 08:50:00
 categories:
-  - 开源项目
+  - [开源项目]
 tags:
   - uni-app
   - vue

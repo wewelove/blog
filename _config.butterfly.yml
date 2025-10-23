@@ -22,7 +22,7 @@ menu:
   首页: / || fas fa-home
   软件: /cates/software || fas fa-toolbox
   开源: /cates/open-source || fas fa-laptop-code
-  书籍: /cates/book || fas fa-book
+  读书: /cates/book || fas fa-book
   分类: /cates/ || fas fa-layer-group
   标签: /tags/ || fas fa-tags
   归档: /archives/ || fas fa-archive
@@ -402,7 +402,7 @@ aside:
     # 选择：none / true / false
     expand: none
     # 标签排序方式：random/name/length
-    orderby: length
+    orderby: random
     # 排序顺序：1 表示升序，-1 表示降序
     order: 1
     sort_order:

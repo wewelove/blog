@@ -2,7 +2,7 @@
 title: 内网部署 YApi
 date: 2022-01-27 10:59:54
 categories:
-  - 软件开发
+  - [软件开发]
 tags:
   - Yapi
   - pm2

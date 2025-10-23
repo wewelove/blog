@@ -3,7 +3,7 @@ title: TextConverter 文本转换神器
 date: 2025-10-23 15:35:16
 series: TextConverter
 categories:
-  - 软件工具
+  - [软件工具]
 tags:
   - 文本转换
   - 批处理
@@ -14,7 +14,7 @@ tags:
 
 使用 TextConverter，可以通过多种不同的方式编辑和转换文本和任何类型的文本文件。可以同时处理单个或多个文本文件，而无需单独打开每个文件，也可以即时更改未保存的文本而不存储它们。
 
-![封面](/assets/image/cover.png)
+![封面](/images/textconverter-basic.png)
 
 ::: center
 {% btn https://www.sttmedia.com/textconverter, 官方网站, fas fa-home, blue outline %}

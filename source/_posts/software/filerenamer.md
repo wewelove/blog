@@ -3,7 +3,7 @@ title: FileRenamer 文件重命名神器
 date: 2025-10-23 14:17:52
 series: FileRenamer
 categories:
-  - 软件工具
+  - [软件工具]
 tags:
   - 重命名
   - 批量

@@ -3,7 +3,7 @@ title: 为 Hexo 增加流程图解析功能
 date: 2017-09-06 15:44:02
 series: Hexo
 categories:
-  - 软件开发
+  - [软件开发]
 tags:
   - hexo
   - flowchart
