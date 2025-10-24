@@ -14,16 +14,22 @@
   "dependencies": {
     "hexo": "^7.3.0",
     "hexo-all-minifier": "^0.5.7",
+    "hexo-browsersync": "^0.3.0",
     "hexo-calendar": "^1.1.1",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^4.0.0",
     "hexo-generator-searchdb": "^1.5.0",
     "hexo-generator-tag": "^2.0.0",
+    "hexo-github-card-inline": "^1.0.0",
+    "hexo-hot-config": "^1.0.1",
+    "hexo-renderer-dartsass": "^1.1.0",
     "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-less": "^4.0.0",
     "hexo-renderer-markdown-it": "^7.1.1",
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
+    "hexo-seo-autopush": "^2.1.5",
     "hexo-server": "^3.0.0",
     "hexo-theme-butterfly": "^5.5.1",
     "hexo-theme-next": "^8.21.1",
@@ -35,5 +41,8 @@
     "markdown-it-imsize": "^2.0.1",
     "markdown-it-sticky-table": "^0.3.15",
     "markdown-it-task-lists": "^2.1.1"
+  },
+  "devDependencies": {
+    "hexo-server-live": "^0.2.12"
   }
 }

@@ -1,5 +1,5 @@
 ---
-title: 标签
+title: 全部标签
 date: 2020-02-12 23:02:00
 type: 'tags'
 comments: false

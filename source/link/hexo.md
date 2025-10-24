@@ -1,0 +1,43 @@
+---
+title: 友情连接
+date: 2018-06-07 22:17:49
+type: 'link'
+---
+## Hexo 插件{#hexo-plugs}
+
+- [X] [Hexo-all-minifier](https://github.com/chenzhutian/hexo-all-minifier)
+- [ ] [hexo-auto-category](https://github.com/xu-song/hexo-auto-category)
+- [ ] [hexo-bilibili-card](https://github.com/chenzhutian/hexo-auto-category)
+- [ ] [hexo-cdnify](https://github.com/zqjimlove/hexo-cdnify)
+- [X] [hexo-browsersync](https://github.com/hexojs/hexo-browsersync)
+- [ ] [hexo-coliru](https://github.com/SpriteMisaka/hexo-coliru)
+- [ ] [hexo-cute](https://github.com/ohroy/hexo-cute)
+- [ ] [hexo-douban-card](https://github.com/TankNee/hexo-douban-card)
+- [ ] [hexo-fontawesome](https://github.com/hexojs/hexo-fontawesome)
+- [X] [hexo-github-card-inline](https://github.com/neoalienson/hexo-github-card-inline)
+- [ ] [hexo-helper-qrcode](https://github.com/yscoder/hexo-helper-qrcode)
+- [ ] [hexo-iconify](https://github.com/g-mero/hexo-iconify)
+- [ ] [hexo-layout](https://github.com/MaLuns/hexo-layout)
+- [ ] [hexo-minify](https://github.com/lete114/hexo-minify)
+- [ ] [hexo-notify](https://github.com/hexojs/hexo-notify)
+- [X] [hexo-renderer-dartsass](https://www.npmjs.com/package/hexo-renderer-dartsass)
+- [X] [hexo-renderer-less](https://github.com/hexojs/hexo-renderer-less)
+- [X] [hexo-renderer-markdown-it](https://github.com/hexojs/hexo-renderer-markdown-it)
+- [ ] [hexo-robots](https://github.com/Dedicatus546/hexo-robots)
+- [ ] [Hexo-SEO-AutoPush](https://github.com/lete114/Hexo-SEO-AutoPush)
+- [ ] [hexo-tag-bilibili](https://github.com/Z4Tech/hexo-tag-bilibili)
+- [ ] [hexo-tag-bilibili-card](https://github.com/wherewhere/hexo-tag-bilibili-card)
+- [ ] [hexo-tag-embed](https://github.com/hexojs/hexo-tag-embed)
+- [ ] [hexo-tag-mmedia](https://github.com/u2sb/hexo-tag-mmedia)
+- [ ] [hexo-tag-mplayer](https://github.com/wshunli/hexo-tag-mplayer)
+- [ ] [hexo-tag-videojs2](https://github.com/lzctuhao/hexo-tag-videojs2)
+- [ ] [hexo-tips](https://github.com/xingwangzhe/hexo-tips)
+- [ ] [hexo-translate-title](https://github.com/cometlj/hexo-translate-title)
+- [ ] [hexo-unocss](https://github.com/imba97/hexo-unocss)
+- [ ] [hexo-autoprefixer](https://github.com/hexojs/hexo-autoprefixer)
+- [ ] [hexo-filter-nofollow](https://github.com/hexojs/hexo-filter-nofollow/)
+- [ ] [hexo-filter-lqip](https://github.com/hexojs/hexo-filter-lqip)
+- [ ] [hexo-generator-alias](https://github.com/hexojs/hexo-generator-alias)
+- [ ] [hexo-html-minifier](https://github.com/hexojs/hexo-html-minifier)
+- [ ] [hexo-math](https://github.com/hexojs/hexo-math)
+- [ ] [hexo-readmore](https://github.com/rqh656418510/hexo-readmore)

@@ -1,13 +1,156 @@
 - class_name: 开源项目
   link_list:
+    - name: Node.js
+      link: https://nodejs.org/zh-cn
+      avatar: https://nodejs.org/static/images/favicons/favicon.png
+      descr: 开源的跨平台 JavaScript 执行环境
+    - name: Node.js 中文网
+      link: https://nodejs.cn/
+      avatar: https://nodejs.org/static/images/favicons/favicon.png
+      descr: 开源的跨平台 JavaScript 执行环境
+    - name: NPM
+      link: https://www.npmjs.com/
+      avatar: https://static-production.npmjs.com/1996fcfdf7ca81ea795f67f093d7f449.png
+      descr: 让你的 JavaScript 开发更上一层楼
+    - name: Vue.js
+      link: https://cn.vuejs.org/
+      avatar: https://cn.vuejs.org/logo.svg
+      descr: 渐进式 JavaScript 框架
+    - name: uni-app
+      link: https://uniapp.dcloud.net.cn/
+      avatar: https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/icon.png?v=1556263038788
+      descr: 使用 Vue.js 开发所有前端应用的框架
+    - name: OpenJDK
+      link: https://openjdk.org/
+      avatar: https://openjdk.org/images/duke-thinking.png
+      descr: 免费的开源 Java 开发工具包
+    - name: Temurin JDK
+      link: https://adoptium.net/zh-CN/
+      avatar: https://adoptium.net/images/favicon-32x32.png
+      descr: 高性能、跨平台的开源 Java™ 运行时二进制文件
+    - name: Maven
+      link: https://maven.org.cn/
+      avatar: https://maven.org.cn//favicon.ico
+      descr: 软件项目管理和构建工具
+    - name: Spring
+      link: https://spring.io/
+      avatar: https://spring.io/icons/icon-48x48.png?v=96334d577af708644f6f0495dd1c7bc8
+      descr: 轻量级 Java 开发框架
+    - name: Spring Boot
+      link: https://spring.io/projects/spring-boot
+      avatar: https://spring.io/img/projects/spring-boot.svg
+      descr: 简化 Spring 应用的创建及部署的框架
+    - name: Spring Boot 中文文档
+      link: https://springdoc.cn/spring-boot/
+      avatar: https://spring.io/img/projects/spring-boot.svg
+      descr: 简化 Spring 应用的创建及部署的框架
+    - name: Docker
+      link: https://www.docker.com/
+      avatar: https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-180x180.png
+      descr: 开源的应用容器引擎
+    - name: Docker 中文网
+      link: https://docker.github.net.cn/
+      avatar: https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-180x180.png
+      descr: 开源的应用容器引擎
     - name: Hexo
       link: https://hexo.io/zh-cn/
       avatar: https://s2.loli.net/2025/10/16/npgZi5taeDjAEvL.png
       descr: 快速、简洁且高效的博客框架
 
-- class_name: 常用网站
+- class_name: 软件资源
   link_list:
+    - name: 果核剥壳
+      link: https://www.ghxi.com/
+      avatar: https://www.ghxi.com/favicon.ico
+      descr: 果核剥壳，还原软件的本质
+    - name: 殁漂遥
+      link: https://www.mpyit.com/
+      avatar: https://renwai.ren/cdn/img/logo2022110901.gif
+      descr: 汇集国内优秀的软件资源
+    - name:  FileCR
+      link: https://filecr.com/
+      avatar: https://cdn.brandfetch.io/idn6dKcEf6/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1675179040754
+      descr: 下载高质量软件的终极目的地
+    - name:  小众软件
+      link: https://www.appinn.com/
+      avatar: https://www.appinn.com/wp-content/uploads/Appinn-icon-32.jpg
+      descr: 分享免费、小巧、有趣、实用软件
+    - name:  异次元
+      link: https://www.iplaysoft.com/
+      avatar: https://cdn.iplaysoft.com/ips/icon/favicon-v1/favicon.ico
+      descr: 致力推广优秀应用软件与互联网资源
+    - name:  软件先锋
+      link: https://soft.macxf.com/
+      avatar: https://cdn.mac89.com/win_macxf_node/static/favicon.ico
+      descr: 提供 Windows 电脑系统的软件下载
+    - name:  亿破姐
+      link: https://www.ypojie.com/
+      avatar: https://www.ypojie.com/favicon.ico
+      descr: 精选互联网优秀软件分享
+    - name:  蓝鲨应用库
+      link: https://www.lsapk.com/
+      avatar: https://www.lsapk.com/wp-content/uploads/2023/04/400.png
+      descr: 属于您的蓝鲨软件空间
+    - name:  懒得勤快
+      link: https://masuit.net/
+      avatar: https://s2.loli.net/2025/10/24/Th4AWC5ckNF913Q.png
+      descr: 勤于发现，乐于分享，稀缺软件分享
+    - name:  PortableAppK
+      link: https://portableappk.com/
+      avatar: https://portableappk.com/wp-content/themes/Grimag_child/favicon.ico
+      descr: 原创高品质中文绿色便携软件
+    - name:  鹏少资源网
+      link: https://vip.jokerps.com/
+      avatar: https://vip.jokerps.com/wp-content/uploads/2022/01/jokerps.png
+      descr: 专注于精品软件收录分享
+    - name:  Funletu
+      link: https://funletu.com/
+      avatar: https://i1.funletu.com/img/cropped-BE13fn-180x180.png
+      descr: 发现好物，分享资源，推荐精品
+    - name:  远景论坛
+      link: https://bbs.pcbeta.com/
+      avatar: https://bbs.pcbeta.com/favicon-64x64.png
+      descr: 前沿科技与智慧生态的极客社区
+    - name:  软件库
+      link: https://www.ligonggong.com/
+      avatar: https://www.ligonggong.com/favicon.ico
+      descr: 分享互联网优质资源
+    - name:  Puresys
+      link: https://www.puresys.net/
+      avatar: https://www.puresys.net/favicon.ico
+      descr: 提供优质的去广告绿色软件
+    - name:  又要重装系统
+      link: https://www.yyczxt.com/
+      avatar: https://www.yyczxt.com/static/img/favicon.svg
+      descr: 专业系统下载站，提供各种精简修改版
+    - name:  软件宝库
+      link: https://www.soft.cab/
+      avatar: https://www.soft.cab/favicon.ico
+      descr: 纯净的原版软件基地
+
+- class_name: 项目托管
+  link_list:
+    - name: GitHub
+      link: https://github.com/
+      avatar: https://s2.loli.net/2025/10/24/OxPlp8jeuUq7rJt.webp
+      descr: 全球最大的开源代码托管平台
     - name: Gitee
       link: https://gitee.com/
       avatar: https://s2.loli.net/2025/10/16/8KzJ7fqVusIpAcO.png
       descr: 全球第二大开源代码托管平台
+    - name: Gitea
+      link: https://gitea.cn/
+      avatar: https://about.gitea.cn/favicon.svg
+      descr: 轻量级全功能 DevSecOps 平台
+    - name: GitLab
+      link: https://gitlab.com/
+      avatar: https://gitlab.cn/static/img/hu.png
+      descr: 强大的版本控制和协作平台
+    - name: GitLab 极狐
+      link: https://gitlab.cn/
+      avatar: https://gitlab.cn/static/img/hu.png
+      descr: 极狐 GitLab 中文官网
+    - name: Git
+      link: https://git-scm.cn/
+      avatar: https://git-scm.cn/favicon.ico
+      descr: 免费且开源的分布式版本控制系统

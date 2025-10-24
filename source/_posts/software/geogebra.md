@@ -3,7 +3,7 @@ title: GeoGebra 数学绘图软件
 date: 2025-10-17 15:14:12
 series: GeoGebra
 categories:
-  - [软件工具]
+  - 软件
 tags:
   - 绘图
   - 几何

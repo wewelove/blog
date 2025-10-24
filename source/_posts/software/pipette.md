@@ -3,8 +3,7 @@ title: Pipette 屏幕取色工具
 date: 2025-10-20 20:58:10
 series: Pipette
 categories:
-  - [软件工具]
-  - [产品设计]
+  - 软件
 tags:
   - 设计
   - 取色

@@ -69,17 +69,54 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  "软件工具": 'software'
-  "开源项目": 'open-source'
-  "好书推荐": 'book'
-  "软件开发": 'develop'
-  "产品设计": 'product'
-  "运维管理": 'maintenance'
-  "软件测试": 'test'
-  "项目管理": 'project'
-  "数据分析": 'data'
-  "人工智能": 'ai'
+  "笔记": 'note'
+  "转载": 'repost'
+  "随笔": 'essay'
+  "软件": 'software'
+  "开源": 'open-source'
+  "读书": 'book'
 tag_map:
+  # 维度 1: 笔记, 开源, 读书
+  "设计": 'des'
+  "开发": 'dev'
+  "测试": 'test'
+  "运维": 'ops'
+  "项目管理": 'pm'
+  "其他": 'other'
+  # 维度 2: 笔记, 开源, 读书
+  "Web 前端": 'wf'
+  "Web 后端": 'wb'
+  "桌面端": 'dt'
+  "移动端": 'mb'
+  "数据库": 'db'
+  "容器": 'ci'
+  "嵌入式": 'em'
+  "数据分析": 'da'
+  "人工智能": 'ai'
+  # 维度 3: 笔记, 开源, 读书, 软件
+  "Windows": 'windows'
+  "Linux": 'linux'
+  "MacOS": 'macos'
+  "Android": 'android'
+  "iOS": 'ios'
+  "HarmonyOS": 'harmonyos'
+  "小程序": 'mini'
+  "浏览器": 'browser'
+  # 维度 4: 软件
+  "办公软件": 'office'
+  "视频剪辑": 'video'
+  "图像设计": 'design'
+  "建模设计": 'model'
+  "网络工具": 'network'
+  "媒体工具": 'media'
+  "编程开发": 'program'
+  "系统工具": 'systool'
+  "行业软件": 'industry'
+  "操作系统": 'os'
+  # 维度 5 编程语言: 笔记, 开源, 读书
+  # 维度 6 开发框架: 笔记, 开源, 读书
+  # 维度 7:
+  "随笔": 'essay'
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -143,7 +180,7 @@ markdown:
     - markdown-it-sub
     - markdown-it-sup
     # Custom
-    - markdown-it-checkbox
+    # - markdown-it-checkbox
     - markdown-it-div
     - markdown-it-expandable
     - markdown-it-imsize
@@ -165,11 +202,35 @@ markdown:
 
 # https://github.com/chenzhutian/hexo-all-minifier
 all_minifier: true
+html_minifier:
+  enable: true
+  silent: true
+  ignore_error: false
+  exclude:
+js_minifier:
+  enable: true
+  silent: true
+  mangle: true
+  compress: true
+  exclude:
+    - '*.min.js'
+css_minifier:
+  enable: true
+  silent: true
+  exclude:
+    - '*.min.css'
 image_minifier:
   enable: true
+  silent: true
   interlaced: false
   multipass: false
   optimizationLevel: 2
   pngquant: false
   progressive: false
-  silent: false
+
+# https://github.com/hexojs/hexo-browsersync
+browsersync:
+  logLevel: "warn"
+  ghostMode:
+    scroll: true
+  instanceName: "uniqueString"

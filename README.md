@@ -5,7 +5,7 @@
 - [Butterfly 主题 - 标签外挂](https://butterfly.js.org/posts/ceeb73f)
 - [Butterfly 主题 - 示例](https://blog.uuanqin.top/)
 - [Butterfly 主题 - 示例更多](https://butterfly.js.org/link/)
-- [安知鱼 主题](https://github.com/anzhiyu-c/hexo-theme-anzhiyu)
+- [安知鱼 主题](https://docs.anheyu.com/)
 - [安知鱼 主题 - 示例](https://blog.anheyu.com/)
 
 ## 快速开始

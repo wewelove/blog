@@ -3,7 +3,7 @@ title: TextConverter 文本转换神器
 date: 2025-10-23 15:35:16
 series: TextConverter
 categories:
-  - [软件工具]
+  - 软件
 tags:
   - 文本转换
   - 批处理

@@ -3,7 +3,7 @@ title: TextEncoder 文件编码转换神器
 date: 2025-10-23 15:56:28
 series: TextEncoder
 categories:
-  - [软件工具]
+  - 软件
 tags:
   - 编码
   - 结束符

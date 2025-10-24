@@ -20,6 +20,7 @@ nav:
 
 menu:
   首页: / || fas fa-home
+  笔记: /cates/note || fas fa-book-quran
   软件: /cates/software || fas fa-toolbox
   开源: /cates/open-source || fas fa-laptop-code
   读书: /cates/book || fas fa-book
