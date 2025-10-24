@@ -21,12 +21,6 @@ comments: false
 
 ### 软件开发-项目管理-产品设计-数据分析-运维测试
 
-## 捐赠
-
-| 支付宝 | 微信 |
-| --- | --- |
-| {% inlineImg /assets/image/alipay.jpg 280px %} | {% inlineImg /assets/image/wechatpay.png 280px %} |
-
 ## 项目
 
 {% btn https://github.com/wewelove/blog, 思学个人博客, fab fa-github, outline %}
@@ -35,5 +29,14 @@ comments: false
 {% btn https://github.com/wewelove/vitepress, VitePress 应用总结, fab fa-github, green outline %}
 {% btn https://github.com/wewelove/DataX, datax & datax-web, fab fa-github, blue outline %}
 
-{% githubCard user:wewelove %}
+## 动态
+
+![GitHub](https://ghchart.rshah.org/wewelove){class="github-calendar"}
+
+## 捐赠
+
+| 支付宝 | 微信 |
+| --- | --- |
+| ![alipay](/assets/image/alipay.jpg) | ![wechatpay](/assets/image/wechatpay.png) |
+
 :::

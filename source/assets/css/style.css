@@ -11,7 +11,7 @@
   text-align: right;
 }
 
-/* Page 页面标题 */
+/* Page 页面标题样式 */
 .page .page-title {
   text-align: center;
   border-bottom: 1px solid #eaeaea;
@@ -37,4 +37,10 @@
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.10), -1px -1px 4px 0 rgba(0, 0, 0, 0.10);
   border: 1px solid #eeeeee;
   padding: 4px;
+}
+
+/* 关于页面 - GitHub 日历图片 */
+.github-calendar {
+  border: 1px solid #eeeeee;
+  padding: 16px;
 }
