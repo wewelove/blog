@@ -6,9 +6,7 @@ categories:
 tags:
 ---
 
-::: book
-{% inlineImg /assets/image/book.jpg 280px %}
-:::
+![书籍封面](/assets/image/book.jpg){class="book-cover"}
 
 **书名**：活着
 **作者**：余华

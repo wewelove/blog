@@ -70,53 +70,109 @@ index_generator:
 default_category: uncategorized
 category_map:
   "笔记": 'note'
-  "转载": 'repost'
-  "随笔": 'essay'
+  "资讯": 'info'
   "软件": 'software'
   "开源": 'open-source'
   "读书": 'book'
+  "办公教育": 'office-education'        # 办公，教育
+  "图形设计": 'picture-design'          # 图形，图像，设计，建模
+  "网络社交": 'network-social'          # 社交，娱乐，浏览器，上传，下载，远程
+  "媒体娱乐": 'media-entertainment'     # 播放器，视频编辑，音频编辑
+  "编程开发": 'programming-development' # 开发，测试，运维，数据库，项目管理
+  "效率工具": 'efficiency-tools'        # 效率工具，实用程序，压缩解压
+  "系统增加": 'system-increase'         # 安全防护，优化清理，备份还原，磁盘工具，驱动
+  "企业工程": 'enterprise-engineering'  # 企业应用，科研应用，工程仿真
+  "操作系统": 'operating-system'        # 操作系统
 tag_map:
-  # 维度 1: 笔记, 开源, 读书
-  "设计": 'des'
-  "开发": 'dev'
+  # 维度 1:
+  "设计": 'design'
+  "开发": 'development'
   "测试": 'test'
-  "运维": 'ops'
-  "项目管理": 'pm'
-  "其他": 'other'
-  # 维度 2: 笔记, 开源, 读书
-  "Web 前端": 'wf'
-  "Web 后端": 'wb'
-  "桌面端": 'dt'
-  "移动端": 'mb'
-  "数据库": 'db'
-  "容器": 'ci'
-  "嵌入式": 'em'
-  "数据分析": 'da'
+  "运维": 'operation'
+  "项目": 'project'
+  # 维度 2:
+  "前端": 'frontend'
+  "后端": 'backend'
+  "桌面端": 'desktop'
+  "移动端": 'mobile'
+  "数据库": 'database'
+  "嵌入式": 'embedded'
+  "容器": 'container'
+  "数据分析": 'data-analysis'
   "人工智能": 'ai'
-  # 维度 3: 笔记, 开源, 读书, 软件
+  # 维度 3:
   "Windows": 'windows'
   "Linux": 'linux'
   "MacOS": 'macos'
   "Android": 'android'
   "iOS": 'ios'
   "HarmonyOS": 'harmonyos'
-  "小程序": 'mini'
+  "小程序": 'miniprogram'
   "浏览器": 'browser'
-  # 维度 4: 软件
-  "办公软件": 'office'
-  "视频剪辑": 'video'
-  "图像设计": 'design'
-  "建模设计": 'model'
-  "网络工具": 'network'
-  "媒体工具": 'media'
-  "编程开发": 'program'
-  "系统工具": 'systool'
-  "行业软件": 'industry'
-  "操作系统": 'os'
-  # 维度 5 编程语言: 笔记, 开源, 读书
-  # 维度 6 开发框架: 笔记, 开源, 读书
-  # 维度 7:
-  "随笔": 'essay'
+  # 维度 4 编程语言, 框架, 数据库等
+  "C": 'c'
+  "C++": 'c++'
+  "Java": 'java'
+  "Python": 'python'
+  "C#": 'c#'
+  "JavaScript": 'javascript'
+  "PHP": 'php'
+  "Go": 'go'
+  "Rust": 'rust'
+  "Swift": 'swift'
+  "Kotlin": 'kotlin'
+  "Dart": 'dart'
+  "Lua": 'lua'
+  "Perl": 'perl'
+  "Ruby": 'ruby'
+  "SQL": 'sql'
+  "Lisp": 'lisp'
+  "Objective-C": 'objective-c'
+  "Scala": 'scala'
+  "Haskell": 'haskell'
+  "Shell": 'shell'
+  "Forth": 'forth'
+  "Pascal": 'pascal'
+  "TypeScript": 'typescript'
+  "Elasticsearch": 'elasticsearch'
+  "MongoDB": 'mongodb'
+  "Redis": 'redis'
+  "Elasticsearch": 'elasticsearch'
+  "MariaDB": 'mariadb'
+  "PostgreSQL": 'postgresql'
+  "MySQL": 'mysql'
+  "SQLite": 'sqlite'
+  "Mongoose": 'mongoose'
+  "Docker": 'docker'
+  "Node.js": 'node.js'
+  "JQuery": 'jquery'
+  "Bootstrap": 'bootstrap'
+  "SASS": 'sass'
+  "Less": 'less'
+  "Vue": 'vue'
+  "React": 'react'
+  "Express": 'express'
+  "Nest": 'nest'
+  "Nuxt": 'nuxt'
+  "Vuex": 'vuex'
+  "Vue Router": 'vue-router'
+  "Pinpa": 'pinpa'
+  "Element UI": 'element-ui"
+  "Ant Design Vue": 'ant-design-vue'
+  "Naive UI": 'Naive-ui'
+  "Vuetify": 'vuetify'
+  "Quasar": 'quasar'
+  "Tailwind CSS": 'tailwind-css'
+  "UnoCSS": 'unocss'
+  "uni-app": 'uni-app'
+  "Taro": 'taro'
+  "React Native": 'react-native'
+  "Flutter": 'flutter'
+  "Ionic": 'ionic'
+  "Django": 'django'
+  "Flask": 'flask'
+  "Spring": 'spring'
+  "Sequelize": 'sequelize'
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
