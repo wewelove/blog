@@ -137,7 +137,6 @@ tag_map:
   "Elasticsearch": 'elasticsearch'
   "MongoDB": 'mongodb'
   "Redis": 'redis'
-  "Elasticsearch": 'elasticsearch'
   "MariaDB": 'mariadb'
   "PostgreSQL": 'postgresql'
   "MySQL": 'mysql'
