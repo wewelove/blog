@@ -156,9 +156,9 @@ tag_map:
   "Vuex": 'vuex'
   "Vue Router": 'vue-router'
   "Pinpa": 'pinpa'
-  "Element UI": 'element-ui"
+  "Element UI": 'element-ui'
   "Ant Design Vue": 'ant-design-vue'
-  "Naive UI": 'Naive-ui'
+  "Naive UI": 'naive-ui'
   "Vuetify": 'vuetify'
   "Quasar": 'quasar'
   "Tailwind CSS": 'tailwind-css'
