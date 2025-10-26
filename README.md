@@ -11,9 +11,15 @@
 ## 快速开始
 
 ```sh
+# 安装 hexo
 npm install hexo-cli -g
 
-npm run server
+
+# 安装依赖
+yarn
+# 启动服务
+yarn server
+# 构建
 ```
 
 ## 创建新文章
