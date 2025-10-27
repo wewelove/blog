@@ -289,3 +289,4 @@ browsersync:
   ghostMode:
     scroll: true
   instanceName: "uniqueString"
+  reloadDelay: 10000
