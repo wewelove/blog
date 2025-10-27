@@ -1,5 +1,5 @@
 ---
-title: 学而不思则罔，思而不学则殆
+title: 思学
 type: about
 date: 2019-04-10 10:45:33
 comments: false
