@@ -31,7 +31,7 @@ comments: false
 
 ## 动态
 
-![GitHub](https://ghchart.rshah.org/wewelove){class="github-calendar"}
+![GitHub](https://ghchart.rshah.org/wewelove){.github-calendar}
 
 ## 捐赠
 

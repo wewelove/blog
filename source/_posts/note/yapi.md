@@ -2,7 +2,7 @@
 title: 内网部署 YApi
 date: 2022-01-27 10:59:54
 categories:
-  - 笔记
+  - [笔记]
 tags:
   - Yapi
   - pm2

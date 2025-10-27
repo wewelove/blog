@@ -2,7 +2,7 @@
 title: MariaDB 数据库安装设置
 date: 2020-02-11 12:14:57
 categories:
-  - 笔记
+  - [笔记]
 tags:
   - mariadb
 ---

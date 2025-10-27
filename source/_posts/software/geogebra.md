@@ -1,10 +1,10 @@
 ---
 title: GeoGebra 数学绘图软件
 date: 2025-10-17 15:14:12
-series: GeoGebra
 categories:
-  - 软件
+  - [软件, 办公教育]
 tags:
+  - GeoGebra
   - 绘图
   - 几何
   - 代数
@@ -12,6 +12,8 @@ tags:
   - 微积分
 cover: /images/geogebra.png
 ---
+
+## GeoGebra
 
 GeoGebra 是一款适用于各级教育的动态数学软件, 它将几何, 代数, 数据, 绘图, 统计和微积分整合到一个引擎中. 此外, GeoGebra 还提供了一个在线平台, 其中包含由多语言社区创建的超过 100 万个免费课堂资源. 这些资源可以通过我们的协作平台 GeoGebra 课堂轻松共享, 在那里可以实时监控学生的进度.
 
@@ -32,13 +34,9 @@ GeoGebra 的名字巧妙结合了 **Geometry（几何）** 和 **Algebra（�
 
 得益于 Java 的跨平台特性，你可以在 Windows、macOS、Linux、iOS 和 Android 等几乎所有主流操作系统上使用它。
 
-## 快速上手
+## 系列文章
 
-- **适合人群广泛**：无论是 **中小学生、大学生**，还是 **教师**，都能从中受益。学生可以用它来验证公式、理解概念，教师则可以用它来创建动态的教学课件。
-
-- **探索资源库**：官网上有一个由全球用户创建的超过 **一百万种免费互动资源库**，涵盖数学和科学的各个领域。在备课或学习时，直接搜索关键词（如"平行四边形性质"），就能找到大量现成的课件，可以复制使用或进行修改。
-
-- **新手入门**：对于初次使用者，可以从简单的画图、测量角度开始，逐步学习使用滑动条和输入指令。官网的"帮助"栏目提供了详细的视频和文字教程。
+{% series GeoGebra %}
 
 ## 下载地址
 
@@ -48,4 +46,5 @@ GeoGebra 的名字巧妙结合了 **Geometry（几何）** 和 **Algebra（�
 
 ## 软件授权
 
-**{% label 免费软件 green %}** - 使用需遵守 [协议条款](https://www.geogebra.org/license)。
+[免费软件, 使用时需遵守协议条款](https://www.geogebra.org/license){.btn-beautify .orange}
+[免费软件, 如果喜欢请支持本项目](https://www.geogebra.org/partners){.btn-beautify .green}

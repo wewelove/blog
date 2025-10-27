@@ -2,7 +2,7 @@
 title: Oracle、MySQL、PostgreSQL 数据类型对比转换
 date: 2025-08-12 07:47:23
 categories:
-  - 笔记
+  - [笔记]
 tags: 
   - MySQL
   - Oracle

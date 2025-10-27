@@ -2,7 +2,7 @@
 title: MySQL 表结构及字段描述查询方法
 date: 2025-10-16 15:10:50
 categories:
-  - 笔记
+  - [笔记]
 tags:
   - MySQL
   - 元数据

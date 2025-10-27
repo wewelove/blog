@@ -1,14 +1,15 @@
 ---
 title: FileRenamer 文件重命名神器
 date: 2025-10-23 14:17:52
-series: FileRenamer
 categories:
-  - 软件
+  - [软件, 效率工具]
 tags:
   - 重命名
   - 批量
   - 正则
 ---
+
+## FileRenamer
 
 FileRenamer 是一款专业、强大且易于使用的批量文件重命名工具。它的核心目的是帮助用户快速、高效地对大量文件和文件夹进行重命名操作，从而摆脱繁琐的手动逐个修改，极大地提升文件管理效率。
 
@@ -75,7 +76,9 @@ FileRenamer 是一款专业、强大且易于使用的批量文件重命名工�
 
 - **无需安装：**  该程序无需安装即可运行。这样可以节省您的注册表，您可以立即使用它。
 
-## 快速上手
+## 系列文章
+
+{% series FileRenamer %}
 
 ## 下载地址
 
@@ -85,4 +88,4 @@ FileRenamer 是一款专业、强大且易于使用的批量文件重命名工�
 
 ## 软件授权
 
-**{% label 免费软件 green %}** - 为爱发电 [支持项目](https://www.sttmedia.com/donate)。
+[免费软件, 如果喜欢请支持本项目](https://www.sttmedia.com/donate){.btn-beautify .green}

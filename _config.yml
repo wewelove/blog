@@ -76,7 +76,7 @@ category_map:
   "读书": 'book'
   "办公教育": 'office-education'        # 办公，教育
   "图形设计": 'picture-design'          # 图形，图像，设计，建模
-  "网络社交": 'network-social'          # 社交，娱乐，浏览器，上传，下载，远程
+  "网络社交": 'network-social'          # 社交聊天，浏览器，上传下载，远程控制
   "媒体娱乐": 'media-entertainment'     # 播放器，视频编辑，音频编辑
   "编程开发": 'programming-development' # 开发，测试，运维，数据库，项目管理
   "效率工具": 'efficiency-tools'        # 效率工具，实用程序，压缩解压

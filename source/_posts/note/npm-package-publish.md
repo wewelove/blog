@@ -2,7 +2,7 @@
 title: NPM 包发布流程
 date: 2020-06-06 15:47:02
 categories:
-  - 笔记
+  - [笔记]
 tags: 
   - npm
   - package

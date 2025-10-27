@@ -2,7 +2,7 @@
 title: Git 中 CRLF 与 LF 的转换
 date: 2021-08-10 08:54:33
 categories:
-  - 笔记
+  - [笔记]
 tags: 
   - git
   - crlf

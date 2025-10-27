@@ -1,13 +1,12 @@
 ---
 title: Dimina 轻量级跨端小程序框架
 date: 2025-10-21 09:09:09
-series: dimina
 categories:
-  - 开源
+  - [开源]
 tags:
+  - 跨平台
   - 小程序
   - APP
-  - 跨平台
   - Android
   - iOS
   - Harmony

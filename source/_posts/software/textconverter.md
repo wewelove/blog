@@ -1,16 +1,18 @@
 ---
 title: TextConverter 文本转换神器
 date: 2025-10-23 15:35:16
-series: TextConverter
 categories:
-  - 软件
+  - [软件, 效率工具]
 tags:
+  - TextConverter
   - 文本转换
   - 批处理
   - 正则
   - 替换
   - 插入
 ---
+
+## TextConverter
 
 使用 TextConverter，可以通过多种不同的方式编辑和转换文本和任何类型的文本文件。可以同时处理单个或多个文本文件，而无需单独打开每个文件，也可以即时更改未保存的文本而不存储它们。
 
@@ -83,7 +85,9 @@ tags:
 
 - **无需安装：** 该程序无需安装即可运行。这样可以节省您的注册表，您可以立即使用它。不过，可以注册配置文件的文件扩展名 （\*.tkg），单击鼠标打开配置或保存要在启动时加载的配置。当然，运行程序不需要此注册，并且可以随时使用该软件撤消。
 
-## 快速上手
+## 系列文章
+
+{% series TextConverter %}
 
 ## 下载地址
 
@@ -93,4 +97,4 @@ tags:
 
 ## 软件授权
 
-**{% label 基础版本免费 green %}**  **{% label 专业版本收费 orange %}**
+[免费软件, 如果喜欢请支持本项目](https://www.sttmedia.com/donate){.btn-beautify .green}

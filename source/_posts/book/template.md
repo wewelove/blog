@@ -2,11 +2,12 @@
 title: 书籍推荐模板
 date: 2015-01-01 00:02:00
 categories:
-  - 读书
+  - [读书]
 tags:
 ---
+## 活着
 
-![书籍封面](/assets/image/book.jpg){class="book-cover"}
+![书籍封面](/assets/image/book.jpg){.book-cover}
 
 **书名**：活着
 **作者**：余华

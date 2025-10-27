@@ -2,7 +2,7 @@
 title: GBase 8A 数据类型及详细说明
 date: 2025-08-12 07:47:23
 categories:
-  - 笔记
+  - [笔记]
 tags: 
   - GBase 8A
   - 南大通用

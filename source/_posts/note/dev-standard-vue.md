@@ -3,7 +3,7 @@ title: Vue 项目开发规范
 date: 2023-08-20 10:27:22
 series: development-standards
 categories:
-  - 笔记
+  - [笔记]
 tags:
   - vue
   - vue.js

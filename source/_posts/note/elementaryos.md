@@ -2,7 +2,7 @@
 title: Elementary OS 使用心得
 date: 2020-02-11 12:36:21
 categories:
-  - 笔记
+  - [笔记]
 tags:
   - linux
   - elementaryos

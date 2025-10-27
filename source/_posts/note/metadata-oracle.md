@@ -2,7 +2,7 @@
 title: Oracle 数据库元数据查询管理
 date: 2025-05-11 12:14:57
 categories:
-  - 笔记
+  - [笔记]
 tags:
   - Oracle
   - 元数据
