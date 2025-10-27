@@ -12,7 +12,7 @@ tags:
 
 ## Cmder
 
-Cmder 是一款可替代 Windows 系统 CMD、PowerShell 的开发终端神器 Cmder，解决原生终端美观与功能局限问题。
+Cmder 是一款可替代 Windows 系统 CMD、PowerShell 的终端神器，解决原生终端美观与功能局限问题。
 
 ![封面](/images/cmder.png)
 
