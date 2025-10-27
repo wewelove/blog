@@ -1,7 +1,6 @@
 ---
 title: Deskreen 跨平台屏幕共享软件
 date: 2025-10-27 11:42:17
-series: Deskreen
 categories:
   - [软件, 网络社交]
   - [软件, 效率工具]
