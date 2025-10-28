@@ -12,14 +12,106 @@
       link: https://www.npmjs.com/
       avatar: https://static-production.npmjs.com/1996fcfdf7ca81ea795f67f093d7f449.png
       descr: 让你的 JavaScript 开发更上一层楼
+    - name: MDN
+      link: https://developer.mozilla.org/zh-CN/
+      avatar: https://developer.mozilla.org/favicon.svg
+      descr: Resources for Developers, by Developers
+    - name: TypeScript
+      link: https://www.typescriptlang.org/
+      avatar: https://www.typescriptlang.org/icons/icon-48x48.png?v=8944a05a8b601855de116c8a56d3b3ae
+      descr: JavaScript with syntax for types
     - name: Vue.js
       link: https://cn.vuejs.org/
       avatar: https://cn.vuejs.org/logo.svg
       descr: 渐进式 JavaScript 框架
+    - name: Vite
+      link: https://vitejs.cn/vite3-cn/
+      avatar: https://vitejs.cn/logo.svg
+      descr: 下一代前端工具链
+    - name: VitePress
+      link: https://vitepress.dev/zh/
+      avatar: https://vitepress.dev/vitepress-logo-mini.svg
+      descr: 由 Vite 和 Vue 驱动的静态站点生成器
+    - name: Vuex
+      link: https://vuex.vuejs.org/zh/
+      avatar: https://cn.vuejs.org/logo.svg
+      descr: 专为 Vue.js 开发的状态管理模式
+    - name: Pinia
+      link: https://pinia.vuejs.org/zh/
+      avatar: https://pinia.vuejs.org/logo.svg
+      descr: 符合直觉的 Vue.js 状态管理库
+    - name: Axios
+      link: https://www.axios-http.cn/
+      avatar: https://www.axios-http.cn/img/favicon.ico
+      descr: 基于 promise 的网络请求库
+    - name: Alova.js
+      link: https://alova.js.org/zh-CN/
+      avatar: https://alova.js.org/zh-CN/img/favicon.ico
+      descr: 极致高效的请求工具集
+    - name: Lodash
+      link: https://lodash.com/
+      avatar: https://www.lodashjs.com/img/lodash.png
+      descr: 一致性、模块化、高性能的 JavaScript 实用工具库
+    - name: Lodash 中文网
+      link: https://www.lodashjs.com/
+      avatar: https://www.lodashjs.com/img/lodash.png
+      descr: 一致性、模块化、高性能的 JavaScript 实用工具库
+    - name: Day.js
+      link: https://day.js.org/zh-CN/
+      avatar: https://day.js.org/img/favicon.ico
+      descr: Moment.js 的 2kB 轻量化方案
+    - name: Element Plus
+      link: https://element-plus.org/zh-CN/
+      avatar: https://element-plus.org/images/element-plus-logo-small.svg
+      descr: 基于 Vue 3，面向设计师和开发者的组件库
+    - name: Ant Design of Vue
+      link: https://www.antdv.com/docs/vue/introduce-cn
+      avatar: https://www.antdv.com/favicon.ico
+      descr: Ant Design 的 Vue 实现，开发和服务于企业级后台产品
+    - name: Naive UI
+      link: https://www.naiveui.com/zh-CN
+      avatar: https://www.naiveui.com/assets/naivelogo-BdDVTUmz.svg
+      descr: Vue 3 组件库，主题可调，使用 TypeScript，快
+    - name: Vuetify
+      link: https://vuetifyjs.com/zh-Hans/
+      avatar: https://vuetifyjs.com/favicon.ico
+      descr: A no design skills required Open Source UI Library
+    - name: Shadcn Vue
+      link: https://www.shadcn-vue.com/
+      avatar: https://www.shadcn-vue.com/favicon.ico
+      descr: Beautifully designed components made with Tailwind CSS
     - name: uni-app
       link: https://uniapp.dcloud.net.cn/
       avatar: https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/icon.png?v=1556263038788
       descr: 使用 Vue.js 开发所有前端应用的框架
+    - name: unibest
+      link: https://www.unibest.tech/
+      avatar: https://www.unibest.tech/favicon.ico
+      descr: 最好的 uniapp 框架
+    - name: uView Next
+      link: https://uview.d3u.cn/
+      avatar: https://uview.d3u.cn/common/logo.png
+      descr: 企业级、高质量、更贴近业务场景的UI框架
+    - name: Wot UI
+      link: https://wot-ui.cn/
+      avatar: https://wot-ui.cn/favicon.ico
+      descr: 高颜值、轻量化的 uni-app 组件库
+    - name: TuniaoUI
+      link: https://vue3.tuniaokj.com/
+      avatar: https://vue3.tuniaokj.com/images/tuniao-logo.svg
+      descr: 酷炫、快捷、方便且高可用
+    - name: TMUI
+      link: https://xui.tmui.design/
+      avatar: https://xui.tmui.design/logo.png
+      descr: 高质量 uniapp x UI 组件库, 原生 Uts 插件
+    - name: Tui-Plus
+      link: https://life.yundie.xyz/tuiplus/docs/
+      avatar: https://life.yundie.xyz/tuiplus/docs/logo.png
+      descr: 专注前端组件，打造轻量高效 uni-app x UI 组件库
+    - name: Uni ECharts
+      link: https://uni-echarts.xiaohe.ink/
+      avatar: https://oss.xiaohe.ink/images/uni-echarts.png
+      descr: 适用于 uni-app 的 ECharts 组件
     - name: OpenJDK
       link: https://openjdk.org/
       avatar: https://openjdk.org/images/duke-thinking.png
@@ -44,6 +136,46 @@
       link: https://springdoc.cn/spring-boot/
       avatar: https://spring.io/img/projects/spring-boot.svg
       descr: 简化 Spring 应用的创建及部署的框架
+    - name: Python
+      link: https://www.python.org/
+      avatar: https://www.python.org/static/favicon.ico
+      descr:  lets you work quickly and integrate
+    - name: Django
+      link: https://www.djangoproject.com/
+      avatar: https://static.djangoproject.com/img/icon-touch.e4872c4da341.png
+      descr: build better web apps more quickly and with less code
+    - name: Flask
+      link: https://flask.org.cn/en/stable/
+      avatar: https://flask.org.cn/en/stable/_static/shortcut-icon.png
+      descr: 轻量级的 WSGI Web 应用程序框架
+    - name: FastAPI
+      link: https://fastapi.tiangolo.com/zh/
+      avatar: https://fastapi.tiangolo.com/zh/img/favicon.png
+      descr: 高性能，易于学习，高效编码，生产可用
+    - name: Golang
+      link: https://golang.google.cn/
+      avatar: https://golang.google.cn/images/favicon-gopher.png
+      descr: Build simple, secure, scalable systems with Go
+    - name: Rust
+      link: https://rust-lang.org/zh-CN/
+      avatar: https://rust-lang.org/static/images/apple-touch-icon.png?v=ngJW8jGAmR
+      descr: 构建可靠且高效软件能力的语言
+    - name: Lua
+      link: https://www.lua.org/
+      avatar: https://www.lua.org/favicon.ico
+      descr: 功能强大且快速的编程语言
+    - name: Nginx
+      link: https://nginx.org/en/
+      avatar: https://nginx.org/favicon.ico
+      descr: An HTTP web server, reverse proxy, content cache, load balancer
+    - name: OpenResty
+      link: https://openresty.org/cn/
+      avatar: https://openresty.org/favicon.ico
+      descr: 是一款基于 NGINX 和 LuaJIT 的 Web 平台
+    - name: APISIX
+      link: https://apisix.apache.org/zh/
+      avatar: https://static.apiseven.com/202202/favicon.png
+      descr: API 网关与 AI 网关，服务 API 与 AI 代理
     - name: Docker
       link: https://www.docker.com/
       avatar: https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-180x180.png
@@ -71,6 +203,10 @@
       link: https://filecr.com/
       avatar: https://cdn.brandfetch.io/idn6dKcEf6/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1675179040754
       descr: 下载高质量软件的终极目的地
+    - name:  Flathub
+      link: https://flathub.org/zh-Hans
+      avatar: https://flathub.org/_next/static/media/flathub-logo-mini.b54a75e1.svg
+      descr: Linux 的应用商店
     - name:  小众软件
       link: https://www.appinn.com/
       avatar: https://www.appinn.com/wp-content/uploads/Appinn-icon-32.jpg
@@ -127,6 +263,14 @@
       link: https://www.soft.cab/
       avatar: https://www.soft.cab/favicon.ico
       descr: 纯净的原版软件基地
+    - name:  绿软小站
+      link: https://www.gndown.com/
+      avatar: https://www.gndown.com/favicon.ico
+      descr: 分享绿色软件、免费软件、最新资讯
+    - name:  绿软小站
+      link: https://www.gndown.com/
+      avatar: https://www.gndown.com/favicon.ico
+      descr: 分享绿色软件、免费软件、最新资讯
 
 - class_name: 项目托管
   link_list:
