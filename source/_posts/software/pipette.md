@@ -58,4 +58,4 @@ Pipette 是一款免费、轻量且无需安装的屏幕取色工具，它能让
 
 ## 软件授权
 
-[免费软件, 如果喜欢请支持本项目](https://www.sttmedia.com/donate){.btn-beautify .green}
+[免费软件, 捐赠点赞合作参与贡献](https://www.sttmedia.com/donate){.btn-beautify .green}

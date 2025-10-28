@@ -56,4 +56,4 @@ TextEncoder 还可以更改所用换行符的类型。支持换行符 CRLF（Win
 
 ## 软件授权
 
-[免费软件, 如果喜欢请支持本项目](https://www.sttmedia.com/donate){.btn-beautify .green}
+[免费软件, 捐赠点赞合作参与贡献](https://www.sttmedia.com/donate){.btn-beautify .green}

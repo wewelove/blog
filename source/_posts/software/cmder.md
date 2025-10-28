@@ -45,7 +45,7 @@ Cmder 是一款可替代 Windows 系统 CMD、PowerShell 的终端神器，解�
 
 ## 软件授权
 
-[免费软件, 如果喜欢请支持本项目](https://github.com/cmderdev/cmder){.btn-beautify .green}
+[免费软件, 捐赠点赞合作参与贡献](https://github.com/cmderdev/cmder){.btn-beautify .green}
 
 ## 开源协议
 

@@ -88,4 +88,4 @@ FileRenamer 是一款专业、强大且易于使用的批量文件重命名工�
 
 ## 软件授权
 
-[免费软件, 如果喜欢请支持本项目](https://www.sttmedia.com/donate){.btn-beautify .green}
+[免费软件, 捐赠点赞合作参与贡献](https://www.sttmedia.com/donate){.btn-beautify .green}
