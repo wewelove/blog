@@ -184,6 +184,14 @@
       link: https://docker.github.net.cn/
       avatar: https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-180x180.png
       descr: 开源的应用容器引擎
+    - name: Podman
+      link: https://podman.io/
+      avatar: https://podman.io/favicon.ico
+      descr: 最好的免费开源容器工具
+    - name: Podman 中文网
+      link: https://podman.org.cn/
+      avatar: https://podman.org.cn/favicon.ico
+      descr: 最好的免费开源容器工具
     - name: Hexo
       link: https://hexo.io/zh-cn/
       avatar: https://s2.loli.net/2025/10/16/npgZi5taeDjAEvL.png
@@ -263,10 +271,6 @@
       link: https://www.soft.cab/
       avatar: https://www.soft.cab/favicon.ico
       descr: 纯净的原版软件基地
-    - name:  绿软小站
-      link: https://www.gndown.com/
-      avatar: https://www.gndown.com/favicon.ico
-      descr: 分享绿色软件、免费软件、最新资讯
     - name:  绿软小站
       link: https://www.gndown.com/
       avatar: https://www.gndown.com/favicon.ico
