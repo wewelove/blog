@@ -835,7 +835,7 @@ crisp:
 
 # 百度统计配置
 # 官方网站：https://tongji.baidu.com/web/welcome/login
-baidu_analytics:
+baidu_analytics: 228acc88080be5363969608d1ffa4072
 
 # 谷歌分析配置
 # 官方网站：https://analytics.google.com/analytics/web/
@@ -856,13 +856,13 @@ microsoft_clarity:
 # Google Adsense 广告配置
 google_adsense:
   # 是否启用
-  enable: false
+  enable: true
   # 是否自动投放广告
   auto_ads: true
   # 广告脚本 URL
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   # 客户 ID
-  client:
+  client: ca-pub-8779051466477978
   # 是否启用页面级广告
   enable_page_level_ads: true
 
@@ -1092,7 +1092,7 @@ series:
   # 是否启用系列
   enable: true
   # 按标题或日期排序
-  orderBy: 'title'
+  orderBy: 'date'
   # 排序方式。1, asc 为升序; -1, desc 为降序
   order: 1
   # 是否显示编号
@@ -1245,8 +1245,10 @@ css_prefix: true
 # 插入代码到 head（在 '</head>' 标签之前）和底部（在 '</body>' 标签之前）
 inject:
   head:
+    - <meta name="google-adsense-account" content="ca-pub-8779051466477978">
     - <link rel="stylesheet" href="/assets/fonts/iconfont.css">
     - <link rel="stylesheet" href="/assets/css/style.css">
+    - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8779051466477978" crossorigin="anonymous"></script>
   bottom:
     # - <script src="xxxx"></script>
 
