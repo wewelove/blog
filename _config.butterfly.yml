@@ -332,9 +332,9 @@ footer:
     # 网站创建年份
     since: 2019
   # 自定义文本
-  custom_text:
+  custom_text: <a href="https://beian.miit.gov.cn/"><img class="icp-icon" src="/assets/image/icp.png"><span>滇ICP备2022006346号-1</span></a>
   # 主题和框架的版权声明
-  copyright: true
+  copyright: Copyright © 2025 Hao All rights reserved.
 
 # --------------------------------------
 # 侧边栏设置
@@ -1248,7 +1248,6 @@ inject:
     - <meta name="google-adsense-account" content="ca-pub-8779051466477978">
     - <link rel="stylesheet" href="/assets/fonts/iconfont.css">
     - <link rel="stylesheet" href="/assets/css/style.css">
-    - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8779051466477978" crossorigin="anonymous"></script>
   bottom:
     # - <script src="xxxx"></script>
 
@@ -1278,7 +1277,8 @@ CDN:
     # artalk_css:
     # artalk_js:
     # blueimp_md5:
-    # busuanzi:
+    # https://www.busuanzi.cc/
+    # busuanzi: https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js
     # canvas_fluttering_ribbon:
     # canvas_nest:
     # canvas_ribbon:
