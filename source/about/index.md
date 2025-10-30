@@ -1,5 +1,5 @@
 ---
-title: 思学
+title: 关于
 type: about
 date: 2019-04-10 10:45:33
 comments: false
