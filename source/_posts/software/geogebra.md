@@ -1,8 +1,8 @@
 ---
 title: GeoGebra 数学绘图软件
-date: 2025-10-17 15:14:12
 categories:
-  - [软件, 办公教育]
+  - - 软件
+    - 办公教育
 tags:
   - GeoGebra
   - 绘图
@@ -11,9 +11,11 @@ tags:
   - 统计
   - 微积分
 cover: /images/geogebra.png
+abbrlink: e85bd0a4
+date: 2025-10-17 15:14:12
 ---
 
-## GeoGebra
+## 软件简介
 
 GeoGebra 是一款适用于各级教育的动态数学软件, 它将几何, 代数, 数据, 绘图, 统计和微积分整合到一个引擎中. 此外, GeoGebra 还提供了一个在线平台, 其中包含由多语言社区创建的超过 100 万个免费课堂资源. 这些资源可以通过我们的协作平台 GeoGebra 课堂轻松共享, 在那里可以实时监控学生的进度.
 
@@ -24,6 +26,13 @@ GeoGebra 是一个拥有数百万用户的社区, 几乎分布在每个国家. �
 ::: center
 {% btn https://www.geogebra.org/, 官方网站, fas fa-home, blue outline %}
 {% btn https://help.geogebra.org/hc/zh-cn/categories/7841335583005, 帮助中心, fas fa-book, green outline %}
+:::
+
+::: center
+{% btn javascript:void(0);, '', iconfont icon-windows, default outline %}
+{% btn javascript:void(0);, '', iconfont icon-linux, default outline %}
+{% btn javascript:void(0);, '', iconfont icon-macos, default outline %}
+{% btn javascript:void(0);, '', iconfont icon-browser, default outline %}
 :::
 
 ## 功能特性

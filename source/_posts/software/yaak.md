@@ -1,16 +1,18 @@
 ---
 title: Yaak 全新的桌面 API 调试工具
-date: 2025-10-29 14:07:21
 categories:
-  - [软件, 编程开发]
-  - [开源]
+  - - 软件
+    - 编程开发
+  - - 开源
 tags:
   - Yaak
   - API
-  - 调试 
+  - 调试
+abbrlink: 8686fd9e
+date: 2025-10-29 14:07:21
 ---
 
-## YaaK
+## 软件简介
 
 Yaak 是一款全新的桌面 API 调试工具，支持 REST、GraphQL、gRPC、WebSocket 和 SSE 等多种协议请求。它由 Tauri 框架开发，采用 Rust 和 React 实现，目标是成为开发者的绝佳利器。
 
@@ -22,6 +24,12 @@ Yaak 有着简洁高效的设计，可以轻松导入 Postman、Swagger 等工�
 {% btn https://github.com/mountain-loop/yaak/, GitHub, fab fa-github, default outline %}
 {% btn https://yaak.app/, 官方网站, fas fa-home, blue outline %}
 {% btn https://feedback.yaak.app/help, 使用文档, fas fa-book, green outline %}
+:::
+
+::: center
+{% btn javascript:void(0);, '', iconfont icon-windows, default outline %}
+{% btn javascript:void(0);, '', iconfont icon-linux, default outline %}
+{% btn javascript:void(0);, '', iconfont icon-macos, default outline %}
 :::
 
 ## 技术特性

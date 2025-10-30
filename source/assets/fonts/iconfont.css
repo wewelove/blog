@@ -1,16 +1,28 @@
 @font-face {
   font-family: "iconfont"; /* Project id 5046968 */
-  src: url('iconfont.woff2?t=1761125005465') format('woff2'),
-       url('iconfont.woff?t=1761125005465') format('woff'),
-       url('iconfont.ttf?t=1761125005465') format('truetype');
+  src: url('iconfont.woff2?t=1761817532653') format('woff2'),
+       url('iconfont.woff?t=1761817532653') format('woff'),
+       url('iconfont.ttf?t=1761817532653') format('truetype');
 }
 
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: 1.0em;
+  font-size: 1em;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ios:before {
+  content: "\e734";
+}
+
+.icon-download:before {
+  content: "\e603";
+}
+
+.icon-harmony:before {
+  content: "\e60d";
 }
 
 .icon-gitee:before {
@@ -50,6 +62,10 @@
 }
 
 .icon-browser:before {
+  content: "\e644";
+}
+
+.icon-browser1:before {
   content: "\e67a";
 }
 
@@ -69,16 +85,8 @@
   content: "\e615";
 }
 
-.icon-harmony:before {
-  content: "\e60a";
-}
-
 .icon-search:before {
   content: "\e604";
-}
-
-.icon-ios:before {
-  content: "\e658";
 }
 
 .icon-jingdong:before {

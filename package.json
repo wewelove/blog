@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "hexo": "^7.3.0",
+    "hexo-abbrlink": "^2.2.1",
     "hexo-all-minifier": "^0.5.7",
     "hexo-browsersync": "^0.3.0",
     "hexo-calendar": "^1.1.1",
@@ -41,8 +42,5 @@
     "markdown-it-imsize": "^2.0.1",
     "markdown-it-sticky-table": "^0.3.15",
     "markdown-it-task-lists": "^2.1.1"
-  },
-  "devDependencies": {
-    "hexo-server-live": "^0.2.12"
   }
 }

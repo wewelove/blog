@@ -1,16 +1,18 @@
 ---
 title: Cmder Windows 上的命令行工具
-date: 2025-10-27 14:43:01
 categories:
-  - [软件, 编程开发]
-  - [开源]
+  - - 软件
+    - 编程开发
+  - - 开源
 tags:
   - Cmder
-  - 终端  
-  - Windows   
+  - 终端
+  - Windows
+abbrlink: 3b823c81
+date: 2025-10-27 14:43:01
 ---
 
-## Cmder
+## 软件简介
 
 Cmder 是一款可替代 Windows 系统 CMD、PowerShell 的终端神器，解决原生终端美观与功能局限问题。
 
@@ -20,6 +22,10 @@ Cmder 是一款可替代 Windows 系统 CMD、PowerShell 的终端神器，解�
 {% btn https://github.com/cmderdev/cmder, GitHub, fab fa-github, default outline %}
 {% btn https://cmder.app/, 官方网站, fas fa-home, blue outline %}
 {% btn https://github.com/cmderdev/cmder/blob/master/README.md, 使用手册, fas fa-book, green outline %}
+:::
+
+::: center
+{% btn javascript:void(0);, '', iconfont icon-windows, default outline %}
 :::
 
 ## 功能特性

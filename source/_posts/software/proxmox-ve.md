@@ -1,25 +1,31 @@
 ---
 title: Proxmox VE 开源的虚拟化平台
-date: 2025-10-30 09:17:09
 categories:
   - [软件, 编程开发]
+  - [软件, 操作系统]
   - [开源]
 tags:
-  - Proxmox VE  
-  - 虚拟化 
+  - Proxmox VE
+  - 虚拟化
+abbrlink: f2386efa
+date: 2025-10-30 09:17:09
 ---
 
-## 软件名称
+## Proxmox VE
 
 Proxmox Virtual Environment (Proxmox VE) 是一个开源的虚拟化平台，基于 Debian Linux，支持 KVM 虚拟机和 LXC 容器。它提供了一个强大的 Web 管理界面，方便用户管理虚拟机、存储、网络等资源。Proxmox VE 广泛应用于企业级虚拟化、云计算和开发测试环境。
 
-![封面](/assets/image/cover.png)
+![封面](/images/proxmox-ve.png)
 
 ::: center
 {% btn https://github.com/proxmox, GitHub, fab fa-github, default outline %}
 {% btn https://git.proxmox.com/, 源代码仓库, fab fa-git, red outline %}
 {% btn https://www.proxmox.com/en/, 官方网站, fas fa-home, blue outline %}
 {% btn https://www.proxmox.com/en/products/proxmox-virtual-environment/overview, 使用手册, fas fa-book, green outline %}
+:::
+
+::: center
+{% btn javascript:void(0);, '', iconfont icon-linux, default outline %}
 :::
 
 ## 核心特性
@@ -102,7 +108,7 @@ Proxmox Virtual Environment (Proxmox VE) 是一个开源的虚拟化平台，基
 
 ## 系列文章
 
-{% series Proxmox VE %}
+{% series Proxmox-VE %}
 
 ## 下载地址
 
@@ -111,6 +117,10 @@ Proxmox Virtual Environment (Proxmox VE) 是一个开源的虚拟化平台，基
 {% btn https://github.com/oneclickvirt/pve, oneclickvirt/pve, fab fa-github, outline %}
 {% btn https://github.com/jiangcuo/pxvirt, PXVIRT, fab fa-github, outline %}
 {% btn https://mirrors.lierfang.com/, Pxvirt Mirrors, fab fa-home, outline %}
+:::
+
+::: center
+{% btn javascript:void(0);, '', iconfont icon-linux, default outline %}
 :::
 
 ## 软件授权

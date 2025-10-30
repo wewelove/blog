@@ -1,13 +1,18 @@
 ---
 title: Ubuntu 24.04 安装 Podman
-date: 2025-10-30 11:49:22
 series: Podman
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - Podman
   - 容器
+abbrlink: 20f0cc91
+date: 2025-10-30 11:49:22
 ---
+
+Podman（POD Manager）是一个开源的无守护进程（daemonless）容器引擎，用于管理容器、容器镜像、容器卷和网络。
+
+它兼容 OCI 标准，可以运行 Docker 镜像，并且设计上与 Docker CLI 命令高度兼容。
 
 ## 安装 Podman
 

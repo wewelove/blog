@@ -1,8 +1,8 @@
 ---
 title: TextConverter 文本转换神器
-date: 2025-10-23 15:35:16
 categories:
-  - [软件, 效率工具]
+  - - 软件
+    - 效率工具
 tags:
   - TextConverter
   - 文本转换
@@ -10,9 +10,11 @@ tags:
   - 正则
   - 替换
   - 插入
+abbrlink: a1da563e
+date: 2025-10-23 15:35:16
 ---
 
-## TextConverter
+## 软件简介
 
 使用 TextConverter，可以通过多种不同的方式编辑和转换文本和任何类型的文本文件。可以同时处理单个或多个文本文件，而无需单独打开每个文件，也可以即时更改未保存的文本而不存储它们。
 
@@ -21,6 +23,10 @@ tags:
 ::: center
 {% btn https://www.sttmedia.com/textconverter, 官方网站, fas fa-home, blue outline %}
 {% btn https://www.sttmedia.com/textconverter-help, 使用手册, fas fa-book, green outline %}
+:::
+
+::: center
+{% btn javascript:void(0);, '', iconfont icon-windows, default outline %}
 :::
 
 ## 功能特性

@@ -1,15 +1,17 @@
 ---
 title: TextEncoder 文件编码转换神器
-date: 2025-10-23 15:56:28
 categories:
-  - [软件, 效率工具]
+  - - 软件
+    - 效率工具
 tags:
   - TextEncoder
   - 编码
   - 结束符
+abbrlink: 2d980201
+date: 2025-10-23 15:56:28
 ---
 
-## TextEncoder
+## 软件简介
 
 TextEncoder 专门用于更改文件的编码：程序读取和写入格式 ASCII、ANSI、Latin-1 （ISO 8859-1）、Latin-2 （ISO 8859-2）、Win-1250（中欧）、Win-1251（西里尔字母）、Win-1252（西欧）、Win-1253（希腊语）、CP437、 UTF-7、UTF-8、UTF-16 大端、UTF-16 小端、UTF-32 大端和 UTF-32 小端。这些格式中的每一种都可以任意转换为任何其他格式。您可以指定是否应将字节顺序标记写入文件。
 
@@ -20,6 +22,10 @@ TextEncoder 还可以更改所用换行符的类型。支持换行符 CRLF（Win
 ::: center
 {% btn https://www.sttmedia.com/textencoder, 官方网站, fas fa-home, blue outline %}
 {% btn https://www.sttmedia.com/textencoder-help, 使用手册, fas fa-book, green outline %}
+:::
+
+::: center
+{% btn javascript:void(0);, '', iconfont icon-windows, default outline %}
 :::
 
 ## 功能特性

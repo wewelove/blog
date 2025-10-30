@@ -1,14 +1,19 @@
 ---
 title: Deskreen 跨平台屏幕共享软件
-date: 2025-10-27 11:42:17
 categories:
-  - [软件, 网络社交]
-  - [软件, 效率工具]
-  - [开源]
+  - - 软件
+    - 网络社交
+  - - 软件
+    - 效率工具
+  - - 开源
 tags:
   - Deskreen
   - 屏幕分享
+abbrlink: 1892c425
+date: 2025-10-27 11:42:17
 ---
+
+## 软件简介
 
 Deskreen 是一款用来分享屏幕的软件，它的特点是任何一台支持浏览器的设备都可以用来作为第二屏幕设备。他也可以同时支持多个设备链接，实现多屏幕同时分享。而这些共享，只需扫码、授权即可，采用端对端加密保证安全，使用 WebRTC 及 Electron 技术。
 
@@ -18,6 +23,12 @@ Deskreen 是一款用来分享屏幕的软件，它的特点是任何一台支�
 {% btn https://github.com/pavlobu/deskreen, GitHub, fab fa-github, default outline %}
 {% btn https://deskreen.com/, 官方网站, fas fa-home, blue outline %}
 {% btn https://deskreen.com/lang-zh_CN#howtos, 如何使用, fas fa-book, green outline %}
+:::
+
+::: center
+{% btn javascript:void(0);, '', iconfont icon-windows, default outline %}
+{% btn javascript:void(0);, '', iconfont icon-linux, default outline %}
+{% btn javascript:void(0);, '', iconfont icon-macos, default outline %}
 :::
 
 ## 功能特性
@@ -39,6 +50,7 @@ Deskreen 是一款用来分享屏幕的软件，它的特点是任何一台支�
 
 ::: download
 {% btn https://deskreen.com/lang-zh_CN, 官网下载, iconfont icon-home, blue outline %}
+{% btn https://github.com/pavlobu/deskreen/releases, GitHub 下载, fab fa-github, outline %}
 :::
 
 ## 软件授权

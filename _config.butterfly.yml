@@ -1081,7 +1081,7 @@ clickShowText:
 # https://github.com/francoischalifour/medium-zoom
 # https://fancyapps.com/fancybox/
 # 如果不需要灯箱效果，请留空
-lightbox:
+lightbox: fancybox
 
 # --------------------------------------
 # 标签外挂设置
@@ -1256,6 +1256,9 @@ inject:
 CDN:
   # 内部和第三方脚本的 CDN 提供商
   # 两者的选项：local/jsdelivr/unpkg/cdnjs/custom
+  # https://cdn.jsdelivr.net/
+  # https://unpkg.com/
+  # https://cdnjs.com/
   # 注意： Dev 版本只能使用 'local' 作为内部脚本
   # 注意：将第三方脚本设置为 'local' 时，需要安装 hexo-butterfly-extjs
   internal_provider: local
@@ -1265,6 +1268,9 @@ CDN:
   version: false
 
   # 自定义格式
+  # https://www.bootcdn.cn/
+  # https://www.staticfile.net/
+  # 例如：https://cdn.bootcdn.net/${cdnjs_name}/${version}/${min_cdnjs_file}
   # 例如：https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
   custom_format:
 

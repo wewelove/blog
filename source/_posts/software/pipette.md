@@ -1,15 +1,17 @@
 ---
 title: Pipette 屏幕取色工具
-date: 2025-10-20 20:58:10
 categories:
-  - [软件, 图形设计]
+  - - 软件
+    - 图形设计
 tags:
   - Pipette
   - 设计
   - 取色
+abbrlink: bccc71e6
+date: 2025-10-20 20:58:10
 ---
 
-## Pipette
+## 软件简介
 
 Pipette 是一款免费、轻量且无需安装的屏幕取色工具，它能让您轻松获取屏幕上任意位置的颜色值，并转换为多种颜色模型，非常适合设计师、网页开发者或任何需要精确处理颜色的用户。
 
@@ -18,6 +20,12 @@ Pipette 是一款免费、轻量且无需安装的屏幕取色工具，它能让
 ::: center
 {% btn http://www.sttmedia.com/pipette, 官方网站, fas fa-home, blue outline %}
 {% btn https://www.sttmedia.com/pipette-help, 帮助文档, fas fa-book, green outline %}
+:::
+
+::: center
+{% btn javascript:void(0);, '', iconfont icon-windows, default outline %}
+{% btn javascript:void(0);, '', iconfont icon-linux, default outline %}
+{% btn javascript:void(0);, '', iconfont icon-macos, default outline %}
 :::
 
 ## 功能特性

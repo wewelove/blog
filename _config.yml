@@ -14,7 +14,8 @@ timezone: 'Asia/Shanghai'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://blog.v4coder.cn
-permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink/
 permalink_defaults:
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
@@ -75,14 +76,14 @@ category_map:
   "开源": 'open-source'
   "读书": 'book'
   "办公教育": 'oe'        # 办公，教育
-  "图形设计": 'pd'          # 图形，图像，设计，建模
-  "网络社交": 'ns'          # 社交聊天，浏览器，上传下载，远程控制
-  "媒体娱乐": 'me'                   # 播放器，视频编辑，音频编辑
-  "编程开发": 'de'             # 开发，测试，运维，数据库，项目管理
-  "效率工具": 'et'              # 效率工具，实用程序，压缩解压
-  "系统工具": 'st'                  # 安全防护，优化清理，备份还原，磁盘工具，驱动
-  "行业应用": 'ea'              # 企业应用，科研软件，工程仿真
-  "操作系统": 'os'                      # 操作系统
+  "图形设计": 'pd'        # 图形，图像，设计，建模
+  "网络社交": 'ns'        # 社交聊天，浏览器，上传下载，远程控制
+  "媒体娱乐": 'me'        # 播放器，视频编辑，音频编辑
+  "编程开发": 'de'        # 开发，测试，运维，数据库，项目管理
+  "效率工具": 'et'        # 效率工具，实用程序，压缩解压
+  "系统工具": 'st'        # 安全防护，优化清理，备份还原，磁盘工具，驱动
+  "行业应用": 'ea'        # 企业应用，科研软件，工程仿真
+  "操作系统": 'os'        # 操作系统
 tag_map:
   # 维度 1:
   "设计": 'design'
@@ -282,6 +283,15 @@ image_minifier:
   optimizationLevel: 2
   pngquant: false
   progressive: false
+
+# abbrlink config
+# https://github.com/ohroy/hexo-abbrlink
+abbrlink:
+  alg: crc32
+  rep: hex
+  drafts: false
+  force: false
+  writeback: true
 
 # https://github.com/hexojs/hexo-browsersync
 browsersync:
