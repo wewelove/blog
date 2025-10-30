@@ -12,10 +12,6 @@ date: 2025-10-30 10:54:36
 
 PVE Kernel Cleaner 是一个用于 Proxmox VE 系统的开源工具，旨在帮助用户轻松删除旧的或未使用的 PVE 内核。Proxmox VE 是一个开源的服务器虚拟化环境，随着新内核的发布，旧内核需要手动删除以释放 /boot 目录的空间。PVE Kernel Cleaner 通过自动化这一过程，简化了管理任务。
 
-::: center
-{% btn https://github.com/jordanhillis/pvekclean, GitHub, fab fa-github, default outline %}
-:::
-
 ## 准备工作
 
 在安装 PVE Kernel Cleaner 之前，请确保您的系统已经安装了以下软件包：
