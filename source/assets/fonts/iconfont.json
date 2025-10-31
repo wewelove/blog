@@ -6,6 +6,27 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "12751852",
+      "name": "coffee",
+      "font_class": "coffee",
+      "unicode": "e826",
+      "unicode_decimal": 59430
+    },
+    {
+      "icon_id": "24697261",
+      "name": "开源",
+      "font_class": "open-source",
+      "unicode": "e949",
+      "unicode_decimal": 59721
+    },
+    {
+      "icon_id": "39694556",
+      "name": "授权",
+      "font_class": "shouquan",
+      "unicode": "e7df",
+      "unicode_decimal": 59359
+    },
+    {
       "icon_id": "4338070",
       "name": "iOS",
       "font_class": "ios",
@@ -69,13 +90,6 @@
       "unicode_decimal": 58899
     },
     {
-      "icon_id": "12163484",
-      "name": "授权",
-      "font_class": "shouquan",
-      "unicode": "e65a",
-      "unicode_decimal": 58970
-    },
-    {
       "icon_id": "17426540",
       "name": "百度网盘",
       "font_class": "baiduwangpan",
@@ -84,7 +98,7 @@
     },
     {
       "icon_id": "866965",
-      "name": "baiduyun",
+      "name": "百度云",
       "font_class": "baiduyun",
       "unicode": "e61f",
       "unicode_decimal": 58911
@@ -95,13 +109,6 @@
       "font_class": "browser",
       "unicode": "e644",
       "unicode_decimal": 58948
-    },
-    {
-      "icon_id": "10971922",
-      "name": "browser",
-      "font_class": "browser1",
-      "unicode": "e67a",
-      "unicode_decimal": 59002
     },
     {
       "icon_id": "44770689",

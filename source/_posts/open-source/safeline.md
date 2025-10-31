@@ -1,11 +1,12 @@
 ---
 title: SafeLine 国产 Web 防火墙
-date: 2025-10-29 14:51:58
 categories:
   - [开源]
 tags:
   - SafeLine
   - 安全
+abbrlink: 5bcfd59b
+date: 2025-10-29 14:51:58
 ---
 
 ## SafeLine
@@ -14,7 +15,7 @@ SafeLine，中文名 "雷池"，是一款简单好用, 效果突出的 Web 应�
 
 雷池通过过滤和监控 Web 应用与互联网之间的 HTTP 流量来保护 Web 服务。可以保护 Web 服务免受 SQL 注入、XSS、 代码注入、命令注入、CRLF 注入、ldap 注入、xpath 注入、RCE、XXE、SSRF、路径遍历、后门、暴力破解、CC、爬虫 等攻击。
 
-![封面](/images/safeline.png)
+![封面](/images/safeline.png){.cover}
 
 ::: center
 {% btn https://github.com/chaitin/SafeLine, GitHub, fab fa-github, default outline %}
@@ -43,4 +44,4 @@ SafeLine，中文名 "雷池"，是一款简单好用, 效果突出的 Web 应�
 
 ## 开源协议
 
-SafeLine 遵循 [GPL-3.0](https://github.com/chaitin/SafeLine/tree/main?tab=GPL-3.0-1-ov-file) 协议进行分发和使用。
+SafeLine 源码遵循 [GPL-3.0](https://github.com/chaitin/SafeLine/tree/main?tab=GPL-3.0-1-ov-file) 协议进行分发和使用。

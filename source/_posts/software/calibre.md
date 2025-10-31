@@ -1,9 +1,8 @@
 ---
 title: Calibre 开源免费的电子书管理利器
 categories:
-  - - 软件
-    - 办公教育
-  - - 开源
+  - [软件, 办公教育]
+  - [开源]
 tags:
   - Calibre
   - 电子书
@@ -17,7 +16,7 @@ Calibre 是一款免费的电子书制作及阅读软件，Calibre 中文版操�
 
 Calibre 完全开源且免费，跨平台支持 Windows、Mac 和 Linux 系统，支持多国语言包括简体中文。它是一套一体化的电子书解决方案，功能非常丰富：从电子书阅读、图书数据编辑、到格式转换、到组织与到传输书籍到各种电子设备等一应俱全，可以说是每一位电子书用户必备的神器。
 
-![封面](/images/calibre.png)
+![封面](/images/calibre.png){.cover}
 
 ::: center
 {% btn https://github.com/kovidgoyal/calibre, GitHub, fab fa-github, default outline %}
@@ -48,14 +47,17 @@ Calibre 完全开源且免费，跨平台支持 Windows、Mac 和 Linux 系统�
 ## 下载地址
 
 ::: download
-{% btn https://calibre-ebook.com/zh_CN/download, 官网下载, iconfont icon-home, blue outline %}
+{% btn https://calibre-ebook.com/zh_CN/download, 官网下载, iconfont icon-guanwang, blue outline %}
 {% btn https://github.com/kovidgoyal/calibre/releases, GitHub 下载, fab fa-github, outline %}
 :::
 
 ## 软件授权
 
-[免费软件, 捐赠点赞合作参与贡献](https://github.com/sponsors/kovidgoyal){.btn-beautify .green}
+:::
+{% btn https://github.com/sponsors/kovidgoyal, 免费 - 捐赠助力, iconfont icon-coffee, red %}
+{% btn https://github.com/kovidgoyal/calibre, 开源 - 参与贡献, iconfont icon-open-source, green %}
+:::
 
 ## 开源协议
 
-Calibre 遵循 [GPL-3.0](https://github.com/kovidgoyal/calibre?tab=GPL-3.0-1-ov-file) 协议进行分发和使用。
+Calibre 源码遵循 [GPL-3.0](https://github.com/kovidgoyal/calibre?tab=GPL-3.0-1-ov-file) 协议进行分发和使用。

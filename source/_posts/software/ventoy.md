@@ -1,9 +1,8 @@
 ---
 title: Ventoy 制作可启动 U 盘的开源工具
 categories:
-  - - 软件
-    - 操作系统
-  - - 开源
+  - [软件, 系统工具]
+  - [开源]
 tags:
   - Ventoy
   - 启动盘
@@ -15,7 +14,7 @@ date: 2025-10-30 16:02:28
 
 Ventoy 是一款开源免费的多合一系统安装盘/启动盘制作工具，支持 Windows 家族与 Linux 几乎所有主流发行版。它最大的好处在于，你可以在 1 个 U 盘里集成 N 多款不同类型的操作系统安装盘 (比如 Windows、WinPE、Linux)，可引导启动，并通过菜单来选择安装。
 
-![封面](/images/ventoy.png)
+![封面](/images/ventoy.png){.cover}
 
 ::: center
 {% btn https://github.com/ventoy/Ventoy, GitHub, fab fa-github, default outline %}
@@ -57,15 +56,18 @@ Ventoy 是一款开源免费的多合一系统安装盘/启动盘制作工具，
 ## 下载地址
 
 ::: download
-{% btn https://www.ventoy.net/cn/download.html, 官网下载, iconfont icon-home, blue outline %}
+{% btn https://www.ventoy.net/cn/download.html, 官网下载, iconfont icon-guanwang, blue outline %}
 {% btn https://github.com/ventoy/Ventoy/releases, GitHub 下载, fab fa-github, outline %}
 {% btn https://gitee.com/longpanda/Ventoy/releases/, Gitee 下载, iconfont icon-gitee, red outline %}
 :::
 
 ## 软件授权
 
-[免费软件, 捐赠点赞合作参与贡献](https://www.ventoy.net/cn/donation.html){.btn-beautify .green}
+:::
+{% btn https://www.ventoy.net/cn/donation.html, 免费 - 捐赠助力, iconfont icon-coffee, red outline %}
+{% btn https://github.com/ventoy/Ventoy, 开源 - 参与贡献, iconfont icon-open-source, green outline %}
+:::
 
 ## 开源协议
 
-Ventoy 遵循 [GPL-3.0](https://github.com/ventoy/Ventoy?tab=GPL-3.0-1-ov-file) 协议进行分发和使用。
+Ventoy 源码遵循 [GPL-3.0](https://github.com/ventoy/Ventoy?tab=GPL-3.0-1-ov-file) 协议进行分发和使用。

@@ -1,8 +1,7 @@
 ---
 title: TextConverter 文本转换神器
 categories:
-  - - 软件
-    - 效率工具
+  - [软件, 效率工具]
 tags:
   - TextConverter
   - 文本转换
@@ -98,9 +97,12 @@ date: 2025-10-23 15:35:16
 ## 下载地址
 
 ::: download
-{% btn https://www.sttmedia.com/textconverter/download, 官网下载, iconfont icon-home, blue outline %}
+{% btn https://www.sttmedia.com/textconverter/download, 官网下载, iconfont icon-guanwang, blue outline %}
 :::
 
 ## 软件授权
 
-[免费软件, 捐赠点赞合作参与贡献](https://www.sttmedia.com/donate){.btn-beautify .green}
+:::
+{% btn https://www.sttmedia.com/donate, 免费 - 捐赠助力, iconfont icon-coffee, red outline %}
+{% btn https://www.sttmedia.com/licence, 授权 - 许可协议, iconfont icon-shouquan, orange outline %}
+:::

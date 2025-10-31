@@ -2,18 +2,18 @@
 title: Flathub 一站式开源软件仓库
 date: 2025-10-28 14:25:46
 categories:
-  - [资讯]
-  - [开源]
+  - [笔记]
 tags:
   - Flathub
   - 软件仓库  
+abbrlink: 594f8769
 ---
 
 ## Flathub
 
 [Flathub](https://flathub.org/zh-Hans) 是一个面向现代 Linux 系统的应用商店，它提供了一种简单、安全的方式来安装和管理跨平台的 Flatpak 应用程序。通过利用 Flatpak 的技术，Flathub 使得不同发行版的 Linux 用户都能轻松访问到各种流行的开源软件，无需关心依赖性问题，让应用的安装如同在 macOS 或 Windows 上一样便捷。
 
-![Flathub](/images/flathub.png)
+![Flathub](/images/flathub.png){.cover}
 
 ## 技术分析
 
@@ -36,7 +36,3 @@ Flathub 涵盖了多种类型的应用，包括生产力工具、游戏、媒体
 4. **丰富多样的应用库** - 众多开发者在这里分享他们的开源作品，你可以找到很多在传统包管理系统中找不到的独特应用。
 
 5. **社区驱动** - Flathub 是一个由热爱开源的社区维护的项目，这意味着它保持着活跃和持续的进步。
-
-### 邀请你加入 Flathub 的世界
-
-无论你是 Linux 新手还是经验丰富的用户，Flathub 都能为你带来更流畅、一致的软件体验。想要尝试一下吗？只需访问 [Flathub](https://flathub.org/zh-Hans)，按照指南设置 Flatpak 并开始探索吧！拥抱开源，享受科技带来的便利，我们期待你的参与！

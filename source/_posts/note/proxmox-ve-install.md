@@ -2,7 +2,7 @@
 title: Proxmox VE 从零开始安装配置
 series: Proxmox-VE
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - Proxmox VE
   - 虚拟化

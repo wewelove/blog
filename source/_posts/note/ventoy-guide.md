@@ -2,7 +2,7 @@
 title: Ventoy 使用指南
 series: Ventoy
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - Ventoy
   - 启动盘

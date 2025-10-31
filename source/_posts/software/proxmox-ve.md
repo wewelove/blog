@@ -113,21 +113,19 @@ Proxmox Virtual Environment (Proxmox VE) 是一个开源的虚拟化平台，基
 ## 下载地址
 
 ::: download
-{% btn https://www.proxmox.com/en/downloads/proxmox-virtual-environment, 官网下载, iconfont icon-home, blue outline %}
+{% btn https://www.proxmox.com/en/downloads/proxmox-virtual-environment, 官网下载, iconfont icon-guanwang, blue outline %}
 {% btn https://github.com/oneclickvirt/pve, oneclickvirt/pve, fab fa-github, outline %}
 {% btn https://github.com/jiangcuo/pxvirt, PXVIRT, fab fa-github, outline %}
-{% btn https://mirrors.lierfang.com/, Pxvirt Mirrors, fab fa-home, outline %}
-:::
-
-::: center
-{% btn javascript:void(0);, '', iconfont icon-linux, default outline %}
+{% btn https://mirrors.lierfang.com/, Pxvirt Mirrors, iconfont icon-open-source, outline %}
 :::
 
 ## 软件授权
 
-[免费软件, 使用时需遵守协议条款](https://www.proxmox.com/en/services/support-services/support){.btn-beautify .orange}
-[免费软件, 捐赠点赞合作参与贡献](https://www.proxmox.com/en/products/proxmox-virtual-environment/pricing){.btn-beautify .green}
+:::
+{% btn https://www.proxmox.com/en/products/proxmox-virtual-environment/pricing, 免费 - 项目合作, iconfont icon-coffee, red outline %}
+{% btn https://www.proxmox.com/en/services/support-services/support, 授权 - 许可协议, iconfont icon-shouquan, orange outline %}
+:::
 
 ## 开源协议
 
-Proxmox VE 核心使用 AGPL v3 协议进行分发和使用。
+Proxmox VE 核心源码使用 [AGPL v3](https://git.proxmox.com/) 协议进行分发和使用。

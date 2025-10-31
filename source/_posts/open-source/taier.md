@@ -1,6 +1,5 @@
 ---
 title: Taier 分布式调度系统
-date: 2025-10-29 15:45:29
 categories:
   - [开源]
 tags:
@@ -8,6 +7,8 @@ tags:
   - 任务调试
   - 数据同步
   - ETL
+abbrlink: '829e8281'
+date: 2025-10-29 15:45:29
 ---
 
 ## Taier
@@ -59,4 +60,4 @@ Taier 提供了一个提交、调度、运维、指标信息展示的一站式�
 
 ## 开源协议
 
-Taier 遵循 [Apache-2.0](https://github.com/DTStack/Taier/tree/master?tab=Apache-2.0-1-ov-file) 协议进行分发和使用。
+Taier 源码遵循 [Apache-2.0](https://github.com/DTStack/Taier/tree/master?tab=Apache-2.0-1-ov-file) 协议进行分发和使用。

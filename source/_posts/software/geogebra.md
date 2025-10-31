@@ -1,8 +1,7 @@
 ---
 title: GeoGebra 数学绘图软件
 categories:
-  - - 软件
-    - 办公教育
+  - [软件, 办公教育]
 tags:
   - GeoGebra
   - 绘图
@@ -50,10 +49,12 @@ GeoGebra 的名字巧妙结合了 **Geometry（几何）** 和 **Algebra（�
 ## 下载地址
 
 ::: download
-{% btn https://www.geogebra.org/download, 官网下载, iconfont icon-home, blue outline %}
+{% btn https://www.geogebra.org/download, 官网下载, iconfont icon-guanwang, blue outline %}
 :::
 
 ## 软件授权
 
-[免费软件, 使用时需遵守协议条款](https://www.geogebra.org/license){.btn-beautify .orange}
-[免费软件, 捐赠点赞合作参与贡献](https://www.geogebra.org/partners){.btn-beautify .green}
+:::
+{% btn https://www.geogebra.org/partners, 免费 - 项目合作, iconfont icon-coffee, red outline %}
+{% btn https://www.geogebra.org/license, 授权 - 许可协议, iconfont icon-shouquan, orange outline %}
+:::

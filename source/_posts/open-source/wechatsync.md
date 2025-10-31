@@ -1,6 +1,5 @@
 ---
 title: 多平台文章同步助手
-date: 2025-10-29 15:31:08
 categories:
   - [开源]
 tags:
@@ -10,13 +9,15 @@ tags:
   - Bilibili
   - 掘金
   - 开源中国
+abbrlink: b71e1b9a
+date: 2025-10-29 15:31:08
 ---
 
 ## 项目名称
 
 一键同步文章到多个内容平台，支持今日头条、WordPress、知乎、简书、掘金、CSDN、typecho各大平台，一次发布，多平台同步发布。解放个人生产力。
 
-![封面](/images/wechatsync.png)
+![封面](/images/wechatsync.png){.cover}
 
 ::: center
 {% btn https://github.com/wechatsync/Wechatsync, GitHub, fab fa-github, default outline %}
@@ -41,4 +42,4 @@ tags:
 
 ## 开源协议
 
-文章同步助手 遵循 [GPL-3.0](https://github.com/wechatsync/Wechatsync?tab=GPL-3.0-1-ov-file) 协议进行分发和使用。
+文章同步助手 源码遵循 [GPL-3.0](https://github.com/wechatsync/Wechatsync?tab=GPL-3.0-1-ov-file) 协议进行分发和使用。

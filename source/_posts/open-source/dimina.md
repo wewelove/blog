@@ -1,6 +1,5 @@
 ---
 title: Dimina 轻量级跨端小程序框架
-date: 2025-10-21 09:09:09
 categories:
   - [开源]
 tags:
@@ -11,6 +10,8 @@ tags:
   - iOS
   - Harmony
   - Web
+abbrlink: b180356f
+date: 2025-10-21 09:09:09
 ---
 
 星河小程序（以下简称 Dimina）是滴滴自研的一套轻量级跨端小程序框架，可以理解为开源版的小程序方案，致力于为开发者提供高性能、跨平台、低门槛的开发体验。
@@ -82,4 +83,4 @@ tags:
 
 ## 开源协议
 
-Dimina 遵循 [Apache-2.0](https://gitee.com/link?target=https%3A%2F%2Fopensource.org%2Flicense%2Fapache-2-0) 协议进行分发和使用，更多详情请参见 [协议文件](https://gitee.com/didiopensource/dimina/blob/main/LICENSE)。
+Dimina 源码遵循 [Apache-2.0](https://gitee.com/link?target=https%3A%2F%2Fopensource.org%2Flicense%2Fapache-2-0) 协议进行分发和使用，更多详情请参见 [协议文件](https://gitee.com/didiopensource/dimina/blob/main/LICENSE)。

@@ -2,7 +2,7 @@
 title: Proxmox VE 日常维护
 series: Proxmox-VE
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - PVE Kernel Cleaner
   - Proxmox VE

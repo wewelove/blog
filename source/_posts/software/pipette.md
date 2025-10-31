@@ -1,8 +1,7 @@
 ---
 title: Pipette 屏幕取色工具
 categories:
-  - - 软件
-    - 图形设计
+  - [软件, 图形设计]
 tags:
   - Pipette
   - 设计
@@ -61,9 +60,12 @@ Pipette 是一款免费、轻量且无需安装的屏幕取色工具，它能让
 ## 下载地址
 
 ::: download
-{% btn https://www.sttmedia.com/pipette-download, 官方下载, iconfont icon-home, blue outline %}
+{% btn https://www.sttmedia.com/pipette-download, 官方下载, iconfont icon-guanwang, blue outline %}
 :::
 
 ## 软件授权
 
-[免费软件, 捐赠点赞合作参与贡献](https://www.sttmedia.com/donate){.btn-beautify .green}
+:::
+{% btn https://www.sttmedia.com/donate, 免费 - 捐赠助力, iconfont icon-coffee, red outline %}
+{% btn https://www.sttmedia.com/licence, 授权 - 许可协议, iconfont icon-shouquan, orange outline %}
+:::

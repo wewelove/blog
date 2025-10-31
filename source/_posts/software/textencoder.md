@@ -1,8 +1,7 @@
 ---
 title: TextEncoder 文件编码转换神器
 categories:
-  - - 软件
-    - 效率工具
+  - [软件, 效率工具]
 tags:
   - TextEncoder
   - 编码
@@ -57,9 +56,12 @@ TextEncoder 还可以更改所用换行符的类型。支持换行符 CRLF（Win
 ## 下载地址
 
 ::: download
-{% btn https://www.sttmedia.com/textencoder/download, 官网下载, iconfont icon-home, blue outline %}
+{% btn https://www.sttmedia.com/textencoder/download, 官网下载, iconfont icon-guanwang, blue outline %}
 :::
 
 ## 软件授权
 
-[免费软件, 捐赠点赞合作参与贡献](https://www.sttmedia.com/donate){.btn-beautify .green}
+:::
+{% btn https://www.sttmedia.com/donate, 免费 - 捐赠助力, iconfont icon-coffee, red outline %}
+{% btn https://www.sttmedia.com/licence, 授权 - 许可协议, iconfont icon-shouquan, orange outline %}
+:::

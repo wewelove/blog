@@ -1,12 +1,13 @@
 ---
 title: NativeScript-Vue Vue3 原生 App 开发框架
-date: 2025-10-15 08:50:00
 categories:
   - [开源]
 tags:
   - uni-app
   - vue3
   - NativeScript
+abbrlink: f869933
+date: 2025-10-15 08:50:00
 ---
 
 ## NativeScript-Vue
@@ -130,4 +131,4 @@ grep -r "document\|window\|HTMLElement" node_modules/xxx || echo "大概率�
 
 ## 开源协议
 
-NativeScript-Vue 遵循 [MIT](https://github.com/nativescript-vue/nativescript-vue?tab=MIT-1-ov-file) 协议进行分发和使用。
+NativeScript-Vue 源码遵循 [MIT](https://github.com/nativescript-vue/nativescript-vue?tab=MIT-1-ov-file) 协议进行分发和使用。

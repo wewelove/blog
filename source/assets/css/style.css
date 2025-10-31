@@ -11,6 +11,11 @@
   text-align: right;
 }
 
+/* Post 文章页面封面图片样式 */
+.post img.cover.loaded {
+  border: 1px solid #cccccc;
+}
+
 /* Page 页面标题样式 */
 .page .page-title {
   text-align: center;

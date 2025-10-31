@@ -2,7 +2,7 @@
 title: Ubuntu 24.04 安装 Podman
 series: Podman
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - Podman
   - 容器

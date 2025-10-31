@@ -1,9 +1,8 @@
 ---
 title: Yaak 全新的桌面 API 调试工具
 categories:
-  - - 软件
-    - 编程开发
-  - - 开源
+  - [软件, 编程开发]
+  - [开源]
 tags:
   - Yaak
   - API
@@ -53,15 +52,17 @@ Yaak 有着简洁高效的设计，可以轻松导入 Postman、Swagger 等工�
 ## 下载地址
 
 ::: download
-{% btn https://yaak.app/download, 官网下载, iconfont icon-home, blue outline %}
+{% btn https://yaak.app/download, 官网下载, iconfont icon-guanwang, blue outline %}
 {% btn https://github.com/mountain-loop/yaak/releases, GitHub 下载, fab fa-github, outline %}
 :::
 
 ## 软件授权
 
-[商业软件, 使用前需获取官方授权](https://yaak.app/pricing){.btn-beautify .red}
-[开源软件, 捐赠点赞合作参与贡献](https://github.com/sponsors/gschier){.btn-beautify .green}
+:::
+{% btn https://yaak.app/pricing, 收费 - 获取授权, iconfont icon-shouquan, orange outline %}
+{% btn https://github.com/mountain-loop/yaak, 开源 - 参与贡献, iconfont icon-open-source, green outline %}
+:::
 
 ## 开源协议
 
-Yaak 遵循 [MIT](https://github.com/mountain-loop/yaak?tab=MIT-1-ov-file) 协议进行分发和使用。
+Yaak 源码遵循 [MIT](https://github.com/mountain-loop/yaak?tab=MIT-1-ov-file) 协议进行分发和使用。
