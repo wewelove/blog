@@ -1,11 +1,12 @@
 ---
 title: Markdown 语法示例
-date: 2016-01-20 10:27:22
+abbrlink: 11e3d82a
 series: Markdown
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - markdown
+date: 2016-01-20 10:27:22
 ---
 
 ## 语法

@@ -289,7 +289,7 @@ image_minifier:
 abbrlink:
   alg: crc32
   rep: hex
-  drafts: false
+  drafts: true
   force: false
   writeback: true
 
@@ -298,5 +298,5 @@ browsersync:
   logLevel: "warn"
   ghostMode:
     scroll: true
-  instanceName: "uniqueString"
+  instanceName: "hexo-server-instance-sx"
   reloadDelay: 2000

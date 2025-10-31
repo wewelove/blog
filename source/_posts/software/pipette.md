@@ -1,12 +1,13 @@
 ---
 title: Pipette 屏幕取色工具
+abbrlink: bccc71e6
 categories:
-  - [软件, 图形设计]
+  - - 软件
+    - 图形设计
 tags:
   - Pipette
   - 设计
   - 取色
-abbrlink: bccc71e6
 date: 2025-10-20 20:58:10
 ---
 

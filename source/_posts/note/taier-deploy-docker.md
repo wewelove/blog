@@ -1,14 +1,15 @@
 ---
 title: Docker 快速部署 Taier 分布式调度系统
-date: 2025-10-29 16:10:22
+abbrlink: d0207657
 series: Taier
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - Docker
   - Taier
   - 调度系统
   - ETL
+date: 2025-10-29 16:10:22
 ---
 
 [Taier](https://blog.v4coder.cn/2025/10/29/open-source/taier/) 是一个开源的分布式 DAG 调度系统，专注不同任务的提交和调度。旨在降低 ETL 开发成本，解决任务之间复杂的依赖关系和提交、调度、运维带来的上手成本。

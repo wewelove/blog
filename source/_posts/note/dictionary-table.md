@@ -1,10 +1,11 @@
 ---
 title: 字典表设计
-date: 2017-07-22 12:13:01
+abbrlink: 5efb1770
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - dictionary
+date: 2017-07-22 12:13:01
 ---
 
 ## 为什么字典表

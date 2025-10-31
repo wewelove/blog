@@ -1,11 +1,12 @@
 ---
 title: Composer 入手
-date: 2017-09-26 11:44:02
+abbrlink: 2a99ac4b
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - composer
   - php
+date: 2017-09-26 11:44:02
 ---
 
 ## 简介

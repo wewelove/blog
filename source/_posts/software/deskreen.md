@@ -1,13 +1,15 @@
 ---
 title: Deskreen 跨平台屏幕共享软件
+abbrlink: 1892c425
 categories:
-  - [软件, 网络社交]
-  - [软件, 效率工具]
-  - [开源]
+  - - 软件
+    - 网络社交
+  - - 软件
+    - 效率工具
+  - - 开源
 tags:
   - Deskreen
   - 屏幕分享
-abbrlink: 1892c425
 date: 2025-10-27 11:42:17
 ---
 

@@ -1,12 +1,13 @@
 ---
 title: TextEncoder 文件编码转换神器
+abbrlink: 2d980201
 categories:
-  - [软件, 效率工具]
+  - - 软件
+    - 效率工具
 tags:
   - TextEncoder
   - 编码
   - 结束符
-abbrlink: 2d980201
 date: 2025-10-23 15:56:28
 ---
 

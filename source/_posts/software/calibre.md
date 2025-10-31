@@ -1,12 +1,13 @@
 ---
 title: Calibre 开源免费的电子书管理利器
+abbrlink: 594f8766
 categories:
-  - [软件, 办公教育]
-  - [开源]
+  - - 软件
+    - 办公教育
+  - - 开源
 tags:
   - Calibre
   - 电子书
-abbrlink: 594f8766
 date: 2025-10-30 15:08:01
 ---
 

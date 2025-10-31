@@ -1,12 +1,13 @@
 ---
 title: Web 开发规范
-date: 2023-08-20 10:27:22
+abbrlink: b895407a
 series: development-standards
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - 规范
   - web
+date: 2023-08-20 10:27:22
 ---
 
 ## 什么是好的代码？

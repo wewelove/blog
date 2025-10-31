@@ -1,13 +1,14 @@
 ---
 title: CSS 弹性布局
-date: 2021-08-17 07:47:23
+abbrlink: d53f5412
 categories:
-  - [笔记]
-tags: 
+  - - 笔记
+tags:
   - css
   - flex
   - flexbox
   - 弹性布局
+date: 2021-08-17 07:47:23
 ---
 
 > Flexbox 是 flexible box 的简称（注：意思是“灵活的盒子容器”），是 CSS3 引入的新的布局模式。它决定了元素如何在页面上排列，使它们能在不同的屏幕尺寸和设备下可预测地展现出来。

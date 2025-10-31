@@ -1,14 +1,15 @@
 ---
 title: Oracle、MySQL、PostgreSQL 数据类型对比转换
-date: 2025-08-12 07:47:23
+abbrlink: 37a1e23d
 categories:
-  - [笔记]
-tags: 
+  - - 笔记
+tags:
   - MySQL
   - Oracle
   - PostgreSQL
   - 数据库
   - 数据类型
+date: 2025-08-12 07:47:23
 ---
 
 Oracle、MySQL 和 PostgreSQL 是三种广泛使用的数据库管理系统，它们各自支持不同的数据类型。在实际应用中，开发者经常需要在这几种数据库之间进行数据迁移或在应用程序中使用不同类型的数据库。因此，理解这些数据库的数据类型以及如何将它们与Java数据类型相互转换是非常重要的。

@@ -1,13 +1,14 @@
 ---
 title: FileRenamer 使用指南
-date: 2025-10-27 20:58:47
+abbrlink: f320d832
 series: FileRenamer
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - FileRenamer
   - 效率工具
   - 文件重命名
+date: 2025-10-27 20:58:47
 ---
 
 ## 重命名文件与文件夹

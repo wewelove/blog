@@ -1,13 +1,14 @@
 ---
 title: Yaak 全新的桌面 API 调试工具
+abbrlink: 8686fd9e
 categories:
-  - [软件, 编程开发]
-  - [开源]
+  - - 软件
+    - 编程开发
+  - - 开源
 tags:
   - Yaak
   - API
   - 调试
-abbrlink: 8686fd9e
 date: 2025-10-29 14:07:21
 ---
 

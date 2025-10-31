@@ -1,12 +1,13 @@
 ---
-title: 使用 Hexo 搭建个人博客 - 体验 
-date: 2016-04-07 21:20:35
+title: 使用 Hexo 搭建个人博客 - 体验
+abbrlink: edb77174
 series: Hexo
-categories: 
-  - [笔记]
-tags: 
+categories:
+  - - 笔记
+tags:
   - hexo
   - markdown
+date: 2016-04-07 21:20:35
 ---
 
 ## 安装

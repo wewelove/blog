@@ -1,12 +1,13 @@
 ---
 title: MySQL 如何查看数据库锁
-date: 2025-08-12 07:47:23
+abbrlink: 4f4d5766
 categories:
-  - [笔记]
-tags: 
+  - - 笔记
+tags:
   - MySQL
   - 数据库
   - 数据库锁
+date: 2025-08-12 07:47:23
 ---
 
 在 MySQL 中，可以使用以下命令来查看数据库中的锁信息：

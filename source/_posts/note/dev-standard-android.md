@@ -1,12 +1,13 @@
 ---
 title: Android 项目开发规范
-date: 2023-08-20 10:27:22
+abbrlink: 52e5fb0a
 series: development-standards
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - 规范
   - Android
+date: 2023-08-20 10:27:22
 ---
 
 ## 代码命名规范

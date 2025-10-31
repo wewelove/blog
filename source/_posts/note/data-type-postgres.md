@@ -1,12 +1,13 @@
 ---
 title: PostgreSQL 数据类型及详细说明
-date: 2025-08-12 07:47:23
+abbrlink: 3cee576a
 categories:
-  - [笔记]
-tags: 
+  - - 笔记
+tags:
   - PostgreSQL
   - 数据库
   - 数据类型
+date: 2025-08-12 07:47:23
 ---
 
 PostgreSQL 是一个功能强大的开源对象关系型数据库系统，它提供了丰富的数据类型来满足各种需求。下面是一些常见的 PostgreSQL 数据类型及其详细说明，以及一些使用这些数据类型的最佳实践。

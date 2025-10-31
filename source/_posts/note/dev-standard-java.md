@@ -1,12 +1,13 @@
 ---
 title: Java 项目开发规范
-date: 2023-08-20 10:27:22
+abbrlink: b556e8c3
 series: development-standards
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - 规范
   - java
+date: 2023-08-20 10:27:22
 ---
 
 ## Java 项目规范

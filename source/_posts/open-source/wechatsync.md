@@ -1,7 +1,8 @@
 ---
 title: 多平台文章同步助手
+abbrlink: b71e1b9a
 categories:
-  - [开源]
+  - - 开源
 tags:
   - 浏览器
   - 公众号
@@ -9,7 +10,6 @@ tags:
   - Bilibili
   - 掘金
   - 开源中国
-abbrlink: b71e1b9a
 date: 2025-10-29 15:31:08
 ---
 

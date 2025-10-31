@@ -1,13 +1,14 @@
 ---
 title: Cmder Windows 上的命令行工具
+abbrlink: 3b823c81
 categories:
-  - [软件, 编程开发]
-  - [开源]
+  - - 软件
+    - 编程开发
+  - - 开源
 tags:
   - Cmder
   - 终端
   - Windows
-abbrlink: 3b823c81
 date: 2025-10-27 14:43:01
 ---
 

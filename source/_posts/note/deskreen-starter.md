@@ -1,12 +1,13 @@
 ---
 title: 用 Deskreen 实现无线投屏
-date: 2025-10-28 11:11:39
+abbrlink: 1c9d4ece
 series: Deskreen
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - Deskreen
   - 无线投屏
+date: 2025-10-28 11:11:39
 ---
 
 Deskreen 的使用非常简单，从官网下载对应版本的软件包安装，首次打开软件需要授权录制屏幕，然后需要电脑和接收共享的设备在同一个 Wifi 网络。

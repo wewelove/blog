@@ -1,5 +1,6 @@
 ---
 title: Flathub 一站式开源软件仓库
+abbrlink: ee093bcf
 date: 2025-10-28 14:25:46
 categories:
   - [笔记]

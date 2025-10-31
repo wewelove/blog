@@ -1262,7 +1262,7 @@ CDN:
   # 注意： Dev 版本只能使用 'local' 作为内部脚本
   # 注意：将第三方脚本设置为 'local' 时，需要安装 hexo-butterfly-extjs
   internal_provider: local
-  third_party_provider: jsdelivr
+  third_party_provider: custom
 
   # 是否在 URL 中添加版本号，true 或 false
   version: false
@@ -1272,7 +1272,7 @@ CDN:
   # https://www.staticfile.net/
   # 例如：https://cdn.bootcdn.net/${cdnjs_name}/${version}/${min_cdnjs_file}
   # 例如：https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
-  custom_format:
+  custom_format: https://cdn.bootcdn.net/${cdnjs_name}/${version}/${min_cdnjs_file}
 
   option:
     # activate_power_mode:
@@ -1284,7 +1284,7 @@ CDN:
     # artalk_js:
     # blueimp_md5:
     # https://www.busuanzi.cc/
-    # busuanzi: https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js
+    busuanzi: https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js
     # canvas_fluttering_ribbon:
     # canvas_nest:
     # canvas_ribbon:
@@ -1299,7 +1299,7 @@ CDN:
     # fancybox:
     # fancybox_css:
     # fireworks:
-    # fontawesome:
+    fontawesome: https://cdn.bootcdn.net/ajax/libs/font-awesome/7.0.0/css/all.min.css
     # gitalk:
     # gitalk_css:
     # giscus:

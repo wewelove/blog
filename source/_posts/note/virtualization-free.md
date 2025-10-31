@@ -1,9 +1,8 @@
 ---
 title: 免费开源替代 VMware 的虚拟化方案
-date: 2025-10-30 09:04:27
-series: 
+abbrlink: 5e35b3d0
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - 运维
   - 虚拟化
@@ -12,6 +11,8 @@ tags:
   - Proxmox VE
   - OpenStack
   - oVirt
+date: 2025-10-30 09:04:27
+series: VMware
 ---
 
 VMware 作为虚拟化行业的龙头企业，旗下的 vSphere 、vCenter 等产品一直是行业的顶流，以功能强大、性能稳定著称。但与此同时，其高昂的费用对于不少企业而言都是一笔不小的成本。
@@ -20,7 +21,7 @@ VMware 作为虚拟化行业的龙头企业，旗下的 vSphere 、vCenter 等�
 
 ## KVM
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/C73aewXicfu8CnfXUpEop7YYZl7riblyweVsko5WqXdRfPgtduxaYG7V397lfyUDr1sUbr7NZgYO9FERkZeCU1ng/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=2)
+![1761893959675](/images/virtualization-free/1761893959675.png)
 
 KVM 的全称是基于内核的虚拟机。它不是一个独立的应用程序，而是将 Linux 内核转变为一个裸机管理程序的模块。这意味着任何兼容的 Linux 系统（如 Ubuntu, CentOS, RHEL）在安装了 KVM 模块后，都可以直接运行虚拟机。
 
@@ -34,7 +35,7 @@ KVM 的全称是基于内核的虚拟机。它不是一个独立的应用程序�
 
 ## Proxmox VE
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C73aewXicfu8CnfXUpEop7YYZl7riblyweavFADvmu87ROc4KUkpTia3DVGEpf8I3zGhgiavZxkrK5APvjIt6v1aCg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=3)
+![1761894028015](/images/virtualization-free/1761894028015.png)
 
 Proxmox Virtual Environment（Proxmox VE）是一款开源的企业级虚拟化平台，专为提供高效便捷的服务器虚拟化和容器管理而设计。它基于 Debian，并提供了一个功能强大的Web管理界面，让用户可以通过浏览器轻松管理整个虚拟化环境。
 
@@ -48,7 +49,7 @@ Proxmox Virtual Environment（Proxmox VE）是一款开源的企业级虚拟化�
 
 ## oVirt
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C73aewXicfuib5YQu8Tr60ZTzfciacsA9oibevtFkhnY1ylZ9UPDVnVibTCXqWXj1BibiaOqM9oONqllCwo3QQmeAtaDQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=2)
+![1761894046304](/images/virtualization-free/1761894046304.png)
 
 oVirt 是由 Red Hat 赞助的开源项目，它提供了一个用于管理整个 KVM 主机集群的中央管理平台。其架构与 VMware vCenter 非常相似，包含一个管理节点（oVirt Engine）和多个计算节点（KVM 主机）。
 
@@ -62,13 +63,9 @@ oVirt 是由 Red Hat 赞助的开源项目，它提供了一个用于管理整�
 
 4. **架构相对复杂：** 相比于 Proxmox VE，oVirt 的部署和配置更为复杂，通常需要专门的管理节点和数据库，更适合有一定规模的 IT 环境。
 
-04
-
----
-
 ## OpenStack
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C73aewXicfuib5YQu8Tr60ZTzfciacsA9oibpicvhXMKsOHFxxXzdWhzP3I0mhLG4ocbjxTLvBMNibfoF9aBKeYibtROg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=3)
+![1761894077696](/images/virtualization-free/1761894077696.png)
 
 OpenStack 不是一个单纯的虚拟化管理工具，而是一个由数十个相互关联的项目组成的庞大生态系统。它旨在通过 API 来提供按需分配的计算、存储和网络资源，其核心理念是 "云操作系统"。
 

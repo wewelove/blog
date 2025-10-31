@@ -1,13 +1,14 @@
 ---
 title: TextEncoder 使用指南
-date: 2025-10-27 20:26:23
+abbrlink: b07c6ebf
 series: TextEncoder
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - TextEncoder
   - 效率工具
   - 编码转换
+date: 2025-10-27 20:26:23
 ---
 
 如何使用 TextEncoder 修改任意文本文件的编码格式和换行符类型。请按照以下步骤操作：

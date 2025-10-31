@@ -1,7 +1,8 @@
 ---
 title: Dimina 轻量级跨端小程序框架
+abbrlink: b180356f
 categories:
-  - [开源]
+  - - 开源
 tags:
   - 跨平台
   - 小程序
@@ -10,7 +11,6 @@ tags:
   - iOS
   - Harmony
   - Web
-abbrlink: b180356f
 date: 2025-10-21 09:09:09
 ---
 

@@ -1,11 +1,12 @@
 ---
 title: PHP 加密授权 - Zend Guard 篇
-date: 2017-09-04 10:37:03
+abbrlink: ca7b063e
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - php
   - zend guard
+date: 2017-09-04 10:37:03
 ---
 
 ## 环境

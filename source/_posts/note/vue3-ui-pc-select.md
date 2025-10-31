@@ -1,17 +1,18 @@
 ---
 title: Vue3 PC 端 UI 组件库怎么选
-date: 2025-10-28 15:04:52
+abbrlink: 7b4d2003
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - Vue3
   - UI
   - 组件
 copyright: 稀土掘金
 copyright_author: 前端猫咪code
-copyright_author_href:
-copyright_url: https://juejin.cn/post/7359876671136301108
+copyright_url: 'https://juejin.cn/post/7359876671136301108'
 copyright_info: 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+date: 2025-10-28 15:04:52
+copyright_author_href:
 ---
 
 2024 年，Vue3 逐渐成为前端开发者使用 Vue 进行开发时的首选，市面上涌现出了众多优秀的 Vue3 PC 端 UI 组件库，它们各具特色，为开发者提供了丰富的选择。本文旨在梳理当前市场上比较受欢迎的 11 款 Vue3 PC 端 UI 组件库，帮助开发者在繁多的选择中找到最适合自己项目的组件库。

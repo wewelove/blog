@@ -1,7 +1,9 @@
 ---
 title: TextConverter 文本转换神器
+abbrlink: a1da563e
 categories:
-  - [软件, 效率工具]
+  - - 软件
+    - 效率工具
 tags:
   - TextConverter
   - 文本转换
@@ -9,7 +11,6 @@ tags:
   - 正则
   - 替换
   - 插入
-abbrlink: a1da563e
 date: 2025-10-23 15:35:16
 ---
 

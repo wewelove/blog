@@ -1,11 +1,12 @@
 ---
 title: 内网部署 YApi
-date: 2022-01-27 10:59:54
+abbrlink: 772c70aa
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - Yapi
   - pm2
+date: 2022-01-27 10:59:54
 ---
 
 Ubuntu 20.04 虚拟机下载手动部署 [YApi](https://hellosean1025.github.io/yapi/index.html) 服务。

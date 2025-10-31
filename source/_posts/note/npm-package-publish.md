@@ -1,14 +1,15 @@
 ---
 title: NPM 包发布流程
-date: 2020-06-06 15:47:02
+abbrlink: cfa5ea4c
 categories:
-  - [笔记]
-tags: 
+  - - 笔记
+tags:
   - npm
   - package
   - publish
   - 包
   - 发布
+date: 2020-06-06 15:47:02
 ---
 ## 注册 NPM 账号
 

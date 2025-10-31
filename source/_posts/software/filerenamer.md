@@ -1,12 +1,13 @@
 ---
 title: FileRenamer 文件重命名神器
+abbrlink: '9804838'
 categories:
-  - [软件, 效率工具]
+  - - 软件
+    - 效率工具
 tags:
   - 重命名
   - 批量
   - 正则
-abbrlink: '9804838'
 date: 2025-10-23 14:17:52
 ---
 

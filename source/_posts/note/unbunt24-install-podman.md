@@ -1,12 +1,12 @@
 ---
 title: Ubuntu 24.04 安装 Podman
+abbrlink: 20f0cc91
 series: Podman
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - Podman
   - 容器
-abbrlink: 20f0cc91
 date: 2025-10-30 11:49:22
 ---
 

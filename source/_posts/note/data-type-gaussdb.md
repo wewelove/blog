@@ -1,13 +1,14 @@
 ---
 title: GaussDB 数据类型及详细说明
-date: 2025-08-12 07:47:23
-categories: 
-  - [笔记]
-tags: 
+abbrlink: a2f93d3c
+categories:
+  - - 笔记
+tags:
   - GaussDB
   - 高斯
   - 数据库
   - 数据类型
+date: 2025-08-12 07:47:23
 ---
 
 GaussDB 是华为云提供的一种企业级分布式数据库，它支持多种数据模型，并且在性能、可靠性和可扩展性方面进行了优化。GaussDB 包括 GaussDB(for MySQL)、GaussDB(for PostgreSQL) 以及 GaussDB(for Influx) 等不同的版本，每个版本都有其特定的数据类型和最佳实践。这里主要讨论基于 PostgreSQL 的 GaussDB 版本（即 GaussDB(for PostgreSQL)），因为它是基于 PostgreSQL 的一个增强版本。

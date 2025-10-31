@@ -1,12 +1,12 @@
 ---
 title: NativeScript-Vue Vue3 原生 App 开发框架
+abbrlink: f869933
 categories:
-  - [开源]
+  - - 开源
 tags:
   - uni-app
   - vue3
   - NativeScript
-abbrlink: f869933
 date: 2025-10-15 08:50:00
 ---
 

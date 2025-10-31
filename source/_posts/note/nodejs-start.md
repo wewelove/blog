@@ -1,11 +1,12 @@
 ---
 title: Node.js 之旅 - 好的开端
-date: 2015-03-15 21:17:16
+abbrlink: ec3c24c2
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - nodejs
   - npm
+date: 2015-03-15 21:17:16
 ---
 
 ## 安装 Node.js

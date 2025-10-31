@@ -1,11 +1,12 @@
 ---
 title: MySQL 数据库元数据查询管理 - 示例
-date: 2025-05-11 12:14:57
+abbrlink: 77c50c55
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - MySQL
   - 元数据
+date: 2025-05-11 12:14:57
 ---
 
 在 MySQL 中，可以通过 `INFORMATION_SCHEMA` 数据库和 `SHOW` 命令来查询用户、数据库、模式（schema）、表、表结构、视图等数据库对象的元数据信息。以下是一些常用的查询示例：

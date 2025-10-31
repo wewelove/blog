@@ -1,13 +1,14 @@
 ---
 title: 为 Hexo 增加时序图解析功能
-date: 2017-09-06 16:43:33
+abbrlink: c3663847
 series: Hexo
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - hexo
   - uml
   - sequence
+date: 2017-09-06 16:43:33
 ---
 
 ## 安装

@@ -1,13 +1,13 @@
 ---
 title: Taier 分布式调度系统
+abbrlink: '829e8281'
 categories:
-  - [开源]
+  - - 开源
 tags:
   - Taier
   - 任务调试
   - 数据同步
   - ETL
-abbrlink: '829e8281'
 date: 2025-10-29 15:45:29
 ---
 

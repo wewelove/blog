@@ -1,13 +1,15 @@
 ---
 title: Proxmox VE 开源的虚拟化平台
+abbrlink: f2386efa
 categories:
-  - [软件, 编程开发]
-  - [软件, 操作系统]
-  - [开源]
+  - - 软件
+    - 编程开发
+  - - 软件
+    - 操作系统
+  - - 开源
 tags:
   - Proxmox VE
   - 虚拟化
-abbrlink: f2386efa
 date: 2025-10-30 09:17:09
 ---
 

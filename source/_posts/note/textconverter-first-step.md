@@ -1,13 +1,14 @@
 ---
 title: TextConverter 使用指南
-date: 2025-10-27 20:44:49
+abbrlink: 192610c8
 series: TextConverter
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - TextConverter
   - 效率工具
   - 文件转换
+date: 2025-10-27 20:44:49
 ---
 
 通过 TextConverter，您可以通过多种方式编辑文本。无论是未保存的临时文本，还是单个/多个文本文件，都能同时进行处理。

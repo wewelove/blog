@@ -1,17 +1,18 @@
 ---
 title: Vue3 生态 14 个最强 UI 组件库
-date: 2025-10-28 15:31:31
+abbrlink: d641e08c
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - Vue3
   - UI
   - 组件
 copyright: 51CTO
 copyright_author: 小4子
-copyright_author_href:
-copyright_url: https://www.51cto.com/article/827423.html
+copyright_url: 'https://www.51cto.com/article/827423.html'
 copyright_info: 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+date: 2025-10-28 15:31:31
+copyright_author_href:
 ---
 
 在 Vue3 官网 的「Ecosystem → UI Components」菜单里，官方维护了一份精挑细选的组件库清单：全部基于 Vue3、TypeScript 优先、活跃维护、社区认可。

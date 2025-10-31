@@ -1,11 +1,12 @@
 ---
 title: 使用 GitHub 托管自己的项目
-date: 2017-04-11 17:39:33
+abbrlink: 3667159f
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - git
   - github
+date: 2017-04-11 17:39:33
 ---
 
 ## 安装

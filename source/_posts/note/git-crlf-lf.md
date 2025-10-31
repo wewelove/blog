@@ -1,12 +1,13 @@
 ---
 title: Git 中 CRLF 与 LF 的转换
-date: 2021-08-10 08:54:33
+abbrlink: 59d8e740
 categories:
-  - [笔记]
-tags: 
+  - - 笔记
+tags:
   - git
   - crlf
   - lf
+date: 2021-08-10 08:54:33
 ---
 
 ## 换行符在不同的操作系统上的表示

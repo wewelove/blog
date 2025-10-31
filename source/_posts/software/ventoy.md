@@ -1,12 +1,13 @@
 ---
 title: Ventoy 制作可启动 U 盘的开源工具
+abbrlink: 616f3066
 categories:
-  - [软件, 系统工具]
-  - [开源]
+  - - 软件
+    - 系统工具
+  - - 开源
 tags:
   - Ventoy
   - 启动盘
-abbrlink: 616f3066
 date: 2025-10-30 16:02:28
 ---
 

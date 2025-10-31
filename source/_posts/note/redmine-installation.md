@@ -1,11 +1,12 @@
 ---
 title: Redmine 项目管理 - 手动安装
-date: 2019-04-15 10:24:05
+abbrlink: f39f15a2
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - redmine
   - 项目管理
+date: 2019-04-15 10:24:05
 ---
 
 ## 环境

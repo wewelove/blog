@@ -1,7 +1,9 @@
 ---
 title: GeoGebra 数学绘图软件
+abbrlink: e85bd0a4
 categories:
-  - [软件, 办公教育]
+  - - 软件
+    - 办公教育
 tags:
   - GeoGebra
   - 绘图
@@ -10,7 +12,6 @@ tags:
   - 统计
   - 微积分
 cover: /images/geogebra.png
-abbrlink: e85bd0a4
 date: 2025-10-17 15:14:12
 ---
 

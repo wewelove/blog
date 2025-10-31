@@ -1,11 +1,12 @@
 ---
 title: Elementary OS 使用心得
-date: 2020-02-11 12:36:21
+abbrlink: 4bddd760
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - linux
   - elementaryos
+date: 2020-02-11 12:36:21
 ---
 
 快速、开源的 Windows / macOS 替代方案。

@@ -1,13 +1,14 @@
 ---
 title: 安装 node-sass 正确姿势
-date: 2021-08-10 09:09:27
+abbrlink: cd1423e7
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - node
   - sass
   - scss
   - node-sass
+date: 2021-08-10 09:09:27
 ---
 
 windows 下面安装 node-sass，确实令人头痛，正确姿势如下：

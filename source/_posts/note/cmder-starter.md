@@ -1,13 +1,14 @@
 ---
 title: Cmder 安装与配置
-date: 2020-02-11 11:59:14
+abbrlink: eb9d652e
 series: Cmder
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - cmder
   - terminal
   - 终端
+date: 2020-02-11 11:59:14
 ---
 
 ## Cmder 安装

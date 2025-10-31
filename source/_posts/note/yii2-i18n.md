@@ -1,12 +1,13 @@
 ---
 title: Yii2 多语言配置 - i18n 国际化
-date: 2017-12-05 11:36:14
+abbrlink: fcdc83e3
 categories:
-  - [笔记]
+  - - 笔记
 tags:
   - php
   - yii2
   - i18n
+date: 2017-12-05 11:36:14
 ---
 
 ## 原理
