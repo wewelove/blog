@@ -13,11 +13,11 @@ tags:
 date: 2025-10-30 09:17:09
 ---
 
-## Proxmox VE
+## 软件简介
 
 Proxmox Virtual Environment (Proxmox VE) 是一个开源的虚拟化平台，基于 Debian Linux，支持 KVM 虚拟机和 LXC 容器。它提供了一个强大的 Web 管理界面，方便用户管理虚拟机、存储、网络等资源。Proxmox VE 广泛应用于企业级虚拟化、云计算和开发测试环境。
 
-![封面](/images/proxmox-ve.png)
+![封面](../../images/proxmox-ve/20251103175339.png){.cover}
 
 ::: center
 {% btn https://github.com/proxmox, GitHub, fab fa-github, default outline %}
