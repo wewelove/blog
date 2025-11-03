@@ -2367,10 +2367,10 @@ hexo-generator-tag@^2.0.0:
   dependencies:
     hexo-pagination "3.0.0"
 
-hexo-github-card-inline@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmmirror.com/hexo-github-card-inline/-/hexo-github-card-inline-1.0.0.tgz#ec45188b7ec9c027d5550ab250b546e356413cc6"
-  integrity sha512-hiXmohribEeoh7chen0rhJ5e+VDYBRKijC7/jZYLSRhe/yW15Pwrrd4Iz2DxN+WI6XbA5SrJWLX53zdBjR9MDA==
+hexo-github-card-inline@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/hexo-github-card-inline/-/hexo-github-card-inline-1.0.1.tgz#4df43fadd2aece3150e1b6c3f8eefaa75eef1959"
+  integrity sha512-6sfq6pUf9MkJQO36IbNy7ZJsSuQvJF6XZo0bNkEfkt/BXpb1zRdySW3IsG3q4f/K1Bj0aaVlUvDwoLmykgEeMA==
   dependencies:
     axios "^1.6.0"
 
