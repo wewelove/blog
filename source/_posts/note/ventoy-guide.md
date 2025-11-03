@@ -116,4 +116,4 @@ sha256sum ubuntu-22.04.1-desktop-amd64.iso
 
 ## 参考
 
-[最完整 Ventoy 使用指南：从下载到制作启动盘一步到位](https://blog.csdn.net/gitblog_00699/article/details/151470204)
+- [最完整 Ventoy 使用指南](https://blog.csdn.net/gitblog_00699/article/details/151470204)
