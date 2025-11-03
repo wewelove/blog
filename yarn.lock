@@ -2390,6 +2390,11 @@ hexo-i18n@^2.0.0:
   dependencies:
     sprintf-js "^1.1.2"
 
+hexo-img-path@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmmirror.com/hexo-img-path/-/hexo-img-path-1.0.2.tgz#645bfdd4fb567d922378ef892895cd2ceb7d82b4"
+  integrity sha512-MHD9/gQkxlfS6wAILEuic7H5lRPwgBg1SVowtdSyA36F3lRIAEFKZ/rp3/LcpTh9R4idbe7RKR3Dad3Zkjb3bg==
+
 hexo-log@^4.0.1:
   version "4.1.0"
   resolved "https://registry.npmmirror.com/hexo-log/-/hexo-log-4.1.0.tgz#54b42c250335067b5c60b4137f501607454efda0"

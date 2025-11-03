@@ -13,9 +13,9 @@ tags:
 date: 2025-10-29 15:31:08
 ---
 
-## 项目名称
+## 项目简介
 
-一键同步文章到多个内容平台，支持今日头条、WordPress、知乎、简书、掘金、CSDN、typecho各大平台，一次发布，多平台同步发布。解放个人生产力。
+WechatSync 一键同步文章到多个内容平台，支持今日头条、WordPress、知乎、简书、掘金、CSDN、typecho各大平台，一次发布，多平台同步发布。解放个人生产力。
 
 ![封面](/images/wechatsync.png){.cover}
 

@@ -10,7 +10,7 @@ tags:
 date: 2025-10-15 08:50:00
 ---
 
-## NativeScript-Vue
+## 项目简介
 
 NativeScript-Vue 是一个将 Vue.js 与 NativeScript 相结合的开源框架，它允许开发者使用 Vue.js 的语法和开发模式来构建真正的原生 iOS 和 Android 移动应用程序。
 

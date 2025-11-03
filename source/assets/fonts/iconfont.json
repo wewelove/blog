@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "42076556",
+      "name": "flathub",
+      "font_class": "flathub",
+      "unicode": "eb96",
+      "unicode_decimal": 60310
+    },
+    {
+      "icon_id": "42076554",
+      "name": "flatpak",
+      "font_class": "flatpak",
+      "unicode": "eb95",
+      "unicode_decimal": 60309
+    },
+    {
       "icon_id": "12751852",
       "name": "coffee",
       "font_class": "coffee",

@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 5046968 */
-  src: url('iconfont.woff2?t=1761878382200') format('woff2'),
-       url('iconfont.woff?t=1761878382200') format('woff'),
-       url('iconfont.ttf?t=1761878382200') format('truetype');
+  src: url('iconfont.woff2?t=1762153725039') format('woff2'),
+       url('iconfont.woff?t=1762153725039') format('woff'),
+       url('iconfont.ttf?t=1762153725039') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,14 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-flathub:before {
+  content: "\eb96";
+}
+
+.icon-flatpak:before {
+  content: "\eb95";
 }
 
 .icon-coffee:before {

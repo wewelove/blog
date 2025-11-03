@@ -11,7 +11,7 @@ tags:
 date: 2025-10-29 15:45:29
 ---
 
-## Taier
+## 项目简介
 
 Taier 是一个开源的分布式 DAG 调度系统，专注不同任务的提交和调度。旨在降低 ETL 开发成本，解决任务之间复杂的依赖关系和提交、调度、运维带来的上手成本。
 
@@ -26,6 +26,12 @@ Taier 提供了一个提交、调度、运维、指标信息展示的一站式�
 {% btn https://gitee.com/dtstack_dev_0/taier, Gitee, iconfont icon-gitee, red outline %}
 {% btn https://dtstack.github.io/Taier/, 官方网站, fas fa-home, blue outline %}
 {% btn https://dtstack.github.io/Taier/docs/guides/introduction, 使用文档, fas fa-book, green outline %}
+:::
+
+::: center
+{% btn javascript:void(0);, '', iconfont icon-windows, default outline %}
+{% btn javascript:void(0);, '', iconfont icon-linux, default outline %}
+{% btn javascript:void(0);, '', iconfont icon-browser, default outline %}
 :::
 
 ## 技术特性
