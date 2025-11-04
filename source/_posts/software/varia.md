@@ -11,7 +11,7 @@ abbrlink: 8975c36d
 date: 2025-11-03 14:20:06
 ---
 
-## 项目简介
+## 软件简介
 
 Varia 是一个跨平台的下载管理器，支持 Linux 和 Windows 系统。它不仅能处理常规文件下载，还完美支持 torrents（种子下载）和视频/音频流提取。作为 aria2 和 yt-dlp 的前端界面，由 GitHub 用户 giantpinkrobots 于近期开源发布。
 
@@ -22,6 +22,12 @@ Varia 的核心价值是 **一站式管理所有下载需求**，让你摆脱浏
 ::: center
 {% btn https://github.com/giantpinkrobots/varia, GitHub, fab fa-github, default outline %}
 {% btn https://giantpinkrobots.github.io/varia/, 官方网站, fas fa-home, blue outline %}
+:::
+
+::: center
+{% btn javascript:void(0);, '', iconfont icon-windows, default outline %}
+{% btn javascript:void(0);, '', iconfont icon-linux, default outline %}
+{% btn javascript:void(0);, '', iconfont icon-browser, default outline %}
 :::
 
 ## 技术特性
