@@ -1,3 +1,4 @@
 {
-  "MarkdownPaste.path": "${fileWorkspaceFolder}/source/images/${fileBasenameNoExtension}"
+  "MarkdownPaste.path": "${fileWorkspaceFolder}/source/images/${fileBasenameNoExtension}",
+  "MarkdownPaste.silence": true
 }
