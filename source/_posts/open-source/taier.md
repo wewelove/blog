@@ -28,12 +28,6 @@ Taier 提供了一个提交、调度、运维、指标信息展示的一站式�
 {% btn https://dtstack.github.io/Taier/docs/guides/introduction, 使用文档, fas fa-book, green outline %}
 :::
 
-::: center
-{% btn javascript:void(0);, '', iconfont icon-windows, default outline %}
-{% btn javascript:void(0);, '', iconfont icon-linux, default outline %}
-{% btn javascript:void(0);, '', iconfont icon-browser, default outline %}
-:::
-
 ## 技术特性
 
 - 分布式扩展

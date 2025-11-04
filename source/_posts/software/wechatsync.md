@@ -1,8 +1,10 @@
 ---
-title: 多平台文章同步助手
+title: WechatSync 多平台文章同步助手
 abbrlink: b71e1b9a
 categories:
   - - 开源
+  - - 软件
+    - 效率工具
 tags:
   - 浏览器
   - 公众号
@@ -23,6 +25,10 @@ WechatSync 一键同步文章到多个内容平台，支持今日头条、WordPr
 {% btn https://github.com/wechatsync/Wechatsync, GitHub, fab fa-github, default outline %}
 {% btn https://www.wechatsync.com/, 官方网站, fas fa-home, blue outline %}
 {% btn https://www.wechatsync.com/#howtouse, 使用文档, fas fa-book, green outline %}
+:::
+
+::: center
+{% btn javascript:void(0);, '', iconfont icon-browser, default outline %}
 :::
 
 ## 技术特性

@@ -22,6 +22,8 @@ date: 2025-10-21 09:09:09
 
 > Dimina 发音为 /diːminə/，是 didi miniprogram 的缩写，旨在打造灵活、轻量的小程序跨端开发框架。
 
+![封面](../../images/dimina/20251104170440.png){.cover}
+
 ::: center
 {% btn https://github.com/didi/dimina, GitHub, fab fa-github, default outline %}
 {% btn https://gitee.com/didiopensource/dimina, Gitee, iconfont icon-gitee, red outline %}
