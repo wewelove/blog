@@ -14,7 +14,7 @@ tags:
 
 UCharts 是一个基于 TypeScript 实现的类型丰富、高性能、模块化、可扩展、支持主题定制的跨平台图表库。底层渲染逻辑全部采用 TypeScript 实现，上层通过适配层（adapters）适配到不同平台，包括鸿蒙（HarmonyOS）、微信小程序、uniapp 等，真正实现 "一套核心，多端复用"。
 
-![封面](../../images/ucharts/20251104114127.png){.cover}
+![封面](../../images/ucharts/20251104122336.png){.cover}
 
 ::: center
 {% btn https://github.com/junbin-yang/uCharts-v3, GitHub, fab fa-github, default outline %}
