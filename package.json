@@ -9,10 +9,10 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "7.3.0"
+    "version": "8.1.1"
   },
   "dependencies": {
-    "hexo": "^7.3.0",
+    "hexo": "^8.1.1",
     "hexo-abbrlink": "^2.2.1",
     "hexo-all-minifier": "^0.5.7",
     "hexo-browsersync": "^0.3.0",
@@ -22,7 +22,7 @@
     "hexo-generator-index": "^4.0.0",
     "hexo-generator-searchdb": "^1.5.0",
     "hexo-generator-tag": "^2.0.0",
-    "hexo-github-card-inline": "^1.0.0",
+    "hexo-github-card-inline": "^1.0.1",
     "hexo-hot-config": "^1.0.1",
     "hexo-img-path": "^1.0.2",
     "hexo-renderer-dartsass": "^1.1.0",
@@ -41,7 +41,7 @@
     "markdown-it-div": "^1.1.0",
     "markdown-it-expandable": "^1.0.2",
     "markdown-it-imsize": "^2.0.1",
-    "markdown-it-sticky-table": "^0.3.15",
+    "markdown-it-sticky-table": "^0.3.29",
     "markdown-it-task-lists": "^2.1.1"
   }
 }

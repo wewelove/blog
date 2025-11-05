@@ -33,6 +33,8 @@ tags:
 
 ![imgbb](https://i.ibb.co/zh8Q6HfK/image.jpg)
 
+> 国内环境不是很稳定，访问速度可能会很慢。
+
 ## PostImage
 
 [PostImage](https://postimg.cc) 是一个来自国外的免费图床网站，支持按照一定大小缩放图片及设置图片自动删除。在海外的速度非常不错，国内也是一般水平。缺点是「仅允许外链缩略图」，不推荐需要原图外链的同学。
