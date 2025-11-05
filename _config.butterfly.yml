@@ -120,7 +120,7 @@ background: /assets/image/background.jpg
 cover:
   # 是否禁用封面
   index_enable: true
-  aside_enable: false
+  aside_enable: true
   archives_enable: false
   # 主页封面的位置
   # 选择: left/right/both
@@ -843,11 +843,11 @@ google_analytics:
 
 # Cloudflare 分析配置
 # 官方网站：https://www.cloudflare.com/zh-tw/web-analytics/
-cloudflare_analytics:
+cloudflare_analytics: fe468b3fbce27438cb02b346fcbcec7b
 
 # Microsoft Clarity 分析配置
 # 官方网站：https://clarity.microsoft.com/
-microsoft_clarity:
+microsoft_clarity: u1a203m2cz
 
 # --------------------------------------
 # 广告配置
