@@ -843,7 +843,7 @@ google_analytics:
 
 # Cloudflare 分析配置
 # 官方网站：https://www.cloudflare.com/zh-tw/web-analytics/
-cloudflare_analytics: fe468b3fbce27438cb02b346fcbcec7b
+cloudflare_analytics:
 
 # Microsoft Clarity 分析配置
 # 官方网站：https://clarity.microsoft.com/
