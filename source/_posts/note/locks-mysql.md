@@ -2,7 +2,7 @@
 title: MySQL 如何查看数据库锁
 abbrlink: 4f4d5766
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - MySQL
   - 数据库

@@ -3,7 +3,7 @@ title: Ventoy 使用指南
 abbrlink: 688aa4c2
 series: Ventoy
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - Ventoy
   - 启动盘

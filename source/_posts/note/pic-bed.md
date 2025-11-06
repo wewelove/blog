@@ -4,7 +4,7 @@ abbrlink: bf45c99e
 date: 2025-11-05 11:18:00
 series: PicGo
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - 免费图床
 ---

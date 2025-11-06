@@ -2,7 +2,7 @@
 title: NPM 包发布流程
 abbrlink: cfa5ea4c
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - npm
   - package

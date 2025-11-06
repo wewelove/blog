@@ -3,7 +3,7 @@ title: Docker 快速部署 Taier 分布式调度系统
 abbrlink: d0207657
 series: Taier
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - Docker
   - Taier

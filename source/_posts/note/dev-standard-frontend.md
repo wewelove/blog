@@ -3,7 +3,7 @@ title: 前端开发规范
 abbrlink: 28c50d86
 series: development-standards
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - 规范
   - html

@@ -2,7 +2,7 @@
 title: GBase 8A 数据类型及详细说明
 abbrlink: 1c9be670
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - GBase 8A
   - 南大通用

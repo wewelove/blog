@@ -3,7 +3,7 @@ title: Android 项目开发规范
 abbrlink: 52e5fb0a
 series: development-standards
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - 规范
   - Android

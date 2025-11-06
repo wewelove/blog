@@ -3,7 +3,7 @@ title: 为 Hexo 增加时序图解析功能
 abbrlink: c3663847
 series: Hexo
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - hexo
   - uml

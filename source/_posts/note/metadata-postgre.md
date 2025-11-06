@@ -2,7 +2,7 @@
 title: PostgreSQL 数据库元数据查询管理
 abbrlink: d5124503
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - PostgreSQL
   - 元数据

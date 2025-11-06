@@ -2,7 +2,7 @@
 title: PHP 加密授权 - Zend Guard 篇
 abbrlink: ca7b063e
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - php
   - zend guard
@@ -43,11 +43,11 @@ zend_loader.license_path = "C:\DevTools\UPUPWNP5.6\htdocs\guard\licenses"
 
 打开 UPUPW PHP5.6 控制面板【开启全部服务】:
 
-![zend-guard-01](/images/zend-guard-01.png)
+![zend-guard-01](../../images/zend-guard/zend-guard-01.png)
 
 浏览器打开 http://localhost/u.php 地址，检查 Zend Guard Loader 扩展是否正常开启：
 
-![zend-guard-02](/images/zend-guard-02.png)
+![zend-guard-02](../../images/zend-guard/zend-guard-02.png)
 
 ## 源码
 
@@ -63,31 +63,31 @@ phpinfo();
 
 菜单中新建项目，输入项目名称，选择输出目录：
 
-![zend-guard-03](/images/zend-guard-03.png)
+![zend-guard-03](../../images/zend-guard/zend-guard-03.png)
 
 添加源代码目录：
 
-![zend-guard-04](/images/zend-guard-04.png)
+![zend-guard-04](../../images/zend-guard/zend-guard-04.png)
 
 源代码配置参数：
 
-![zend-guard-05](/images/zend-guard-05.png)
+![zend-guard-05](../../images/zend-guard/zend-guard-05.png)
 
 基本配置完成：
 
-![zend-guard-06](/images/zend-guard-06.png)
+![zend-guard-06](../../images/zend-guard/zend-guard-06.png)
 
 配置加密授权信息：
 
-![zend-guard-07](/images/zend-guard-07.png)
+![zend-guard-07](../../images/zend-guard/zend-guard-07.png)
 
 生成授权文件：
 
-![zend-guard-08](/images/zend-guard-08.png)
+![zend-guard-08](../../images/zend-guard/zend-guard-08.png)
 
 加密后的文件：
 
-![zend-guard-09](/images/zend-guard-09.png)
+![zend-guard-09](../../images/zend-guard/zend-guard-09.png)
 
 ## 测试
 

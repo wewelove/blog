@@ -2,7 +2,7 @@
 title: MySQL 表结构及字段描述查询方法
 abbrlink: 45424b03
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - MySQL
   - 元数据

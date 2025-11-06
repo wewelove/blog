@@ -2,7 +2,7 @@
 title: Vue3 生态 14 个最强 UI 组件库
 abbrlink: d641e08c
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - Vue3
   - UI

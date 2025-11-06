@@ -3,7 +3,7 @@ title: Proxmox VE 日常维护
 abbrlink: f1e76699
 series: Proxmox-VE
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - PVE Kernel Cleaner
   - Proxmox VE

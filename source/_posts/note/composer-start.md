@@ -2,7 +2,7 @@
 title: Composer 入手
 abbrlink: 2a99ac4b
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - composer
   - php

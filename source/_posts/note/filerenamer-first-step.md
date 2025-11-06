@@ -3,7 +3,7 @@ title: FileRenamer 使用指南
 abbrlink: f320d832
 series: FileRenamer
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - FileRenamer
   - 效率工具

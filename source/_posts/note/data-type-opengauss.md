@@ -2,7 +2,7 @@
 title: openGauss 数据类型及详细说明
 abbrlink: 2880375d
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - openGauss
   - 数据库

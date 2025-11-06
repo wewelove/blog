@@ -2,7 +2,7 @@
 title: DM Database 数据类型及详细说明
 abbrlink: cc0f222e
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - 达梦
   - 数据库

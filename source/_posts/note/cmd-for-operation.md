@@ -2,7 +2,7 @@
 title: CMD 运行命令大全
 abbrlink: 1fd62226
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - CMD
   - 运维

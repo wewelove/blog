@@ -2,7 +2,7 @@
 title: OceanBase 数据类型及详细说明
 abbrlink: 6aa0195c
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - OceanBase
   - 数据库

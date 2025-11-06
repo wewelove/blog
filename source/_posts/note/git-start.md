@@ -2,7 +2,7 @@
 title: 使用 GitHub 托管自己的项目
 abbrlink: 3667159f
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - git
   - github

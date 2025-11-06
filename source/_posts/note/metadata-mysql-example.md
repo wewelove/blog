@@ -2,7 +2,7 @@
 title: MySQL 数据库元数据查询管理 - 示例
 abbrlink: 77c50c55
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - MySQL
   - 元数据

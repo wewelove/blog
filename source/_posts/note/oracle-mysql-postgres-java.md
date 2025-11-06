@@ -2,7 +2,7 @@
 title: Oracle、MySQL、PostgreSQL 数据类型对比转换
 abbrlink: 37a1e23d
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - MySQL
   - Oracle

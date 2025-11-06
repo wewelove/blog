@@ -2,7 +2,7 @@
 title: MySQL 数据库元数据查询管理
 abbrlink: 3a7b8167
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - MySQL
   - 元数据

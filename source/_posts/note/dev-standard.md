@@ -3,7 +3,7 @@ title: Web 开发规范
 abbrlink: b895407a
 series: development-standards
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - 规范
   - web

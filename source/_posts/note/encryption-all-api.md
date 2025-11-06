@@ -2,7 +2,7 @@
 title: 所有接口数据都加密，有必要吗？
 abbrlink: 5701ad7d
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - 安全
   - 加密

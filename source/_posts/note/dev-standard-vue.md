@@ -3,7 +3,7 @@ title: Vue 项目开发规范
 abbrlink: f6787be0
 series: development-standards
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - vue
   - vue.js

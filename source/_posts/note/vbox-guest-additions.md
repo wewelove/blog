@@ -3,7 +3,7 @@ title: VirtualBox 实现目录共享
 abbrlink: 87c7e684
 series: VirtualBox
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - virtualbox
 date: 2017-11-02 08:33:58
@@ -46,7 +46,7 @@ date: 2017-11-02 08:33:58
 
 1. 配置共享目录
 
-    ![vbox-guest-additions-01](/images/vbox-guest-additions-01.png)
+    ![vbox-guest-additions-01](../../images/vbox-guest-additions/vbox-guest-additions-01.png)
 
 2. 挂载共享目录
 

@@ -4,7 +4,7 @@ abbrlink: c4f5a344
 date: 2025-10-30 16:45:11
 series: Calibre
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - calibre
   - 双语书籍

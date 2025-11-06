@@ -3,7 +3,7 @@ title: TextEncoder 使用指南
 abbrlink: b07c6ebf
 series: TextEncoder
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - TextEncoder
   - 效率工具

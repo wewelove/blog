@@ -3,7 +3,7 @@ title: Cmder 安装与配置
 abbrlink: eb9d652e
 series: Cmder
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - cmder
   - terminal

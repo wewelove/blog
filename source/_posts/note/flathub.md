@@ -14,7 +14,7 @@ abbrlink: 594f8769
 
 [Flathub](https://flathub.org/zh-Hans) 是一个面向现代 Linux 系统的应用商店，它提供了一种简单、安全的方式来安装和管理跨平台的 Flatpak 应用程序。通过利用 Flatpak 的技术，Flathub 使得不同发行版的 Linux 用户都能轻松访问到各种流行的开源软件，无需关心依赖性问题，让应用的安装如同在 macOS 或 Windows 上一样便捷。
 
-![Flathub](/images/flathub.png){.cover}
+![Flathub](../../images/flathub/flathub.png){.cover}
 
 ## 技术分析
 

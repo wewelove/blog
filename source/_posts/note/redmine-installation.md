@@ -2,7 +2,7 @@
 title: Redmine 项目管理 - 手动安装
 abbrlink: f39f15a2
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - redmine
   - 项目管理
@@ -97,13 +97,13 @@ date: 2019-04-15 10:24:05
   sudo apt-get install redmine redmine-mysql
   ```
 
-  ![图片](/images/npm-package-publish-01.webp)
+  ![图片](../../images/npm-package-publish/npm-package-publish-01.webp)
 
-  ![图片](/images/npm-package-publish-02.webp)
+  ![图片](../../images/npm-package-publish/npm-package-publish-02.webp)
 
-  ![图片](/images/npm-package-publish-03.webp)
+  ![图片](../../images/npm-package-publish/npm-package-publish-03.webp)
 
-  ![图片](/images/npm-package-publish-04.webp)
+  ![图片](../../images/npm-package-publish/npm-package-publish-04.webp)
 
   在安装过程中，系统将要求配置REDMINE，选择YES，然后继续。数据库选择MYSQL；接下来为REMIND实例创建一个密码以在数据库中注册，密码为上面创建的数据库用户的密码；接下来，安装GEM、BLUNDLER软件包。
 
@@ -187,10 +187,10 @@ date: 2019-04-15 10:24:05
 
   访问页面：http://redmine.demo.com/
 
-  ![图片](/images/npm-package-publish-05.webp)
+  ![图片](../../images/npm-package-publish/npm-package-publish-05.webp)
 
   登录账户密码：admin/admin
 
-  ![图片](/images/npm-package-publish-06.webp)
+  ![图片](../../images/npm-package-publish/npm-package-publish-06.webp)
 
   首次登陆要求修改密码

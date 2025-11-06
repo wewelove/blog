@@ -2,7 +2,7 @@
 title: 安装 node-sass 正确姿势
 abbrlink: cd1423e7
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - node
   - sass

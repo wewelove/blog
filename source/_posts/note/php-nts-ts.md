@@ -1,7 +1,7 @@
 ---
 title: PHP NTS 和 TS 版本如何选择
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - PHP
   - NTS

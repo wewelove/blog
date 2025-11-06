@@ -2,7 +2,7 @@
 title: PostgreSQL 数据库元数据查询管理 - 示例
 abbrlink: 719a3551
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - PostgreSQL
   - 元数据

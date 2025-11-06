@@ -2,7 +2,7 @@
 title: GaussDB 数据类型及详细说明
 abbrlink: a2f93d3c
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - GaussDB
   - 高斯

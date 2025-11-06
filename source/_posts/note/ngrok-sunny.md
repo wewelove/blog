@@ -2,7 +2,7 @@
 title: '国产 ngrok 穿透内网, 开发测试神器 - sunny'
 abbrlink: 5d836edf
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - ngrok
   - sunny
@@ -28,15 +28,15 @@ date: 2017-08-25 14:44:42
 
     在后台管理界面选择：隧道管理->开通隧道->选择免费产品，点击立即购买。
 
-    ![ngrok-sunny-01](/images/ngrok-sunny-01.png)
+    ![ngrok-sunny-01](../../images/ngrok-sunny/ngrok-sunny-01.png)
 
     填写表单：隧道协议、隧道名称、前置域名、本地端口，然后点击确定添加。
 
-    ![ngrok-sunny-02](/images/ngrok-sunny-02.png)
+    ![ngrok-sunny-02](../../images/ngrok-sunny/ngrok-sunny-02.png)
 
     返回隧道列表或点击隧道管理菜单，可以看到刚刚申请的隧道信息。
 
-    ![ngrok-sunny-03](/images/ngrok-sunny-03.png)
+    ![ngrok-sunny-03](../../images/ngrok-sunny/ngrok-sunny-03.png)
 
 3. 运行客户端
 
@@ -63,13 +63,13 @@ date: 2017-08-25 14:44:42
 
     进入隧道编辑页面，修改域名类型、自定义域名，最后确认修改。
 
-    ![ngrok-sunny-04](/images/ngrok-sunny-04.png)
+    ![ngrok-sunny-04](../../images/ngrok-sunny/ngrok-sunny-04.png)
 
 3. 根据提示，修改域名的 `CNAME` 参数
 
     我的域名是从 [freenom](http://www.freenom.com) 申请的，配置方法如下图，其它域名请根据提供商文档操作。
 
-    ![ngrok-sunny-05](/images/ngrok-sunny-05.png)
+    ![ngrok-sunny-05](../../images/ngrok-sunny/ngrok-sunny-05.png)
 
     > `Target` 项填入的内容要与 sunny 提供的一致，请参考上图
 

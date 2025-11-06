@@ -2,7 +2,7 @@
 title: Git 中 CRLF 与 LF 的转换
 abbrlink: 59d8e740
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - git
   - crlf
@@ -30,7 +30,7 @@ MacOS X系统：使用的是 LF ==> 即 \n，文件中保存的是 \n（MacOS X 
 
 虽然对于不同的操作系统，默认的换行符的表示方法不一样，但是编辑器是可以设置在敲下回车键的时候保存的换行符是什么的，比如常用的 vscode 就可以进行设置。直接点击编辑器右下角的 LF 或者 CRLF，出现如下图所示的设置，直接选择即可。在设置完成之后，在敲回车键，保存在文件中的换行符就是你设置的（CRLF 或者是 LF，设置什么就是什么）。
 
-![vbox-guest-additions-01](/images/git-crlf-lf.png)
+![vbox-guest-additions-01](../../images/git-crlf-lf/git-crlf-lf.png)
 
 ## Git 会自动对换行符进行转换
 

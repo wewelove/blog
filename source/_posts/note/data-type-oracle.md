@@ -2,7 +2,7 @@
 title: Oracle 数据类型及详细说明
 abbrlink: d4b44932
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - Oracle
   - 数据库

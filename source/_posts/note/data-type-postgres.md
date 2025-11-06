@@ -2,7 +2,7 @@
 title: PostgreSQL 数据类型及详细说明
 abbrlink: 3cee576a
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - PostgreSQL
   - 数据库

@@ -72,8 +72,8 @@ default_category: uncategorized
 category_map:
   "笔记": 'note'
   "资讯": 'info'
-  "软件": 'software'
-  "开源": 'open-source'
+  "软件": 'apps'
+  "开源": 'open'
   "读书": 'book'
   "办公教育": 'oe'        # 办公，教育
   "图形设计": 'pd'        # 图形，图像，设计，建模

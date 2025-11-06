@@ -3,7 +3,7 @@ title: PVE Kernel Cleaner 安装和配置指南
 abbrlink: d329e16a
 series: Proxmox-VE
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - PVE Kernel Cleaner
   - Proxmox VE

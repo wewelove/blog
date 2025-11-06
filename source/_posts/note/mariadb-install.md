@@ -2,7 +2,7 @@
 title: MariaDB 数据库安装设置
 abbrlink: aeb50ee
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - mariadb
 date: 2020-02-11 12:14:57

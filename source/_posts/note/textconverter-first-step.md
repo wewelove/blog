@@ -3,7 +3,7 @@ title: TextConverter 使用指南
 abbrlink: 192610c8
 series: TextConverter
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - TextConverter
   - 效率工具

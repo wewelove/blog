@@ -2,7 +2,7 @@
 title: Elementary OS 使用心得
 abbrlink: 4bddd760
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - linux
   - elementaryos

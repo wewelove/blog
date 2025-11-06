@@ -3,7 +3,7 @@ title: Java 项目开发规范
 abbrlink: b556e8c3
 series: development-standards
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - 规范
   - java

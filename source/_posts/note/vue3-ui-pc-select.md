@@ -2,7 +2,7 @@
 title: Vue3 PC 端 UI 组件库怎么选
 abbrlink: 7b4d2003
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - Vue3
   - UI

@@ -4,7 +4,7 @@ abbrlink: d110cb06
 date: 2025-11-04 14:12:34
 series: Nginx
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - Nginx
   - 运维

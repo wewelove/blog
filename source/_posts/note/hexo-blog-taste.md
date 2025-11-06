@@ -3,7 +3,7 @@ title: 使用 Hexo 搭建个人博客 - 体验
 abbrlink: edb77174
 series: Hexo
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - hexo
   - markdown

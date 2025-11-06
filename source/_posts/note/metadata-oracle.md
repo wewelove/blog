@@ -2,7 +2,7 @@
 title: Oracle 数据库元数据查询管理
 abbrlink: e842bdd6
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - Oracle
   - 元数据

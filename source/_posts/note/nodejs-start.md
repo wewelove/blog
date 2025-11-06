@@ -2,7 +2,7 @@
 title: Node.js 之旅 - 好的开端
 abbrlink: ec3c24c2
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - nodejs
   - npm

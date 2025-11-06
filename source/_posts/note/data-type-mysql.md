@@ -2,7 +2,7 @@
 title: MySQL 数据类型及详细说明
 abbrlink: 4cbcced3
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - MySQL
   - 数据库

@@ -2,7 +2,7 @@
 title: Yii2 框架入手
 abbrlink: ff438472
 categories:
-  - - 笔记
+  - [笔记]
 tags:
   - php
   - yii2
@@ -152,4 +152,4 @@ server {
 
 浏览器中 [打开](http://localhost)，如下图。
 
-![yii2-start-01](/images/yii2-start-01.png)
+![yii2-start-01](../../images/yii2-start/yii2-start-01.png)
