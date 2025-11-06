@@ -307,7 +307,7 @@ url_submission:
        token: 'aa1245b99345411e88dda50f32cd9db3'
        count: 10
      google:
-       key: "google-api-key.json"
+       key: "google.json"
        count: 10
    prefix: ['/posts', '/about', '/tags', 'link']
    count: 10
