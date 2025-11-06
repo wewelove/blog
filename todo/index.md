@@ -54,3 +54,5 @@
 - [ ] [Joplin - 跨平台开源免费 Markdown 笔记应用 (替代印象笔记/可离线或同步)](https://www.iplaysoft.com/joplin.html)
 - [X] [PicGo - 免费开源的图片上传与管理工具 (Markdown写作贴图 / 跨平台图床应用)](https://www.iplaysoft.com/picgo.html)
 - [ ] [全能环境 UPUPW ANK V1.1.8 最新版](https://php.upupw.net/ank2downloads/38/6698.html)
+- [ ] [欢迎 | Avalonia Docs](https://docs.avaloniaui.net/zh-Hans/docs/welcome)
+- [ ] [新一代数据可观测性系统，提供元数据管理和数据质量检查功能，让您心中有数！](https://mp.weixin.qq.com/s/IXWxkfHiLYkak2-Wsi-GdA)
