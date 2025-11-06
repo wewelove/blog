@@ -1248,6 +1248,7 @@ inject:
   head:
     - <meta name="google-adsense-account" content="ca-pub-8779051466477978">
     - <meta name="baidu-site-verification" content="codeva-lLFiZt1lmh" />
+    - <meta name="msvalidate.01" content="2D389DC8353C1C74D836C29D820952DE" />
     - <link rel="stylesheet" href="/assets/fonts/iconfont.css">
     - <link rel="stylesheet" href="/assets/css/style.css">
   bottom:
