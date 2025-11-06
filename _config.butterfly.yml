@@ -1247,6 +1247,7 @@ css_prefix: true
 inject:
   head:
     - <meta name="google-adsense-account" content="ca-pub-8779051466477978">
+    - <meta name="baidu-site-verification" content="codeva-lLFiZt1lmh" />
     - <link rel="stylesheet" href="/assets/fonts/iconfont.css">
     - <link rel="stylesheet" href="/assets/css/style.css">
   bottom:
