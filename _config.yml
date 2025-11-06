@@ -295,6 +295,14 @@ browsersync:
   instanceName: "hexo-server-instance"
   reloadDelay: 2000
 
+# https://github.com/hexojs/hexo-filter-nofollow
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - 'v4coder.cn'
+    - 'www.v4coder.cn'
+
 # https://github.com/hexojs/hexo-generator-sitemap
 sitemap:
   path:
@@ -303,6 +311,10 @@ sitemap:
   rel: false
   tags: true
   categories: true
+
+# https://github.com/coneycode/hexo-generator-baidu-sitemap
+baidusitemap:
+  path: baidusitemap.xml
 
 # https://github.com/tardis-ksh/hexo-seo-submit
 hexo-seo-submit:

@@ -1,4 +1,9 @@
+User-agent: Baiduspider
+
+Sitemap: https://blog.v4coder.cn/baidusitemap.xml
+
 User-agent: *
 Disallow:
 
 Sitemap: https://blog.v4coder.cn/sitemap.xml
+
