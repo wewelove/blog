@@ -1,4 +1,11 @@
-# 待办
+---
+title: 待办
+type: page
+date: 2025-11-05 12:00:00
+comments: false
+---
+
+## 待办
 
 - [ ] [MinIO 不再“开放”，RustFS 能否成为更优选择？](https://mp.weixin.qq.com/s/vHBtQCU3ExOHfZVXPQLofg)
 - [ ] [PandaWiki介绍](https://mp.weixin.qq.com/s/Uhw0znhHjcCxw44lj8cfiQ)

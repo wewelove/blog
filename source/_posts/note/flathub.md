@@ -7,7 +7,6 @@ categories:
 tags:
   - Flathub
   - 软件仓库  
-abbrlink: 594f8769
 ---
 
 ## Flathub

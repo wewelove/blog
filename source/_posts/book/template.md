@@ -1,8 +1,9 @@
 ---
 title: 书籍推荐模板
-date: 2015-01-01 00:02:00
 categories:
   - [读书]
+abbrlink: c3b70bce
+date: 2015-01-01 00:02:00
 tags:
 ---
 ## 活着

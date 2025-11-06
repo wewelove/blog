@@ -204,12 +204,6 @@ ignore:
 # theme: next
 theme: butterfly
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: ''
-
-
 # https://github.com/hexojs/hexo-renderer-markdown-it
 markdown:
   preset: 'default'
@@ -298,5 +292,29 @@ browsersync:
   logLevel: "warn"
   ghostMode:
     scroll: true
-  instanceName: "hexo-server-instance-sx"
+  instanceName: "hexo-server-instance"
   reloadDelay: 2000
+
+# https://github.com/abnerwei/hexo-url-submission
+url_submission:
+   enable: true
+   type: 'latest'
+   channels:
+     baidu:
+       token: 'fSBwRRq5SRgFimxm'
+       count: 10
+     bing:
+       token: 'aa1245b99345411e88dda50f32cd9db3'
+       count: 10
+     google:
+       key: "google-api-key.json"
+       count: 10
+   prefix: ['/posts', '/about', '/tags', 'link']
+   count: 10
+   urls_path: 'seo.txt'
+   sitemap: 'https://blog.v4coder.cn/sitemap.xml'
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  - type: url_submission
