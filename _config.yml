@@ -316,24 +316,6 @@ sitemap:
 baidusitemap:
   path: baidusitemap.xml
 
-# https://github.com/tardis-ksh/hexo-seo-submit
-hexo-seo-submit:
-  CI:
-    enable: true
-    cron: 0 4 * * *
-    platform: github
-
-  baidu:
-    enable: true
-  google:
-    enable: true
-  bing:
-    enable: true
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  - type: git
-    repo: git@github.com:wewelove/blog.git
-    branch: pages
-    ignore_hidden: false
