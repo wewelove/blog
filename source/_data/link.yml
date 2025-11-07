@@ -197,6 +197,45 @@
       avatar: https://s2.loli.net/2025/10/16/npgZi5taeDjAEvL.png
       descr: 快速、简洁且高效的博客框架
 
+- class_name: 设计资源
+  link_list:
+    - name: iconfont
+      link: https://www.iconfont.cn/
+      avatar: https://img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0zuCC7osS_!!6000000001644-55-tps-83-82.svg
+      descr: 让设计更简单专业的素材平台
+    - name: IconPark
+      link: https://iconpark.oceanengine.com/home
+      avatar: https://lf-iconpark-cdn-cn.bytetos.com/obj/iconpark-site/bydesign/iconparksite/logo.svg
+      descr: 丰富多彩的资源库免费使用
+    - name: Font Awesome
+      link: https://fontawesome.com/
+      avatar: https://fontawesome.com/images/favicon/icon.svg
+      descr: 流行的图标字体库
+    - name: 搜图神器
+      link: https://www.logosc.cn/so/
+      avatar: https://www.logosc.cn/img/so/search_logo.png
+      descr: 免版权图片，搜图神器
+    - name: Pixabay
+      link: https://pixabay.com/zh/illustrations/
+      avatar: https://pixabay.com/favicon-32x32.png
+      descr: 免费正版高清插画素材库
+    - name: unDraw
+      link: https://undraw.co/illustrations
+      avatar: https://undraw.co/safari-pinned-tab.svg
+      descr: 开源矢量插图库
+    - name: lllustration Gallery
+      link: https://www.manypixels.co/gallery
+      avatar: https://cdn.prod.website-files.com/63a9cb71c629474d4ae334b9/64a5f701714b5fe13a08253f_favicons%201%20(2).png
+      descr: 免费线上图库
+    - name: uimaker
+      link: https://www.uimaker.com/
+      avatar: https://www.uimaker.com/wp-content/themes/uimaker/favicon.png
+      descr: 专注于UI设计，做优质素材资源共享平台
+    - name: UXLib
+      link: https://uxlib.net/
+      avatar: https://uxlib.net/assets/imgs/favicon/logo.ico
+      descr: UX 资料库
+
 - class_name: 软件资源
   link_list:
     - name: 果核剥壳
@@ -276,7 +315,7 @@
       avatar: https://www.gndown.com/favicon.ico
       descr: 分享绿色软件、免费软件、最新资讯
 
-- class_name: 项目托管
+- class_name: 代码托管
   link_list:
     - name: GitHub
       link: https://github.com/
@@ -303,7 +342,7 @@
       avatar: https://git-scm.cn/favicon.ico
       descr: 免费且开源的分布式版本控制系统
 
-- class_name: 开源镜像仓库
+- class_name: 镜像仓库
   link_list:
     - name: LinuxMirrors
       link: https://linuxmirrors.cn/

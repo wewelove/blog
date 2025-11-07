@@ -30,11 +30,11 @@ MSYS2 是一个在 Windows 上提供类似于 Linux 开发环境的工具集。�
 
 ## 功能特性
 
-1. **一个 Bash Shell 命令行环境**：让你可以使用熟悉的 Linux 命令，如 `ls`, `grep`, `ssh`, `curl`, `vim` 等，而不是 Windows 自带的 CMD 或 PowerShell。
+- **一个 Bash Shell 命令行环境：** 让你可以使用熟悉的 Linux 命令，如 `ls`, `grep`, `ssh`, `curl`, `vim` 等，而不是 Windows 自带的 CMD 或 PowerShell。
 
-2. **一个强大的软件包管理器：`pacman`**：这是源自 Arch Linux 的包管理器。通过它，你可以轻松地安装、更新和卸载成千上万的开发工具和库，比如 GCC（GNU 编译器集合）、Python、Git、Make 等等。
+- **一个强大的软件包管理器：`pacman`：** 这是源自 Arch Linux 的包管理器。通过它，你可以轻松地安装、更新和卸载成千上万的开发工具和库，比如 GCC（GNU 编译器集合）、Python、Git、Make 等等。
 
-3. **一个用于编译 Windows 本地程序的环境**：这是它最关键的功能之一。它集成了 MinGW-w64，可以让你编译出 **原生的 Windows 应用程序（.exe）**，这些程序不依赖于 Cygwin 的 POSIX 模拟层，因此性能更好，更轻量。
+- **一个用于编译 Windows 本地程序的环境：** 这是它最关键的功能之一。它集成了 MinGW-w64，可以让你编译出 **原生的 Windows 应用程序（.exe）：** 这些程序不依赖于 Cygwin 的 POSIX 模拟层，因此性能更好，更轻量。
 
 ## 核心组件
 

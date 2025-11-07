@@ -6,7 +6,8 @@ categories:
   - [软件, 图形设计]
 tags:
   - Snipaste
-  - 屏幕截图
+  - 截图
+  - 取色
 ---
 
 ## 软件简介
