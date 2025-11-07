@@ -43,7 +43,7 @@ comments: false
 - [X] [Scrcpy 3 - 开源免费在电脑显示手机画面并控制安卓手机工具 (投屏/录屏/免Root)](https://www.iplaysoft.com/scrcpy.html)
 - [ ] [PeaZip 官方绿色版 - 开源免费无广告压缩解压软件 (替代 WinRAR/BandiZip/7-Zip)](https://www.iplaysoft.com/peazip.html)
 - [ ] [7-Zip 最新官方中文正式版 - 经典开源免费的文件压缩/解压缩工具 (打开.7z格式)](https://www.iplaysoft.com/7-zip.html)
-- [ ] [XnView 2.0 中文绿色版 - 诠释经典的免费看图浏览/管理/转换工具，小巧却功能强大！](https://www.iplaysoft.com/xnview.html)
+- [X] [XnView 2.0 中文绿色版 - 诠释经典的免费看图浏览/管理/转换工具，小巧却功能强大！](https://www.iplaysoft.com/xnview.html)
 - [X] [Snipaste 屏幕截图软件超级利器 - 花3年精心打造的极致截图贴图/编辑/标注工具](https://www.iplaysoft.com/snipaste.html)
 - [ ] [图压 - 完全免费且简单好用的批量图片压缩工具 (支持 Win 和 Mac)](https://www.iplaysoft.com/tuya.html)
 - [X] [File Converter - 免费开源的文件"右键万能格式转换器"工具！简单好用](https://www.iplaysoft.com/file-converter.html)
