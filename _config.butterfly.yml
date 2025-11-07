@@ -1326,11 +1326,12 @@ CDN:
     # prismjs_js:
     # prismjs_lineNumber_js:
     # pjax:
-    # sharejs: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/dist/activate-power-mode.min.js
+    # sharejs: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js
     # sharejs_css: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css
-    sharejs: https://blog.v4coder.cn/assets/js/activate-power-mode.min.js
-    # sharejs: https://blog.v4coder.cn/assets/sharejs/js/ocial-share.min.js
-    sharejs_css: https://blog.v4coder.cn/assets/sharejs/css/share.min.css
+    # sharejs: https://blog.v4coder.cn/assets/sharejs/js/social-share.min.js
+    # sharejs_css: https://blog.v4coder.cn/assets/sharejs/css/share.min.css
+    sharejs: https://jsd.012700.xyz/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js
+    sharejs_css: https://jsd.012700.xyz/npm/butterfly-extsrc/sharejs/dist/css/share.min.css
     # snackbar:
     # snackbar_css:
     # translate:
