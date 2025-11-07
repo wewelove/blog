@@ -1300,8 +1300,10 @@ CDN:
     # docsearch_css:
     # docsearch_js:
     # egjs_infinitegrid:
-    fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1.4/dist/fancybox/fancybox.umd.min.js
-    fancybox_css: https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1.4/dist/fancybox/fancybox.min.css
+    # fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1.4/dist/fancybox/fancybox.umd.min.js
+    # fancybox_css: https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1.4/dist/fancybox/fancybox.min.css
+    fancybox: https://cdn.bootcdn.net/ajax/libs/fancyapps-ui/6.0.33/fancybox/fancybox.umd.min.js
+    fancybox_css: https://cdn.bootcdn.net/ajax/libs/fancyapps-ui/6.0.33/fancybox/fancybox.min.css
     # fireworks:
     fontawesome: https://cdn.bootcdn.net/ajax/libs/font-awesome/7.0.0/css/all.min.css
     # gitalk:
@@ -1324,8 +1326,10 @@ CDN:
     # prismjs_js:
     # prismjs_lineNumber_js:
     # pjax:
-    sharejs: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/dist/activate-power-mode.min.js
-    sharejs_css: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css
+    # sharejs: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/dist/activate-power-mode.min.js
+    # sharejs_css: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css
+    sharejs: https://cdn.bootcdn.net/ajax/libs/butterfly-extsrc/1.1.6/activate-power-mode.min.js
+    sharejs_css: https://cdn.bootcdn.net/ajax/libs/butterfly-extsrc/1.1.6/sharejs/dist/css/share.min.css
     # snackbar:
     # snackbar_css:
     # translate:
