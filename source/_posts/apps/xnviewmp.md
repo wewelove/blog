@@ -4,7 +4,6 @@ abbrlink: a6916ef4
 date: 2025-11-07 17:32:55
 categories:
   - [软件, 图形设计]
-  - [开源]
 tags:
   - XnView
   - 看图
