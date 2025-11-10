@@ -184,6 +184,18 @@
       link: https://docker.github.net.cn/
       avatar: https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-180x180.png
       descr: 开源的应用容器引擎
+    - name: 渡渡鸟
+      link: https://docker.aityp.com/
+      avatar: https://docker.aityp.com/static/svg/logo.svg
+      descr: 容器镜像小站，全站镜像索引
+    - name: 毫秒镜像
+      link: https://1ms.run/
+      avatar: https://1ms.run/favicon.ico
+      descr: 专为中国开发者提供的专业容器仓库服务
+    - name: 毫秒镜像
+      link: https://1ms.run/
+      avatar: https://1ms.run/favicon.ico
+      descr: 专为中国开发者提供的专业容器仓库服务
     - name: Podman
       link: https://podman.io/
       avatar: https://podman.io/favicon.ico

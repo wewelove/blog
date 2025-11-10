@@ -19,7 +19,7 @@ Yii 是一个高性能，基于组件的 PHP 框架，用于快速开发现代 W
 
 ## 安装
 
-推荐使用 `composer` 安装，如果还没有安装 `composer` 请 [移步](/2017/09/26/composer-start/)。
+推荐使用 `composer` 安装，如果还没有安装 `composer` 请 [移步](/posts/2a99ac4b/)。
 
 先安装 [Composer Asset Plugin](https://github.com/francoispluchino/composer-asset-plugin) 插件：
 
