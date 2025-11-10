@@ -43,7 +43,7 @@
     "markdown-it-div": "^1.1.0",
     "markdown-it-expandable": "^1.0.2",
     "markdown-it-imsize": "^2.0.1",
-    "markdown-it-sticky-table": "^0.3.29",
+    "markdown-it-sticky-table": "^0.3.33",
     "markdown-it-task-lists": "^2.1.1"
   }
 }
