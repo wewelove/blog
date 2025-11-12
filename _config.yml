@@ -287,17 +287,6 @@ abbrlink:
   force: false
   writeback: true
 
-# https://github.com/SpiritLingPub/hexo-images-watermark
-watermark:
-  enable: true
-  textEnable: true
-  text: blog.v4coder.cn
-  fontSize: 18
-  color: "#eeeeee"
-  background: transparent
-  rotate: -45
-  gravity: southeast
-
 # https://github.com/hexojs/hexo-browsersync
 browsersync:
   logLevel: "warn"
