@@ -19,7 +19,6 @@ Docmost 是一款开源的 团队协作 Wiki 与文档管理工具，定位为 C
 
 ::: center
 {% btn https://github.com/docmost/docmost, GitHub, fab fa-github, default outline %}
-{% btn https://github.com/anzhiyu-c/hexo-theme-anzhiyu, Gitee, iconfont icon-gitee, red outline %}
 {% btn https://docmost.com/, 官方网站, fas fa-home, blue outline %}
 {% btn https://docmost.com/docs/, 使用文档, fas fa-book, green outline %}
 :::
