@@ -76,3 +76,8 @@ comments: false
 - [ ] [ICON CC 图标西西 | 全球图标素材导航](https://icon.cc/)
 - [ ] [免费图标SVG，PNG，ICO或ICNS](https://icon-icons.com/zh/)
 - [ ] [Vector Icons and Stickers - PNG, SVG, EPS, PSD and CSS](https://www.flaticon.com/)
+- [ ] [狂揽3.3K Star！！再见了Wine、虚拟机，在Linux上无缝运行Win应用，太酷了~](https://mp.weixin.qq.com/s/aVT7rdMEyEvEO1YbmpraQw)
+- [ ] [一款 API 敏捷开发平台，突破传统编码范式，提供从 SQL 到 API 的一站式数据服务能力](https://mp.weixin.qq.com/s/Sr8rlj0ByHMYLFPrwv9Vbw)
+- [ ] [开源CMDB｜企业级通用CMDB设计最佳实践 - 知乎](https://zhuanlan.zhihu.com/p/665631438)
+- [ ] [mgks/docmd](https://github.com/mgks/docmd)
+- [ ] [docmost/docmost](https://github.com/docmost/docmost)
