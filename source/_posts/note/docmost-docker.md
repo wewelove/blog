@@ -87,6 +87,10 @@ docker-compose logs -f
 
 - 地址：<http://localhost:3000> 请将 `localhost` 修改为实际地址。
 
+### 创建工作空间
+
 ![工作空间](../../images/docmost-docker/20251113175722.png){.cover}
+
+### 偏好设置 - 语言
 
 ![偏好设置](../../images/docmost-docker/20251113175912.png){.cover}
