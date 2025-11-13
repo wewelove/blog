@@ -2,7 +2,7 @@
 title: 容器快速部署 Docmost 文档协作平台
 abbrlink: bbdf0136
 date: 2025-11-13 17:08:44
-sersies: Docmost
+series: Docmost
 categories:
   - [笔记]
 tags:
