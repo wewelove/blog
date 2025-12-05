@@ -3979,10 +3979,10 @@ markdown-it-mark@^3.0.0:
   resolved "https://registry.npmmirror.com/markdown-it-mark/-/markdown-it-mark-3.0.1.tgz"
   integrity sha512-HyxjAu6BRsdt6Xcv6TKVQnkz/E70TdGXEFHRYBGLncRE9lBFwDNLVtFojKxjJWgJ+5XxUwLaHXy+2sGBbDn+4A==
 
-markdown-it-sticky-table@^0.3.29:
-  version "0.3.30"
-  resolved "https://registry.npmmirror.com/markdown-it-sticky-table/-/markdown-it-sticky-table-0.3.30.tgz"
-  integrity sha512-GbRclQSxOwlI2P7b4X9aFCmX0z1GdcpZ0eHbRil71p2I/ePDrAyAvfGDJbVSxqCdF5XAz9+TXqRlKowS6NWW0g==
+markdown-it-sticky-table@^0.3.46:
+  version "0.3.46"
+  resolved "https://registry.yarnpkg.com/markdown-it-sticky-table/-/markdown-it-sticky-table-0.3.46.tgz#9a84748ed4d2f137439fc9778cf8f7275fe3fc5f"
+  integrity sha512-w2gNPeXnK/hjFCvryDN94GOEyhAF0Ld8Nwpd4w18M/ZwnFI50YyAQfiR2UBwqnzJ1/pZLR16tvGe3qvcABQFwg==
   dependencies:
     "@iktakahiro/markdown-it-katex" "^4.0.1"
     closest-find "^2.0.1"
