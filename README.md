@@ -11,9 +11,12 @@
 ## 快速开始
 
 ```sh
+# 环境
+node -v
+v20.19.5
+
 # 安装 hexo
 npm install hexo-cli -g
-
 
 # 安装依赖
 yarn
