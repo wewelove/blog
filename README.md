@@ -28,10 +28,10 @@ yarn server
 ## 创建新文章
 
 ```sh
-hexo new -P path "文章标题"
-hexo new -P path "文章标题" "标签1,标签2"
-hexo new -P path "文章标题" "标签1,标签2" "分类1,分类2"
-hexo new -P path "文章标题" "标签1,标签2" "分类1,分类2" "作者"
+hexo new -p path "文章标题"
+hexo new -p path "文章标题" "标签1,标签2"
+hexo new -p path "文章标题" "标签1,标签2" "分类1,分类2"
+hexo new -p path "文章标题" "标签1,标签2" "分类1,分类2" "作者"
 ```
 
 ## 部署
