@@ -9,6 +9,7 @@ tags:
   - termux
   - linux
   - avnc
+  - vnc
 ---
 
 
@@ -214,6 +215,8 @@ startvnc
 ![图片](../../images/termux/20251209183339.png)
 
 然后我们打开安装好的 `VNC Viewer` 或者 `AVNC` 软件，按照如下进行添加远程：
+
+![图片](../../images/termux/20251210102053.png)
 
 ![图片](../../images/termux/20251209183552.png)
 
