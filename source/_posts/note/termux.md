@@ -1,11 +1,12 @@
 ---
 title: 安卓机上安装 linux 系统打造成生产力工具
+abbrlink: 28558022
 date: 2025-12-09 15:21:11
 series: termux
 categories:
-  - [笔记]
+  - - 笔记
 tags:
-  - addroid
+  - android
   - termux
   - linux
   - avnc
