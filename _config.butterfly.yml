@@ -160,7 +160,7 @@ error_404:
   # 是否启用 404 页面
   enable: true
   # 404 页面的副标题
-  subtitle: 'Page Not Found'
+  subtitle: "Page Not Found"
   # 404 页面的卡片背景图片
   background: /assets/image/404.png
 
@@ -332,7 +332,7 @@ footer:
     # 网站创建年份
     since: 2019
   # 自定义文本
-  custom_text: <a href="https://beian.miit.gov.cn/"><img class="icp-icon" src="/assets/image/icp.png"><span>滇ICP备2022006346号-1</span></a>
+  custom_text: <a href="https://www.beian.gov.cn/portal/queryRecord?recordcode=53010202001673"><span>滇公网安备53010202001673号</span></a> <a href="https://beian.miit.gov.cn/#/Integrated/index"><span>滇ICP备2022006346号-1</span></a>
   # 主题和框架的版权声明
   copyright: Copyright © 2025 Hao All rights reserved.
 
@@ -437,7 +437,7 @@ aside:
     # 标题显示系列名称
     series_title: false
     # 排序方式：title 或 date
-    orderBy: 'date'
+    orderBy: "date"
     # 排序顺序：1 表示升序，-1 表示降序
     order: -1
   card_webinfo:
@@ -471,9 +471,9 @@ translate:
   # 转换延迟
   translateDelay: 0
   # 按钮在简体中文时的文本
-  msgToTraditionalChinese: '繁'
+  msgToTraditionalChinese: "繁"
   # 按钮在繁体中文时的文本
-  msgToSimplifiedChinese: '简'
+  msgToSimplifiedChinese: "简"
 
 # 阅读模式
 readmode: true
@@ -582,8 +582,8 @@ math:
 search:
   # 选择：algolia_search / local_search / docsearch
   # 如果不需要搜索功能，保持为空
-  use: 'local_search'
-  placeholder: '搜索'
+  use: "local_search"
+  placeholder: "搜索"
   path: search.json
   field: post
   content: true
@@ -775,7 +775,7 @@ giscus:
   # 其他可选配置
   option:
     # 语言
-    'data-lang': zh-CN
+    "data-lang": zh-CN
 
 # Remark42 评论插件配置
 # 官方文档：https://remark42.com/docs/configuration/frontend/
@@ -1035,7 +1035,7 @@ canvas_nest:
   # 是否启用 canvas_nest
   enable: false
   # 线条颜色，默认: '0,0,0'; RGB 值: (R,G,B).(注意: 使用 ',' 分隔.)
-  color: '0,0,255'
+  color: "0,0,255"
   # 线条的不透明度 (0~1)
   opacity: 0.7
   # 背景的 z-index 属性
@@ -1093,7 +1093,7 @@ series:
   # 是否启用系列
   enable: true
   # 按标题或日期排序
-  orderBy: 'date'
+  orderBy: "date"
   # 排序方式。1, asc 为升序; -1, desc 为降序
   order: 1
   # 是否显示编号
@@ -1182,8 +1182,8 @@ snackbar:
   # 通知位置
   position: bottom-left
   # 浅色模式和深色模式下的通知背景颜色
-  bg_light: '#49b1f5'
-  bg_dark: '#1f1f1f'
+  bg_light: "#49b1f5"
+  bg_dark: "#1f1f1f"
 
 # Instant.page
 # https://instant.page/
