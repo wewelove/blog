@@ -32,6 +32,7 @@ hexo new -p path "文章标题"
 hexo new -p path "文章标题" "标签1,标签2"
 hexo new -p path "文章标题" "标签1,标签2" "分类1,分类2"
 hexo new -p path "文章标题" "标签1,标签2" "分类1,分类2" "作者"
+hexo new -p path "局域网内 HTTPS 证书部署指南" "ca,openssl,证书" "笔记" "作者"
 ```
 
 ## 部署
