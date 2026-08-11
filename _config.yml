@@ -288,12 +288,12 @@ abbrlink:
   writeback: true
 
 # https://github.com/hexojs/hexo-browsersync
-browsersync:
-  logLevel: "warn"
-  ghostMode:
-    scroll: true
-  instanceName: "hexo-server-instance"
-  reloadDelay: 2000
+# browsersync:
+#   logLevel: "warn"
+#   ghostMode:
+#     scroll: true
+#   instanceName: "hexo-server-instance"
+#   reloadDelay: 2000
 
 # https://github.com/hexojs/hexo-filter-nofollow
 nofollow:

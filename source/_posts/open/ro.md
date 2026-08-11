@@ -1,9 +1,13 @@
 ---
 title: Ro 基于洛雪音乐二次开发的音乐下载服务
 categories:
-  - - 开源
+  - [开源]
 tags:
-  - 'Ro, 洛雪, 音乐, NAS'
+  - Ro
+  - 洛雪
+  - 音乐
+  - NAS
+  - lx-music
 published: true
 abbrlink: ca6962f5
 date: 2026-08-11 10:20:56
