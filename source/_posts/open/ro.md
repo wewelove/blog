@@ -243,5 +243,5 @@ Ro 下载（歌词+封面嵌入）→ NAS 共享目录 → Plex/Jellyfin/Navidro
 - Docker Hub：<https://hub.docker.com/r/a914599611/ro-music>
 
 ---
-> 来源：微信公众号「Nas不无聊」· 作者：磊子 · 2026年8月9日
+> 来源：微信公众号「Nas不无聊」· 作者：磊子 · 2026年8月9日  
 > 链接：<https://mp.weixin.qq.com/s/jCsmQGBHcOp8n1DcoDpSKg>
