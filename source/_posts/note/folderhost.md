@@ -132,14 +132,9 @@ docker-compose up -d
 
 ## 参考文档
 >
-> MertJSX/folderhost: Your own private cloud in one executable. Share files, collaborate on code, and manage users without complex setup.
-地址：https://github.com/MertJSX/folderhost
-
-FolderHost - Self-hosted cloud platform
-地址：https://folderhost.org
-
-mertjsx/folderhost - Docker Hub
-地址：https://hub.docker.com/r/mertjsx/folderhost
+> https://github.com/MertJSX/folderhost
+> https://folderhost.org
+> https://hub.docker.com/r/mertjsx/folderhost
 
 ---
 

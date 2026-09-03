@@ -31,8 +31,6 @@ description: 一个开箱即用的后台管理系统原型，专为快速构建�
 | 数据大屏/可视化看板 | ⭐⭐⭐ | 需配合图表库扩展 |
 | 高并发实时系统 | ⭐⭐ | 建议引入 WebSocket/微服务 |
 
----
-
 ## 核心功能
 
 ### 1. 用户认证与授权
@@ -87,8 +85,6 @@ npm run gen:crud -- --name=User --fields="name:string,email:string,role:select"
 - **操作日志** - 登录日志、操作审计、异常追踪、导出分析
 - **定时任务** - Cron 表达式、任务分组、执行日志、手动触发
 
----
-
 ## 技术栈
 
 ### 后端 (推荐)
@@ -129,8 +125,6 @@ services:
   redis:
     image: redis:7-alpine
 ```
-
----
 
 ## 快速开始
 
@@ -206,8 +200,6 @@ pnpm dev:frontend # 前端 http://localhost:5173
 - **API 文档**: http://localhost:3000/api/docs (Swagger)
 - **默认账号**: `admin` / `Admin@123`
 
----
-
 ## 项目结构
 
 ```bash
@@ -245,8 +237,6 @@ platform-admin-prototype/
 ├── .env.example             # 环境变量模板
 └── README.md                # 项目文档
 ```
-
----
 
 ## 进阶使用指南
 
@@ -321,8 +311,6 @@ npm run gen:entity -- --name=Order --fields="orderNo:string,amount:number,status
 npm run gen:crud -- --name=Order
 ```
 
----
-
 ## 最佳实践
 
 ### 性能优化
@@ -380,8 +368,6 @@ jobs:
       - run: docker push registry.example.com/admin:${{ github.sha }}
 ```
 
----
-
 ## 常见问题 (FAQ)
 
 **Q: 支持多租户吗？**
@@ -399,8 +385,6 @@ A: 提供版本化数据库迁移工具（up/down 可回滚），支持定时自
 **Q: 是否有中文文档？**
 A: 有。文档站点支持中英文切换，包含快速上手、架构说明、API 参考与部署指南。
 
----
-
 ## 版本与路线图
 
 | 版本 | 状态 | 亮点 |
@@ -409,8 +393,6 @@ A: 有。文档站点支持中英文切换，包含快速上手、架构说明�
 | v1.1 | ✅ 已发布 | 操作日志、定时任务、数据字典 |
 | v1.2 | 🚧 开发中 | 低代码表单、可视化流程设计器 |
 | v2.0 | 📋 规划中 | 微前端、多租户增强、国际化 |
-
----
 
 ## 总结
 
@@ -423,8 +405,6 @@ A: 有。文档站点支持中英文切换，包含快速上手、架构说明�
 它把「认证、权限、日志、部署」这些繁琐但必要的部分提前做好，让你把时间花在真正有价值的事情上。
 
 > **立即开始**：克隆仓库 → `pnpm install` → `pnpm dev` → 三分钟内拥有一个生产级管理后台！
-
----
 
 **相关链接**
 
